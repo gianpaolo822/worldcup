@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+
+# Secrets
+.env
+.env.local
+.env.*.local
+
+# OS / IDE
+.DS_Store
+.idea/
+.vscode/
+
+# Build
+dist/
+miniprogram_npm/
+
+# WeChat
+project.private.config.json
+
+# Logs
+*.log
+npm-debug.log*
+
+# ECC vendor (selective install source, not committed)
+.ecc-vendor/
+
+# Kimi 原型（非 MVP 网站，本地保留即可）
+Kimi_Agent_世界杯小程序数据维护/

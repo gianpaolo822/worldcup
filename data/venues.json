@@ -1,0 +1,181 @@
+[
+  {
+    "id": "bmo",
+    "name": "BMO球场",
+    "nameEn": "BMO Field",
+    "city": "温哥华",
+    "cityEn": "Vancouver",
+    "country": "加拿大",
+    "countryEn": "Canada",
+    "capacity": 54000,
+    "matchCount": 6
+  },
+  {
+    "id": "bc",
+    "name": "BC体育馆",
+    "nameEn": "BC Place",
+    "city": "多伦多",
+    "cityEn": "Toronto",
+    "country": "加拿大",
+    "countryEn": "Canada",
+    "capacity": 45000,
+    "matchCount": 7
+  },
+  {
+    "id": "team",
+    "name": "阿兹特克体育场",
+    "nameEn": "Estadio Azteca",
+    "city": "墨西哥城",
+    "cityEn": "Mexico City",
+    "country": "墨西哥",
+    "countryEn": "Mexico",
+    "capacity": 83000,
+    "matchCount": 4,
+    "note": "揭幕战"
+  },
+  {
+    "id": "team",
+    "name": "阿克伦体育场",
+    "nameEn": "Estadio Akron",
+    "city": "萨波潘",
+    "cityEn": "Zapopan",
+    "country": "墨西哥",
+    "countryEn": "Mexico",
+    "capacity": 48000,
+    "matchCount": 5
+  },
+  {
+    "id": "bbva",
+    "name": "BBVA体育场",
+    "nameEn": "El Gigante de Acero\"The Steel Giant\"",
+    "city": "蒙特雷",
+    "cityEn": "Monterrey",
+    "country": "墨西哥",
+    "countryEn": "Mexico",
+    "capacity": 53500,
+    "matchCount": 4
+  },
+  {
+    "id": "at-t",
+    "name": "AT&T体育场",
+    "nameEn": "AT&T Stadium",
+    "city": "达拉斯",
+    "cityEn": "Dallas",
+    "country": "美国",
+    "countryEn": "United States",
+    "capacity": 94000,
+    "matchCount": 8
+  },
+  {
+    "id": "team",
+    "name": "大都会人寿体育场",
+    "nameEn": "MetLife Stadium",
+    "city": "纽约/新泽西",
+    "cityEn": "New York/New Jersey",
+    "country": "美国",
+    "countryEn": "United States",
+    "capacity": 82500,
+    "matchCount": 9,
+    "note": "决赛"
+  },
+  {
+    "id": "team",
+    "name": "箭头体育场",
+    "nameEn": "Arrowhead Stadium",
+    "city": "堪萨斯城",
+    "cityEn": "Kansas City",
+    "country": "美国",
+    "countryEn": "United States",
+    "capacity": 73000,
+    "matchCount": 5
+  },
+  {
+    "id": "team",
+    "name": "梅赛德斯-奔驰体育馆",
+    "nameEn": "Mercedes-Benz Stadium",
+    "city": "亚特兰大",
+    "cityEn": "Atlanta",
+    "country": "美国",
+    "countryEn": "United States",
+    "capacity": 75000,
+    "matchCount": 7
+  },
+  {
+    "id": "nrg",
+    "name": "NRG体育场",
+    "nameEn": "NRG Stadium",
+    "city": "休斯敦",
+    "cityEn": "Houston",
+    "country": "美国",
+    "countryEn": "United States",
+    "capacity": 72000,
+    "matchCount": 6
+  },
+  {
+    "id": "team",
+    "name": "李维斯体育场",
+    "nameEn": "Levi's Stadium",
+    "city": "圣克拉拉",
+    "cityEn": "Santa Clara",
+    "country": "美国",
+    "countryEn": "United States",
+    "capacity": 71000,
+    "matchCount": 7
+  },
+  {
+    "id": "sofi",
+    "name": "SoFi体育场",
+    "nameEn": "SoFi Stadium",
+    "city": "洛杉矶",
+    "cityEn": "Los Angeles",
+    "country": "美国",
+    "countryEn": "United States",
+    "capacity": 70000,
+    "matchCount": 8
+  },
+  {
+    "id": "team",
+    "name": "流明球场",
+    "nameEn": "Lumen Field",
+    "city": "西雅图",
+    "cityEn": "Seattle",
+    "country": "美国",
+    "countryEn": "United States",
+    "capacity": 69000,
+    "matchCount": 7
+  },
+  {
+    "id": "team",
+    "name": "林肯金融球场",
+    "nameEn": "Lincoln Financial Field",
+    "city": "费城",
+    "cityEn": "Philadelphia",
+    "country": "美国",
+    "countryEn": "United States",
+    "capacity": 69000,
+    "matchCount": 7
+  },
+  {
+    "id": "team",
+    "name": "吉列体育场",
+    "nameEn": "Gillette Stadium",
+    "city": "波士顿",
+    "cityEn": "Boston",
+    "country": "美国",
+    "countryEn": "United States",
+    "capacity": 65000,
+    "matchCount": 8
+  },
+  {
+    "id": "team",
+    "name": "硬石体育场",
+    "nameEn": "Hard Rock Stadium",
+    "city": "迈阿密",
+    "cityEn": "Miami",
+    "country": "美国",
+    "countryEn": "United States",
+    "capacity": 65000,
+    "matchCount": 6,
+    "note": "三四名决赛"
+  }
+]

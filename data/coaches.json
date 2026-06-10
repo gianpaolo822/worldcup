@@ -1,0 +1,386 @@
+[
+  {
+    "teamId": "mexico",
+    "name": "哈维尔·阿吉雷",
+    "nameEn": "Javier Aguirre",
+    "nationality": "墨西哥",
+    "birthDate": "1958-12-01",
+    "group": "A"
+  },
+  {
+    "teamId": "south-africa",
+    "name": "雨果·布鲁斯",
+    "nameEn": "Hugo Broos",
+    "nationality": "比利时",
+    "birthDate": "1952-04-10",
+    "group": "A"
+  },
+  {
+    "teamId": "south-korea",
+    "name": "洪明甫",
+    "nameEn": "Hong Myung-bo",
+    "nationality": "韩国",
+    "birthDate": "1969-02-12",
+    "group": "A"
+  },
+  {
+    "teamId": "czechia",
+    "name": "米罗斯拉夫·库贝克",
+    "nameEn": "Miroslav Koubek",
+    "nationality": "捷克",
+    "birthDate": "1951-09-01",
+    "group": "A"
+  },
+  {
+    "teamId": "canada",
+    "name": "杰西·马什",
+    "nameEn": "Jesse Marsch",
+    "nationality": "美国",
+    "birthDate": "1973-11-08",
+    "group": "B"
+  },
+  {
+    "teamId": "bosnia-and-herzegovina",
+    "name": "谢尔盖·巴尔巴雷斯",
+    "nameEn": "Sergej Barbarez",
+    "nationality": "波黑",
+    "birthDate": "1971-09-17",
+    "group": "B"
+  },
+  {
+    "teamId": "qatar",
+    "name": "路易斯·加西亚",
+    "nameEn": "Luis García",
+    "nationality": "西班牙",
+    "birthDate": "1972-12-01",
+    "group": "B"
+  },
+  {
+    "teamId": "switzerland",
+    "name": "穆拉特·雅金",
+    "nameEn": "Murat Yakin",
+    "nationality": "瑞士",
+    "birthDate": "1974-09-15",
+    "group": "B"
+  },
+  {
+    "teamId": "brazil",
+    "name": "卡洛·安切洛蒂",
+    "nameEn": "Carlo Ancelotti",
+    "nationality": "意大利",
+    "birthDate": "1959-06-10",
+    "group": "C"
+  },
+  {
+    "teamId": "morocco",
+    "name": "瓦利德·雷格拉吉",
+    "nameEn": "Walid Regragui",
+    "nationality": "摩洛哥",
+    "birthDate": "1975-09-23",
+    "group": "C"
+  },
+  {
+    "teamId": "haiti",
+    "name": "塞巴斯蒂安·米涅",
+    "nameEn": "Sébastien Migné",
+    "nationality": "法国",
+    "birthDate": "1972-10-02",
+    "group": "C"
+  },
+  {
+    "teamId": "scotland",
+    "name": "史蒂夫·克拉克",
+    "nameEn": "Steve Clarke",
+    "nationality": "苏格兰",
+    "birthDate": "1963-08-29",
+    "group": "C"
+  },
+  {
+    "teamId": "united-states",
+    "name": "毛里西奥·波切蒂诺",
+    "nameEn": "Mauricio Pochettino",
+    "nationality": "阿根廷",
+    "birthDate": "1972-03-02",
+    "group": "D"
+  },
+  {
+    "teamId": "paraguay",
+    "name": "古斯塔沃·阿尔法罗",
+    "nameEn": "Gustavo Alfaro",
+    "nationality": "阿根廷",
+    "birthDate": "1962-08-14",
+    "group": "D"
+  },
+  {
+    "teamId": "australia",
+    "name": "托尼·波波维奇",
+    "nameEn": "Tony Popovic",
+    "nationality": "澳大利亚",
+    "birthDate": "1973-07-04",
+    "group": "D"
+  },
+  {
+    "teamId": "turkey",
+    "name": "温琴佐·蒙特拉",
+    "nameEn": "Vincenzo Montella",
+    "nationality": "意大利",
+    "birthDate": "1974-06-18",
+    "group": "D"
+  },
+  {
+    "teamId": "germany",
+    "name": "尤利安·纳格尔斯曼",
+    "nameEn": "Julian Nagelsmann",
+    "nationality": "德国",
+    "birthDate": "1987-07-23",
+    "group": "E"
+  },
+  {
+    "teamId": "curacao",
+    "name": "弗雷德·吕滕",
+    "nameEn": "Fred Rutten",
+    "nationality": "荷兰",
+    "birthDate": "1962-12-05",
+    "group": "E"
+  },
+  {
+    "teamId": "ivory-coast",
+    "name": "埃默斯·法埃",
+    "nameEn": "Emerse Faé",
+    "nationality": "科特迪瓦",
+    "birthDate": "1984-01-24",
+    "group": "E"
+  },
+  {
+    "teamId": "ecuador",
+    "name": "塞巴斯蒂安·贝卡切斯",
+    "nameEn": "Sebastián Beccacece",
+    "nationality": "阿根廷",
+    "birthDate": "1978-04-01",
+    "group": "E"
+  },
+  {
+    "teamId": "netherlands",
+    "name": "罗纳德·科曼",
+    "nameEn": "Ronald Koeman",
+    "nationality": "荷兰",
+    "birthDate": "1963-03-21",
+    "group": "F"
+  },
+  {
+    "teamId": "japan",
+    "name": "森保一",
+    "nameEn": "Hajime Moriyasu",
+    "nationality": "日本",
+    "birthDate": "1968-08-23",
+    "group": "F"
+  },
+  {
+    "teamId": "sweden",
+    "name": "容·达尔·托马森",
+    "nameEn": "Jon Dahl Tomasson",
+    "nationality": "丹麦",
+    "birthDate": "1976-08-29",
+    "group": "F"
+  },
+  {
+    "teamId": "tunisia",
+    "name": "萨米·特拉贝尔西",
+    "nameEn": "Sami Trabelsi",
+    "nationality": "突尼斯",
+    "birthDate": "1968-02-04",
+    "group": "F"
+  },
+  {
+    "teamId": "belgium",
+    "name": "鲁迪·加西亚",
+    "nameEn": "Rudi Garcia",
+    "nationality": "法国",
+    "birthDate": "1964-02-20",
+    "group": "G"
+  },
+  {
+    "teamId": "egypt",
+    "name": "霍萨姆·哈桑",
+    "nameEn": "Hossam Hassan",
+    "nationality": "埃及",
+    "birthDate": "1966-08-10",
+    "group": "G"
+  },
+  {
+    "teamId": "iran",
+    "name": "阿米尔·加莱诺埃",
+    "nameEn": "Amir Ghalenoei",
+    "nationality": "伊朗",
+    "birthDate": "1963-11-02",
+    "group": "G"
+  },
+  {
+    "teamId": "new-zealand",
+    "name": "达伦·巴泽利",
+    "nameEn": "Darren Bazeley",
+    "nationality": "英格兰",
+    "birthDate": "1972-05-05",
+    "group": "G"
+  },
+  {
+    "teamId": "spain",
+    "name": "路易斯·德拉富恩特",
+    "nameEn": "Luis de la Fuente",
+    "nationality": "西班牙",
+    "birthDate": "1961-06-21",
+    "group": "H"
+  },
+  {
+    "teamId": "cape-verde",
+    "name": "布比斯塔",
+    "nameEn": "Bubista",
+    "nationality": "佛得角",
+    "birthDate": "1970-08-25",
+    "group": "H"
+  },
+  {
+    "teamId": "saudi-arabia",
+    "name": "埃尔韦·勒纳尔",
+    "nameEn": "Hervé Renard",
+    "nationality": "法国",
+    "birthDate": "1968-09-30",
+    "group": "H"
+  },
+  {
+    "teamId": "uruguay",
+    "name": "马塞洛·贝尔萨",
+    "nameEn": "Marcelo Bielsa",
+    "nationality": "阿根廷",
+    "birthDate": "1955-07-21",
+    "group": "H"
+  },
+  {
+    "teamId": "france",
+    "name": "迪迪埃·德尚",
+    "nameEn": "Didier Deschamps",
+    "nationality": "法国",
+    "birthDate": "1968-10-15",
+    "group": "I"
+  },
+  {
+    "teamId": "senegal",
+    "name": "帕普·蒂亚夫",
+    "nameEn": "Pape Thiaw",
+    "nationality": "塞内加尔",
+    "birthDate": "1981-02-05",
+    "group": "I"
+  },
+  {
+    "teamId": "iraq",
+    "name": "赫苏斯·卡萨斯",
+    "nameEn": "Jesús Casas",
+    "nationality": "西班牙",
+    "birthDate": "1972-06-01",
+    "group": "I"
+  },
+  {
+    "teamId": "norway",
+    "name": "斯塔勒·索尔巴肯",
+    "nameEn": "Ståle Solbakken",
+    "nationality": "挪威",
+    "birthDate": "1968-02-27",
+    "group": "I"
+  },
+  {
+    "teamId": "argentina",
+    "name": "利昂内尔·斯卡洛尼",
+    "nameEn": "Lionel Scaloni",
+    "nationality": "阿根廷",
+    "birthDate": "1978-05-16",
+    "group": "J"
+  },
+  {
+    "teamId": "algeria",
+    "name": "弗拉基米尔·佩特科维奇",
+    "nameEn": "Vladimir Petković",
+    "nationality": "瑞士",
+    "birthDate": "1963-08-15",
+    "group": "J"
+  },
+  {
+    "teamId": "austria",
+    "name": "拉尔夫·朗尼克",
+    "nameEn": "Ralf Rangnick",
+    "nationality": "德国",
+    "birthDate": "1958-06-29",
+    "group": "J"
+  },
+  {
+    "teamId": "jordan",
+    "name": "贾马尔·塞拉米",
+    "nameEn": "Jamal Sellami",
+    "nationality": "突尼斯",
+    "birthDate": "1970-03-05",
+    "group": "J"
+  },
+  {
+    "teamId": "portugal",
+    "name": "罗伯托·马丁内斯",
+    "nameEn": "Roberto Martínez",
+    "nationality": "西班牙",
+    "birthDate": "1973-07-13",
+    "group": "K"
+  },
+  {
+    "teamId": "dr-congo",
+    "name": "塞巴斯蒂安·德萨布雷",
+    "nameEn": "Sébastien Desabre",
+    "nationality": "法国",
+    "birthDate": "1976-08-02",
+    "group": "K"
+  },
+  {
+    "teamId": "uzbekistan",
+    "name": "斯雷奇科·卡塔尼奇",
+    "nameEn": "Srečko Katanec",
+    "nationality": "斯洛文尼亚",
+    "birthDate": "1963-07-16",
+    "group": "K"
+  },
+  {
+    "teamId": "colombia",
+    "name": "内斯托·洛伦佐",
+    "nameEn": "Néstor Lorenzo",
+    "nationality": "阿根廷",
+    "birthDate": "1966-02-28",
+    "group": "K"
+  },
+  {
+    "teamId": "england",
+    "name": "托马斯·图赫尔",
+    "nameEn": "Thomas Tuchel",
+    "nationality": "德国",
+    "birthDate": "1973-08-29",
+    "group": "L"
+  },
+  {
+    "teamId": "croatia",
+    "name": "兹拉特科·达利奇",
+    "nameEn": "Zlatko Dalić",
+    "nationality": "克罗地亚",
+    "birthDate": "1966-10-26",
+    "group": "L"
+  },
+  {
+    "teamId": "ghana",
+    "name": "卡洛斯·奎罗斯",
+    "nameEn": "Carlos Queiroz",
+    "nationality": "葡萄牙",
+    "birthDate": "1953-03-01",
+    "group": "L"
+  },
+  {
+    "teamId": "panama",
+    "name": "托马斯·克里斯蒂安森",
+    "nameEn": "Thomas Christiansen",
+    "nationality": "丹麦",
+    "birthDate": "1973-03-11",
+    "group": "L"
+  }
+]

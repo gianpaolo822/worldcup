@@ -1,0 +1,7 @@
+.ecc-vendor/
+Kimi_Agent_*/
+.cursor/
+worldcup-mini/
+worldcup-admin/
+supabase/
+data/import/*.xlsx

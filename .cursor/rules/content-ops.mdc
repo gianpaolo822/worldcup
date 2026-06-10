@@ -1,0 +1,24 @@
+---
+description: 内容运营类 ECC 技能选用指南（写文章、社媒、SEO、投放）
+alwaysApply: false
+---
+
+# 内容运营技能
+
+本项目已安装 ECC 内容运营技能，位于 `.cursor/skills/`。Agent 会在你提到对应场景时自动加载；也可在对话里点名技能名。
+
+## 推荐组合
+
+| 场景 | 技能链 |
+|------|--------|
+| 定调 + 多平台发文 | `brand-voice` → `content-engine` → `crosspost` |
+| 产品/功能上线 | `market-research` → `marketing-campaign` → `social-publisher` |
+| 长文/教程 | `article-writing` → `seo` |
+| 演示/视频脚本 | `frontend-slides` 或 `remotion-video-creation` / `manim-video` |
+| 世界杯项目分享文案 | `content-engine` + 项目 `docs/COMPLIANCE.md` 合规约束 |
+
+## 原则（来自 ECC）
+
+- 从真实素材出发，不用空洞 AI 腔
+- 各平台改格式，不改人格；同一观点各平台文案不应完全相同
+- 一条内容一个核心观点；具体优于形容词

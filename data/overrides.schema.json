@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://2026worldcup.local/overrides.schema.json",
+  "title": "Match overrides",
+  "type": "object",
+  "required": ["matches"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "matches": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "_note": { "type": "string", "description": "可选备注，不参与合并" },
+          "homeScore": { "type": ["integer", "null"] },
+          "awayScore": { "type": ["integer", "null"] },
+          "status": { "enum": ["upcoming", "live", "finished"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

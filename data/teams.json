@@ -1,0 +1,434 @@
+[
+  {
+    "id": "mexico",
+    "name": "墨西哥",
+    "nameEn": "Mexico",
+    "code": "MEX",
+    "group": "A",
+    "flag": "🇲🇽",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "south-africa",
+    "name": "南非",
+    "nameEn": "South Africa",
+    "code": "RSA",
+    "group": "A",
+    "flag": "🇿🇦",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "south-korea",
+    "name": "韩国",
+    "nameEn": "South Korea",
+    "code": "KOR",
+    "group": "A",
+    "flag": "🇰🇷",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "czechia",
+    "name": "捷克",
+    "nameEn": "Czechia",
+    "code": "CZE",
+    "group": "A",
+    "flag": "🇨🇿",
+    "color": "from-green-500 to-red-500"
+  },
+  {
+    "id": "canada",
+    "name": "加拿大",
+    "nameEn": "Canada",
+    "code": "CAN",
+    "group": "B",
+    "flag": "🇨🇦",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "bosnia-and-herzegovina",
+    "name": "波黑",
+    "nameEn": "Bosnia and Herzegovina",
+    "code": "BIH",
+    "group": "B",
+    "flag": "🇧🇦",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "qatar",
+    "name": "卡塔尔",
+    "nameEn": "Qatar",
+    "code": "QAT",
+    "group": "B",
+    "flag": "🇶🇦",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "switzerland",
+    "name": "瑞士",
+    "nameEn": "Switzerland",
+    "code": "SUI",
+    "group": "B",
+    "flag": "🇨🇭",
+    "color": "from-green-500 to-red-500"
+  },
+  {
+    "id": "brazil",
+    "name": "巴西",
+    "nameEn": "Brazil",
+    "code": "BRA",
+    "group": "C",
+    "flag": "🇧🇷",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "morocco",
+    "name": "摩洛哥",
+    "nameEn": "Morocco",
+    "code": "MAR",
+    "group": "C",
+    "flag": "🇲🇦",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "haiti",
+    "name": "海地",
+    "nameEn": "Haiti",
+    "code": "HAI",
+    "group": "C",
+    "flag": "🇭🇹",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "scotland",
+    "name": "苏格兰",
+    "nameEn": "Scotland",
+    "code": "SCO",
+    "group": "C",
+    "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+    "color": "from-green-500 to-red-500"
+  },
+  {
+    "id": "united-states",
+    "name": "美国",
+    "nameEn": "United States",
+    "code": "USA",
+    "group": "D",
+    "flag": "🇺🇸",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "paraguay",
+    "name": "巴拉圭",
+    "nameEn": "Paraguay",
+    "code": "PAR",
+    "group": "D",
+    "flag": "🇵🇾",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "australia",
+    "name": "澳大利亚",
+    "nameEn": "Australia",
+    "code": "AUS",
+    "group": "D",
+    "flag": "🇦🇺",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "turkey",
+    "name": "土耳其",
+    "nameEn": "Turkey",
+    "code": "TUR",
+    "group": "D",
+    "flag": "🇹🇷",
+    "color": "from-green-500 to-red-500"
+  },
+  {
+    "id": "germany",
+    "name": "德国",
+    "nameEn": "Germany",
+    "code": "GER",
+    "group": "E",
+    "flag": "🇩🇪",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "curacao",
+    "name": "库拉索",
+    "nameEn": "Curacao",
+    "code": "CUW",
+    "group": "E",
+    "flag": "🇨🇼",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "ivory-coast",
+    "name": "科特迪瓦",
+    "nameEn": "Ivory Coast",
+    "code": "CIV",
+    "group": "E",
+    "flag": "🇨🇮",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "ecuador",
+    "name": "厄瓜多尔",
+    "nameEn": "Ecuador",
+    "code": "ECU",
+    "group": "E",
+    "flag": "🇪🇨",
+    "color": "from-green-500 to-red-500"
+  },
+  {
+    "id": "netherlands",
+    "name": "荷兰",
+    "nameEn": "Netherlands",
+    "code": "NED",
+    "group": "F",
+    "flag": "🇳🇱",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "japan",
+    "name": "日本",
+    "nameEn": "Japan",
+    "code": "JPN",
+    "group": "F",
+    "flag": "🇯🇵",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "sweden",
+    "name": "瑞典",
+    "nameEn": "Sweden",
+    "code": "SWE",
+    "group": "F",
+    "flag": "🇸🇪",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "tunisia",
+    "name": "突尼斯",
+    "nameEn": "Tunisia",
+    "code": "TUN",
+    "group": "F",
+    "flag": "🇹🇳",
+    "color": "from-green-500 to-red-500"
+  },
+  {
+    "id": "belgium",
+    "name": "比利时",
+    "nameEn": "Belgium",
+    "code": "BEL",
+    "group": "G",
+    "flag": "🇧🇪",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "egypt",
+    "name": "埃及",
+    "nameEn": "Egypt",
+    "code": "EGY",
+    "group": "G",
+    "flag": "🇪🇬",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "iran",
+    "name": "伊朗",
+    "nameEn": "Iran",
+    "code": "IRN",
+    "group": "G",
+    "flag": "🇮🇷",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "new-zealand",
+    "name": "新西兰",
+    "nameEn": "New Zealand",
+    "code": "NZL",
+    "group": "G",
+    "flag": "🇳🇿",
+    "color": "from-green-500 to-red-500"
+  },
+  {
+    "id": "spain",
+    "name": "西班牙",
+    "nameEn": "Spain",
+    "code": "ESP",
+    "group": "H",
+    "flag": "🇪🇸",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "cape-verde",
+    "name": "佛得角",
+    "nameEn": "Cape Verde",
+    "code": "CPV",
+    "group": "H",
+    "flag": "🇨🇻",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "saudi-arabia",
+    "name": "沙特阿拉伯",
+    "nameEn": "Saudi Arabia",
+    "code": "KSA",
+    "group": "H",
+    "flag": "🇸🇦",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "uruguay",
+    "name": "乌拉圭",
+    "nameEn": "Uruguay",
+    "code": "URU",
+    "group": "H",
+    "flag": "🇺🇾",
+    "color": "from-green-500 to-red-500"
+  },
+  {
+    "id": "france",
+    "name": "法国",
+    "nameEn": "France",
+    "code": "FRA",
+    "group": "I",
+    "flag": "🇫🇷",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "senegal",
+    "name": "塞内加尔",
+    "nameEn": "Senegal",
+    "code": "SEN",
+    "group": "I",
+    "flag": "🇸🇳",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "iraq",
+    "name": "伊拉克",
+    "nameEn": "Iraq",
+    "code": "IRQ",
+    "group": "I",
+    "flag": "🇮🇶",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "norway",
+    "name": "挪威",
+    "nameEn": "Norway",
+    "code": "NOR",
+    "group": "I",
+    "flag": "🇳🇴",
+    "color": "from-green-500 to-red-500"
+  },
+  {
+    "id": "argentina",
+    "name": "阿根廷",
+    "nameEn": "Argentina",
+    "code": "ARG",
+    "group": "J",
+    "flag": "🇦🇷",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "algeria",
+    "name": "阿尔及利亚",
+    "nameEn": "Algeria",
+    "code": "ALG",
+    "group": "J",
+    "flag": "🇩🇿",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "austria",
+    "name": "奥地利",
+    "nameEn": "Austria",
+    "code": "AUT",
+    "group": "J",
+    "flag": "🇦🇹",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "jordan",
+    "name": "约旦",
+    "nameEn": "Jordan",
+    "code": "JOR",
+    "group": "J",
+    "flag": "🇯🇴",
+    "color": "from-green-500 to-red-500"
+  },
+  {
+    "id": "portugal",
+    "name": "葡萄牙",
+    "nameEn": "Portugal",
+    "code": "POR",
+    "group": "K",
+    "flag": "🇵🇹",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "dr-congo",
+    "name": "民主刚果",
+    "nameEn": "DR Congo",
+    "code": "COD",
+    "group": "K",
+    "flag": "🇨🇩",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "uzbekistan",
+    "name": "乌兹别克斯坦",
+    "nameEn": "Uzbekistan",
+    "code": "UZB",
+    "group": "K",
+    "flag": "🇺🇿",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "colombia",
+    "name": "哥伦比亚",
+    "nameEn": "Colombia",
+    "code": "COL",
+    "group": "K",
+    "flag": "🇨🇴",
+    "color": "from-green-500 to-red-500"
+  },
+  {
+    "id": "england",
+    "name": "英格兰",
+    "nameEn": "England",
+    "code": "ENG",
+    "group": "L",
+    "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+    "color": "from-sky-400 to-sky-600"
+  },
+  {
+    "id": "croatia",
+    "name": "克罗地亚",
+    "nameEn": "Croatia",
+    "code": "CRO",
+    "group": "L",
+    "flag": "🇭🇷",
+    "color": "from-blue-700 to-blue-900"
+  },
+  {
+    "id": "ghana",
+    "name": "加纳",
+    "nameEn": "Ghana",
+    "code": "GHA",
+    "group": "L",
+    "flag": "🇬🇭",
+    "color": "from-red-600 to-blue-700"
+  },
+  {
+    "id": "panama",
+    "name": "巴拿马",
+    "nameEn": "Panama",
+    "code": "PAN",
+    "group": "L",
+    "flag": "🇵🇦",
+    "color": "from-green-500 to-red-500"
+  }
+]

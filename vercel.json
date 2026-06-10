@@ -1,0 +1,7 @@
+{
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "installCommand": "npm install && npm install --prefix worldcup-web",
+  "buildCommand": "npm run build:web",
+  "outputDirectory": "worldcup-web/dist",
+  "rewrites": [{ "source": "/(.*)", "destination": "/index.html" }]
+}

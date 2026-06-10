@@ -1,0 +1,18 @@
+{
+  "name": "2026worldcup",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "data:import": "python3 scripts/import-from-xlsx.py && npm run data:merge && npm run data:standings",
+    "data:sync": "tsx scripts/sync-openfootball.ts",
+    "data:merge": "tsx scripts/merge-overrides.ts",
+    "data:standings": "tsx scripts/compute-standings.ts",
+    "data:refresh": "tsx scripts/refresh.ts",
+    "data:build": "npm run data:merge && npm run data:standings",
+    "build:web": "npm run data:build && npm run build --prefix worldcup-web"
+  },
+  "devDependencies": {
+    "tsx": "^4.19.4",
+    "typescript": "~5.9.3"
+  }
+}

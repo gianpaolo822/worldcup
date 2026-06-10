@@ -1,0 +1,36 @@
+---
+description: 2026 世界杯观赛项目上下文与 MVP 边界
+alwaysApply: true
+---
+
+# 2026 World Cup 项目
+
+个人学习用途。一期 MVP：**移动端 Web + 静态 JSON 数据流水线**；Supabase / 管理后台 / 小程序为二期。
+
+## 技术栈
+
+| 层 | 选型 |
+|----|------|
+| 前端 | `worldcup-web/` — Vite + React 19 + TS + Tailwind |
+| 数据 | 根目录 `data/*.json`，Vite alias `@data` 引入 |
+| 脚本 | `scripts/` + `npm run data:refresh` |
+| 部署 | Vercel（`prebuild` 跑 `data:refresh`） |
+
+## 数据维护（最高频）
+
+**改分流程：** 编辑 `data/overrides.json` → `npm run data:refresh` → commit → push
+
+- **不要**手改 `matches.json` 或 `standings.json`
+- 历史/射手榜：直接改 `world-cup-history.json` / `top-scorers.json`
+
+## 一期不做
+
+动态资讯、Supabase、管理后台、小程序、订阅推送
+
+## 当前阶段
+
+Phase 2 收尾（三 Tab Web 验收）→ Phase 3 部署分享。详见 `docs/MVP_PLAN.md`。
+
+## 合规
+
+非官方数据工具，页脚保留免责声明。仅用 emoji + 文字，无侵权素材。

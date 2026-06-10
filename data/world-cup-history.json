@@ -1,0 +1,222 @@
+[
+  {
+    "year": 2022,
+    "host": "卡塔尔",
+    "champion": "阿根廷",
+    "runnerUp": "法国",
+    "score": "",
+    "goldenBoot": "Kylian Mbappé (8球)",
+    "goldenBall": "利昂内尔·梅西 (阿根廷)",
+    "goldenGlove": "Emiliano Martínez"
+  },
+  {
+    "year": 2018,
+    "host": "俄罗斯",
+    "champion": "法国",
+    "runnerUp": "克罗地亚",
+    "score": "",
+    "goldenBoot": "Harry Kane (6球)",
+    "goldenBall": "卢卡·莫德里奇 (克罗地亚)",
+    "goldenGlove": "Thibaut Courtois"
+  },
+  {
+    "year": 2014,
+    "host": "巴西",
+    "champion": "德国",
+    "runnerUp": "阿根廷",
+    "score": "",
+    "goldenBoot": "James Rodríguez (6球)",
+    "goldenBall": "利昂内尔·梅西 (阿根廷)",
+    "goldenGlove": "Manuel Neuer"
+  },
+  {
+    "year": 2010,
+    "host": "南非",
+    "champion": "西班牙",
+    "runnerUp": "荷兰",
+    "score": "",
+    "goldenBoot": "Thomas Müller (5球)",
+    "goldenBall": "迭戈·弗兰 (乌拉圭)",
+    "goldenGlove": "Iker Casillas"
+  },
+  {
+    "year": 2006,
+    "host": "德国",
+    "champion": "意大利",
+    "runnerUp": "法国",
+    "score": "",
+    "goldenBoot": "Miroslav Klose (5球)",
+    "goldenBall": "齐内丁·齐达内 (法国)",
+    "goldenGlove": "Gianluigi Buffon"
+  },
+  {
+    "year": 2002,
+    "host": "韩国/日本",
+    "champion": "巴西",
+    "runnerUp": "德国",
+    "score": "",
+    "goldenBoot": "Ronaldo (8球)",
+    "goldenBall": "奥利弗·卡恩 (德国)",
+    "goldenGlove": "Oliver Kahn"
+  },
+  {
+    "year": 1998,
+    "host": "法国",
+    "champion": "法国",
+    "runnerUp": "巴西",
+    "score": "",
+    "goldenBoot": "Davor Šuker (6球)",
+    "goldenBall": "罗纳尔多 (巴西)",
+    "goldenGlove": "Fabien Barthez"
+  },
+  {
+    "year": 1994,
+    "host": "美国",
+    "champion": "巴西",
+    "runnerUp": "意大利",
+    "score": "",
+    "goldenBoot": "Oleg Salenko / Hristo Stoichkov (6球)",
+    "goldenBall": "罗马里奥 (巴西)",
+    "goldenGlove": "Michel Preud'homme"
+  },
+  {
+    "year": 1990,
+    "host": "意大利",
+    "champion": "西德",
+    "runnerUp": "阿根廷",
+    "score": "",
+    "goldenBoot": "Salvatore Schillaci (6球)",
+    "goldenBall": "萨尔瓦托雷·斯基拉奇 (意大利)",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1986,
+    "host": "墨西哥",
+    "champion": "阿根廷",
+    "runnerUp": "西德",
+    "score": "",
+    "goldenBoot": "Gary Lineker (6球)",
+    "goldenBall": "迭戈·马拉多纳 (阿根廷)",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1982,
+    "host": "西班牙",
+    "champion": "意大利",
+    "runnerUp": "西德",
+    "score": "",
+    "goldenBoot": "Paolo Rossi (6球)",
+    "goldenBall": "保罗·罗西 (意大利)",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1978,
+    "host": "阿根廷",
+    "champion": "阿根廷",
+    "runnerUp": "荷兰",
+    "score": "",
+    "goldenBoot": "Mario Kempes (6球)",
+    "goldenBall": "—",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1974,
+    "host": "西德",
+    "champion": "西德",
+    "runnerUp": "荷兰",
+    "score": "",
+    "goldenBoot": "Grzegorz Lato (7球)",
+    "goldenBall": "—",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1970,
+    "host": "墨西哥",
+    "champion": "巴西",
+    "runnerUp": "意大利",
+    "score": "",
+    "goldenBoot": "Gerd Müller (10球)",
+    "goldenBall": "—",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1966,
+    "host": "英格兰",
+    "champion": "英格兰",
+    "runnerUp": "西德",
+    "score": "",
+    "goldenBoot": "Eusébio (9球)",
+    "goldenBall": "—",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1962,
+    "host": "智利",
+    "champion": "巴西",
+    "runnerUp": "捷克斯洛伐克",
+    "score": "",
+    "goldenBoot": "Garrincha / Vavá / Leonel Sánchez / Flórián Albert / Valentin Ivanov / Dražan Jerković (4球)",
+    "goldenBall": "—",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1958,
+    "host": "瑞典",
+    "champion": "巴西",
+    "runnerUp": "瑞典",
+    "score": "",
+    "goldenBoot": "Just Fontaine (13球)",
+    "goldenBall": "—",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1954,
+    "host": "瑞士",
+    "champion": "西德",
+    "runnerUp": "匈牙利",
+    "score": "",
+    "goldenBoot": "Sándor Kocsis (11球)",
+    "goldenBall": "—",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1950,
+    "host": "巴西",
+    "champion": "乌拉圭",
+    "runnerUp": "巴西",
+    "score": "",
+    "goldenBoot": "Ademir (9球)",
+    "goldenBall": "—",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1938,
+    "host": "法国",
+    "champion": "意大利",
+    "runnerUp": "匈牙利",
+    "score": "",
+    "goldenBoot": "Leônidas (7球)",
+    "goldenBall": "—",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1934,
+    "host": "意大利",
+    "champion": "意大利",
+    "runnerUp": "捷克斯洛伐克",
+    "score": "",
+    "goldenBoot": "Oldřich Nejedlý (5球)",
+    "goldenBall": "—",
+    "goldenGlove": "—"
+  },
+  {
+    "year": 1930,
+    "host": "乌拉圭",
+    "champion": "乌拉圭",
+    "runnerUp": "阿根廷",
+    "score": "",
+    "goldenBoot": "Guillermo Stábile (8球)",
+    "goldenBall": "—",
+    "goldenGlove": "—"
+  }
+]

@@ -1,0 +1,97 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+    --bg: #0a0a0a;
+    --surface: #171717;
+    --surface-elevated: #1f1f1f;
+    --border: rgba(255, 255, 255, 0.08);
+    --border-strong: rgba(255, 255, 255, 0.12);
+    --accent: #3ecf8e;
+    --accent-muted: rgba(62, 207, 142, 0.12);
+    --accent-glow: rgba(62, 207, 142, 0.25);
+    --text: #ededed;
+    --text-muted: #8b8b8b;
+    --text-faint: #525252;
+    --live: #3ecf8e;
+    --danger: #f87171;
+  }
+
+  * {
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  body {
+    font-family:
+      'Inter',
+      -apple-system,
+      BlinkMacSystemFont,
+      'Segoe UI',
+      'PingFang SC',
+      'Microsoft YaHei',
+      sans-serif;
+    background-color: var(--bg);
+    color: var(--text);
+    overscroll-behavior-y: none;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    padding-bottom: env(safe-area-inset-bottom);
+  }
+
+  .hide-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+@layer components {
+  .sb-grid-bg {
+    background-image:
+      linear-gradient(rgba(255, 255, 255, 0.03) 1px, transparent 1px),
+      linear-gradient(90deg, rgba(255, 255, 255, 0.03) 1px, transparent 1px);
+    background-size: 64px 64px;
+    mask-image: radial-gradient(ellipse 80% 60% at 50% 0%, black 20%, transparent 70%);
+  }
+
+  .sb-card {
+    @apply rounded-lg border bg-[var(--surface)] transition-colors;
+    border-color: var(--border);
+  }
+
+  .sb-card-elevated {
+    @apply sb-card bg-[var(--surface-elevated)];
+  }
+
+  .sb-label {
+    @apply text-[10px] font-medium uppercase tracking-wider text-[var(--text-muted)];
+  }
+
+  .sb-section-title {
+    @apply text-sm font-semibold text-[var(--text)];
+  }
+
+  .sb-badge {
+    @apply inline-flex items-center gap-1 rounded-md border px-2 py-0.5 text-[10px] font-medium;
+    border-color: var(--border);
+    color: var(--text-muted);
+    background: var(--surface-elevated);
+  }
+
+  .sb-badge-accent {
+    @apply sb-badge border-transparent;
+    background: var(--accent-muted);
+    color: var(--accent);
+  }
+
+  .sb-badge-live {
+    @apply sb-badge border-transparent font-semibold;
+    background: var(--accent-muted);
+    color: var(--live);
+  }
+}

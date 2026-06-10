@@ -1,0 +1,24 @@
+---
+description: TypeScript/React 编码规范（来自 ECC）
+globs: "{worldcup-web/**,scripts/**}/*.{ts,tsx}"
+alwaysApply: false
+---
+
+# TypeScript / React 规范
+
+## 风格
+
+- 不可变数据：不原地修改对象/数组，返回新副本
+- 函数 <50 行，文件 <800 行，按功能/domain 组织
+- 边界处校验输入（含 JSON import 后的运行时 shape）
+- 错误显式处理，UI 友好提示
+
+## React / Vite
+
+- 数据来自 `@data` JSON，不在组件内硬编码赛程/积分榜
+- 移动端优先布局，三 Tab：赛程 / 积分榜 / 历史
+- Vite alias 与 `prebuild` 数据刷新保持与根目录脚本一致
+
+## 命名
+
+- 变量/函数：`camelCase`；组件/类型：`PascalCase`；常量：`UPPER_SNAKE_CASE`

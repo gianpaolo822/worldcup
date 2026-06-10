@@ -1,0 +1,26 @@
+---
+description: 完成前验证与 TDD（来自 ECC，配合 Superpowers）
+alwaysApply: true
+---
+
+# 验证与测试
+
+## 宣称完成前必须
+
+1. 运行相关命令并确认输出（如 `npm run data:refresh`、`cd worldcup-web && npm run build`）
+2. 有证据再报告成功，不做无验证断言
+
+## 改数据/前端时
+
+- 数据脚本：跑 `npm run data:refresh` 无报错
+- 前端：`npm run dev` 或 `npm run build` 通过
+- 改 overrides 后核对对应场次比分与组积分榜
+
+## TDD（新功能/修 bug）
+
+1. 先写失败测试 → 最小实现 → 重构
+2. 测试名描述行为，AAA 结构
+
+## 二期预留
+
+Supabase / API 时再启用 `postgres-patterns`、`database-migrations`、`api-design` 技能。
