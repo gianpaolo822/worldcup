@@ -1,4 +1,3 @@
-import { createPortal } from 'react-dom';
 import { CalendarDays, History, Trophy } from 'lucide-react';
 
 interface BottomNavProps {
@@ -13,7 +12,7 @@ export const APP_TABS = [
 ] as const;
 
 export default function BottomNav({ activeTab, onTabChange }: BottomNavProps) {
-  const nav = (
+  return (
     <nav
       className="fixed bottom-0 left-0 right-0 z-[9999] border-t-2 shadow-[0_-12px_40px_rgba(0,0,0,0.55)]"
       style={{
@@ -22,6 +21,9 @@ export default function BottomNav({ activeTab, onTabChange }: BottomNavProps) {
         WebkitBackdropFilter: 'blur(20px)',
         borderColor: 'var(--accent)',
         paddingBottom: 'max(0.5rem, env(safe-area-inset-bottom))',
+        // 微信 / iOS WebView 中 fixed 底栏偶发不绘制，强制独立合成层
+        transform: 'translateZ(0)',
+        WebkitTransform: 'translateZ(0)',
       }}
       aria-label="主导航"
     >
@@ -50,6 +52,4 @@ export default function BottomNav({ activeTab, onTabChange }: BottomNavProps) {
       </div>
     </nav>
   );
-
-  return createPortal(nav, document.body);
 }

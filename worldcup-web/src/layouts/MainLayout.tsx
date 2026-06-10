@@ -21,7 +21,7 @@ export default function MainLayout() {
   const activeTab = tabFromPath(location.pathname);
 
   return (
-    <div className="min-h-screen bg-[var(--bg)] relative">
+    <div className="relative isolate min-h-screen bg-[var(--bg)]">
       <div className="pointer-events-none fixed inset-0 sb-grid-bg opacity-60" />
       <div className="pointer-events-none fixed top-0 left-1/2 -translate-x-1/2 w-[600px] h-[300px] bg-[var(--accent-glow)] rounded-full blur-[120px] opacity-40" />
 
