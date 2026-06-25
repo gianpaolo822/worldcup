@@ -1,17 +1,19 @@
 import { Link, useLocation, useNavigate, useParams, useSearchParams } from 'react-router-dom';
 import DetailTopNav from '@/components/DetailTopNav';
 import MatchCard from '@/components/MatchCard';
+import GroupStandingsTable from '@/components/GroupStandingsTable';
 import Footer from '@/components/Footer';
 import {
   getCoachByTeamId,
   getMatchesByTeam,
   getPlayersByTeam,
-  getStandingsByGroup,
   getTeamById,
   teams,
 } from '@/lib/data';
-import { groupPlayersByPosition, positionLabel } from '@/lib/playerUtils';
+import { groupPlayersByPosition, playerClubZh, playerNameEn, playerNameZh, positionLabel } from '@/lib/playerUtils';
 import { buildReturnTo, parseTeamTab, type TeamTab } from '@/lib/navigation';
+import PlayerAvatar from '@/components/PlayerAvatar';
+import TeamStatLeaderboards from '@/components/TeamStatLeaderboards';
 import { UserRound } from 'lucide-react';
 
 const TEAM_TABS: { id: TeamTab; label: string }[] = [
@@ -56,7 +58,6 @@ export default function TeamDetailPage() {
   const teamMatches = getMatchesByTeam(team.id);
   const squad = getPlayersByTeam(team.id);
   const grouped = groupPlayersByPosition(squad);
-  const standingRow = getStandingsByGroup(team.group).find((r) => r.team.id === team.id);
   const groupOpponents = teams.filter((t) => t.group === team.group && t.id !== team.id);
   const injured = squad.filter((p) => p.status === 'injured');
 
@@ -77,30 +78,10 @@ export default function TeamDetailPage() {
           )}
         </section>
 
-        {standingRow && (
-          <section className="sb-card p-4 mb-4">
-            <p className="sb-label mb-3">{team.group} 组积分</p>
-            <div className="grid grid-cols-4 gap-2 text-center">
-              {[
-                { label: '赛', value: standingRow.played },
-                { label: '胜', value: standingRow.won },
-                { label: '净胜', value: standingRow.gd > 0 ? `+${standingRow.gd}` : standingRow.gd },
-                { label: '积分', value: standingRow.points, accent: true },
-              ].map((item) => (
-                <div key={item.label}>
-                  <p className="text-[10px] text-[var(--text-muted)] mb-1">{item.label}</p>
-                  <p
-                    className={`text-lg font-bold tabular-nums ${
-                      item.accent ? 'text-[var(--accent)]' : 'text-[var(--text)]'
-                    }`}
-                  >
-                    {item.value}
-                  </p>
-                </div>
-              ))}
-            </div>
-          </section>
-        )}
+        <section className="mb-4">
+          <p className="sb-label mb-2">{team.group} 组积分榜</p>
+          <GroupStandingsTable group={team.group} highlightTeamIds={[team.id]} dense />
+        </section>
 
         <section className="mb-4">
           <div
@@ -154,21 +135,16 @@ export default function TeamDetailPage() {
                       state={{ returnTo }}
                       className="flex items-center gap-3 px-3 py-2.5 active:bg-white/[0.03] transition-colors"
                     >
-                      <span
-                        className="w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold flex-shrink-0 border"
-                        style={{
-                          borderColor: 'var(--border)',
-                          backgroundColor: 'var(--surface-elevated)',
-                          color: 'var(--text-muted)',
-                        }}
-                      >
-                        {player.number}
-                      </span>
+                      <PlayerAvatar playerId={player.id} size="sm" />
                       <div className="min-w-0 flex-1">
-                        <p className="text-sm font-medium text-[var(--text)] truncate">{player.name}</p>
-                        <p className="text-[10px] text-[var(--text-muted)] truncate">
-                          {player.club ?? '俱乐部待定'}
+                        <p className="text-sm font-medium text-[var(--text)] truncate">
+                          <span className="text-[var(--text-muted)] tabular-nums mr-1.5">{player.number}</span>
+                          {playerNameZh(player)}
                         </p>
+                        <p className="text-[10px] text-[var(--text-muted)] truncate">{playerNameEn(player)}</p>
+                      <p className="text-[10px] text-[var(--text-muted)] truncate mt-0.5">
+                        {playerClubZh(player) ?? '俱乐部待定'}
+                      </p>
                       </div>
                       {player.status === 'injured' && (
                         <span className="text-[10px] text-[var(--danger)] flex-shrink-0">伤退</span>
@@ -223,7 +199,7 @@ export default function TeamDetailPage() {
 
             {injured.length > 0 && (
               <div className="sb-card p-4">
-                <p className="sb-label mb-2">因伤退出</p>
+                <p className="sb-label mb-2">因伤退出本届世界杯</p>
                 <div className="space-y-2">
                   {injured.map((player) => (
                     <Link
@@ -232,7 +208,8 @@ export default function TeamDetailPage() {
                       state={{ returnTo }}
                       className="block text-sm text-[var(--text-muted)]"
                     >
-                      <span className="text-[var(--text)] font-medium">{player.name}</span>
+                      <span className="text-[var(--text)] font-medium">{playerNameZh(player)}</span>
+                      <span className="text-[10px] text-[var(--text-muted)] block">{playerNameEn(player)}</span>
                       {player.injuryNote && (
                         <span className="block text-[10px] mt-0.5">{player.injuryNote}</span>
                       )}
@@ -241,6 +218,8 @@ export default function TeamDetailPage() {
                 </div>
               </div>
             )}
+
+            <TeamStatLeaderboards teamId={team.id} returnTo={returnTo} />
           </section>
         )}
 

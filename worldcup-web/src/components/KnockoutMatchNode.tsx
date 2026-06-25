@@ -39,7 +39,7 @@ export default function KnockoutMatchNode({ match }: KnockoutMatchNodeProps) {
       style={{ backgroundColor: 'var(--surface)', borderColor: 'var(--border)' }}
     >
       <div className="flex items-center justify-between gap-2 mb-2 pb-2 border-b" style={{ borderColor: 'var(--border)' }}>
-        <span className="text-[10px] text-[var(--text-muted)] tabular-nums">{formatKnockoutTime(match.time)}</span>
+        <span className="text-[10px] text-[var(--text-muted)] tabular-nums">{formatKnockoutTime(match)}</span>
         <span
           className={`text-[10px] font-medium ${live ? 'text-[var(--accent)]' : 'text-[var(--text-muted)]'}`}
         >

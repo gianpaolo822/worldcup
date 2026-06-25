@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import {
+  formatMatchKickoffBeijing,
   formatScheduleDate,
   formatMatchVenue,
   getMatchDateKey,
@@ -8,17 +9,18 @@ import {
   pickHeroMatch,
   sortMatchesByKickoff,
 } from '@/lib/data';
+import { matchStatusLabel, resolveMatchDisplay } from '@/lib/matchDisplay';
+import { useNow } from '@/hooks/useNow';
 import MatchCard from '@/components/MatchCard';
 import OpeningCountdown from '@/components/OpeningCountdown';
-import ScheduleFilterBar, { ALL_DATES, ALL_TEAMS } from '@/components/ScheduleFilterBar';
+import ScheduleFilterBar, { ALL_TEAMS } from '@/components/ScheduleFilterBar';
+import {
+  getDefaultScheduleDateRange,
+  isDateKeyInRange,
+  type ScheduleDateRange,
+} from '@/lib/scheduleDate';
 import { MapPin, Users, Calendar, Globe } from 'lucide-react';
 import type { Match } from '@/types';
-
-function heroStatusLabel(status: string): string {
-  if (status === 'live') return '进行中';
-  if (status === 'finished') return '已结束';
-  return '未开始';
-}
 
 const stats = [
   { label: '参赛球队', value: '48', hint: '扩军后首届', icon: Users },
@@ -29,27 +31,29 @@ const stats = [
 
 export default function HomePage() {
   const navigate = useNavigate();
-  const [activeDateKey, setActiveDateKey] = useState(ALL_DATES);
+  const now = useNow();
+  const [dateRange, setDateRange] = useState<ScheduleDateRange>(() => getDefaultScheduleDateRange());
   const [activeTeamId, setActiveTeamId] = useState(ALL_TEAMS);
 
-  const heroMatch = pickHeroMatch();
+  const heroMatch = pickHeroMatch(now);
+  const heroDisplay = heroMatch ? resolveMatchDisplay(heroMatch, now) : null;
 
   const filteredMatches = useMemo(() => {
     let list = sortMatchesByKickoff(matches);
-
-    if (activeDateKey !== ALL_DATES) {
-      list = list.filter((m) => getMatchDateKey(m) === activeDateKey);
-    }
 
     if (activeTeamId !== ALL_TEAMS) {
       list = list.filter((m) => m.homeTeam.id === activeTeamId || m.awayTeam.id === activeTeamId);
     }
 
+    list = list.filter((m) => isDateKeyInRange(getMatchDateKey(m), dateRange));
+
     return list;
-  }, [activeDateKey, activeTeamId]);
+  }, [dateRange, activeTeamId]);
+
+  const isSingleDay = dateRange.start === dateRange.end;
 
   const matchesByDate = useMemo(() => {
-    if (activeDateKey !== ALL_DATES) return null;
+    if (isSingleDay) return null;
 
     const groups = new Map<string, Match[]>();
     for (const match of filteredMatches) {
@@ -59,7 +63,7 @@ export default function HomePage() {
       groups.set(key, bucket);
     }
     return [...groups.entries()].sort(([a], [b]) => a.localeCompare(b));
-  }, [activeDateKey, filteredMatches]);
+  }, [isSingleDay, filteredMatches]);
 
   if (!heroMatch) {
     return (
@@ -71,8 +75,9 @@ export default function HomePage() {
     );
   }
 
-  const isLive = heroMatch.status === 'live';
-  const isFinished = heroMatch.status === 'finished';
+  const isLive = heroDisplay?.status === 'live';
+  const isFinished = heroDisplay?.status === 'finished';
+  const showHeroScore = isLive || isFinished;
 
   return (
     <div className="pb-24">
@@ -88,7 +93,7 @@ export default function HomePage() {
           <div className="relative">
             <div className="flex items-center gap-2 mb-4 flex-wrap">
               {heroMatch.group && <span className="sb-badge-accent">{heroMatch.group} 组</span>}
-              <span className="sb-badge">{heroMatch.time}</span>
+              <span className="sb-badge">{formatMatchKickoffBeijing(heroMatch)}</span>
               <span className="sb-badge">
                 <MapPin size={10} />
                 {formatMatchVenue(heroMatch)}
@@ -107,16 +112,18 @@ export default function HomePage() {
               </div>
 
               <div className="flex flex-col items-center px-4 flex-shrink-0">
-                {isFinished && heroMatch.homeScore != null && heroMatch.awayScore != null ? (
+                {showHeroScore && heroDisplay ? (
                   <div className="flex items-center gap-2 tabular-nums">
-                    <span className="text-3xl font-bold text-[var(--text)]">{heroMatch.homeScore}</span>
+                    <span className="text-3xl font-bold text-[var(--text)]">{heroDisplay.homeScore}</span>
                     <span className="text-sm text-[var(--text-faint)]">:</span>
-                    <span className="text-3xl font-bold text-[var(--text)]">{heroMatch.awayScore}</span>
+                    <span className="text-3xl font-bold text-[var(--text)]">{heroDisplay.awayScore}</span>
                   </div>
                 ) : (
                   <span className="text-lg font-semibold text-[var(--text-faint)]">VS</span>
                 )}
-                <span className="mt-2 sb-badge">{heroStatusLabel(heroMatch.status)}</span>
+                <span className={`mt-2 ${isLive ? 'sb-badge-live animate-pulse' : 'sb-badge'}`}>
+                  {heroDisplay ? matchStatusLabel(heroDisplay.status) : '未开始'}
+                </span>
               </div>
 
               <div className="flex flex-col items-center gap-2 flex-1 min-w-0">
@@ -131,9 +138,9 @@ export default function HomePage() {
       </section>
 
       <ScheduleFilterBar
-        activeDateKey={activeDateKey}
+        dateRange={dateRange}
         activeTeamId={activeTeamId}
-        onDateChange={setActiveDateKey}
+        onDateRangeChange={setDateRange}
         onTeamChange={setActiveTeamId}
       />
 

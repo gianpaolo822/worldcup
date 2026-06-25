@@ -9,6 +9,23 @@
 - [ ] 执行 `npm run data:refresh` 无报错
 - [ ] 阅读 [`COMPLIANCE.md`](COMPLIANCE.md)
 
+## 本地预览（避免看到旧界面）
+
+开发时**只认终端里 `Local:` 打印的地址**（本项目固定 **5173**）。
+
+```bash
+cd worldcup-web
+npm run dev:clean   # 推荐：结束旧 Vite 后再启动
+```
+
+若改代码后浏览器无变化：
+
+1. 确认终端 dev 仍在运行，且地址为 `http://127.0.0.1:5173/`
+2. **Cmd+Shift+R** 强制刷新
+3. 若 `npm run dev` 提示端口占用 → 改用 `npm run dev:clean`
+
+原因：旧 Vite 占 5173 时，新服务可能静默跑到 5174+，而浏览器仍打开 5173，看到的便是**几天前的旧代码**。
+
 ## Git（建议）
 
 - [ ] 仓库初始化并关联远程

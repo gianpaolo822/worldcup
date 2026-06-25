@@ -1,31 +1,32 @@
 import { useMemo, useState } from 'react';
 import { CalendarDays, ChevronDown, Users } from 'lucide-react';
 import FilterSheet, { FilterSheetOption } from '@/components/FilterSheet';
-import { formatScheduleDate, scheduleDates, scheduleTeams } from '@/lib/data';
+import ScheduleDateRangePicker, { isFullScheduleRange } from '@/components/ScheduleDateRangePicker';
+import { scheduleTeams } from '@/lib/data';
+import { formatScheduleDateRange, type ScheduleDateRange } from '@/lib/scheduleDate';
 
-export const ALL_DATES = '__all_dates__';
 export const ALL_TEAMS = '__all_teams__';
 
 interface ScheduleFilterBarProps {
-  activeDateKey: string;
+  dateRange: ScheduleDateRange;
   activeTeamId: string;
-  onDateChange: (dateKey: string) => void;
+  onDateRangeChange: (range: ScheduleDateRange) => void;
   onTeamChange: (teamId: string) => void;
 }
 
 export default function ScheduleFilterBar({
-  activeDateKey,
+  dateRange,
   activeTeamId,
-  onDateChange,
+  onDateRangeChange,
   onTeamChange,
 }: ScheduleFilterBarProps) {
   const [dateOpen, setDateOpen] = useState(false);
   const [teamOpen, setTeamOpen] = useState(false);
-  const [dateQuery, setDateQuery] = useState('');
   const [teamQuery, setTeamQuery] = useState('');
 
-  const dateLabel =
-    activeDateKey === ALL_DATES ? '全部日期' : formatScheduleDate(activeDateKey);
+  const dateLabel = isFullScheduleRange(dateRange)
+    ? '全部赛程'
+    : formatScheduleDateRange(dateRange);
 
   const activeTeam = scheduleTeams.find((t) => t.id === activeTeamId);
   const teamLabel =
@@ -34,15 +35,6 @@ export default function ScheduleFilterBar({
       : activeTeam
         ? `${activeTeam.flag} ${activeTeam.name}`
         : '全部球队';
-
-  const filteredDates = useMemo(() => {
-    const q = dateQuery.trim().toLowerCase();
-    if (!q) return scheduleDates;
-    return scheduleDates.filter((d) => {
-      const label = formatScheduleDate(d);
-      return label.toLowerCase().includes(q) || d.includes(q);
-    });
-  }, [dateQuery]);
 
   const filteredTeams = useMemo(() => {
     const q = teamQuery.trim().toLowerCase();
@@ -54,11 +46,6 @@ export default function ScheduleFilterBar({
         t.code.toLowerCase().includes(q),
     );
   }, [teamQuery]);
-
-  const closeDate = () => {
-    setDateOpen(false);
-    setDateQuery('');
-  };
 
   const closeTeam = () => {
     setTeamOpen(false);
@@ -97,40 +84,12 @@ export default function ScheduleFilterBar({
         </div>
       </section>
 
-      <FilterSheet
+      <ScheduleDateRangePicker
         open={dateOpen}
-        title="选择日期"
-        onClose={closeDate}
-        searchPlaceholder="搜索日期，如 6月12"
-        searchValue={dateQuery}
-        onSearchChange={setDateQuery}
-      >
-        <FilterSheetOption
-          selected={activeDateKey === ALL_DATES}
-          onSelect={() => {
-            onDateChange(ALL_DATES);
-            closeDate();
-          }}
-        >
-          全部日期
-        </FilterSheetOption>
-        {filteredDates.length === 0 && (
-          <p className="px-3 py-6 text-center text-sm text-[var(--text-muted)]">没有匹配的日期</p>
-        )}
-        {filteredDates.map((dateKey) => (
-          <FilterSheetOption
-            key={dateKey}
-            selected={activeDateKey === dateKey}
-            subtitle={dateKey}
-            onSelect={() => {
-              onDateChange(dateKey);
-              closeDate();
-            }}
-          >
-            {formatScheduleDate(dateKey)}
-          </FilterSheetOption>
-        ))}
-      </FilterSheet>
+        value={dateRange}
+        onClose={() => setDateOpen(false)}
+        onChange={onDateRangeChange}
+      />
 
       <FilterSheet
         open={teamOpen}

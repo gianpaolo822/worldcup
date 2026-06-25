@@ -1,4 +1,4 @@
-import { CalendarDays, History, Trophy } from 'lucide-react';
+import { CalendarDays, BarChart3, History, Trophy } from 'lucide-react';
 
 interface BottomNavProps {
   activeTab: string;
@@ -8,6 +8,7 @@ interface BottomNavProps {
 export const APP_TABS = [
   { id: 'home', label: '赛程', icon: CalendarDays, path: '/' },
   { id: 'standings', label: '积分榜', icon: Trophy, path: '/standings' },
+  { id: 'stats', label: '数据榜', icon: BarChart3, path: '/stats' },
   { id: 'history', label: '历史', icon: History, path: '/history' },
 ] as const;
 

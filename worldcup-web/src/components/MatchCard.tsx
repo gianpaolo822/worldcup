@@ -1,20 +1,19 @@
 import type { Match } from '@/types';
-import { formatMatchVenue } from '@/lib/data';
+import { formatMatchKickoffBeijing, formatMatchVenue } from '@/lib/data';
+import { matchStatusLabelShort, resolveMatchDisplay } from '@/lib/matchDisplay';
+import { useNow } from '@/hooks/useNow';
 
 interface MatchCardProps {
   match: Match;
   onClick?: () => void;
 }
 
-function statusLabel(status: Match['status']): string {
-  if (status === 'live') return 'LIVE';
-  if (status === 'finished') return '已结束';
-  return '未开始';
-}
-
 export default function MatchCard({ match, onClick }: MatchCardProps) {
-  const isLive = match.status === 'live';
-  const isFinished = match.status === 'finished';
+  const now = useNow();
+  const display = resolveMatchDisplay(match, now);
+  const isLive = display.status === 'live';
+  const isFinished = display.status === 'finished';
+  const showScore = isLive || isFinished;
 
   return (
     <div
@@ -22,7 +21,9 @@ export default function MatchCard({ match, onClick }: MatchCardProps) {
       className="sb-card p-4 active:scale-[0.99] transition-transform duration-200 select-none cursor-pointer hover:border-[var(--border-strong)]"
     >
       <div className="flex items-start justify-between gap-2 mb-3">
-        <span className="text-xs text-[var(--text-muted)] font-medium flex-shrink-0">{match.time}</span>
+        <span className="text-xs text-[var(--text-muted)] font-medium flex-shrink-0">
+          {formatMatchKickoffBeijing(match)}
+        </span>
         <span className="text-xs text-[var(--text-muted)] font-medium text-right truncate min-w-0">
           {formatMatchVenue(match)}
         </span>
@@ -37,11 +38,11 @@ export default function MatchCard({ match, onClick }: MatchCardProps) {
         </div>
 
         <div className="flex flex-col items-center px-3 flex-shrink-0">
-          {isFinished ? (
+          {showScore ? (
             <div className="flex items-center gap-1.5 tabular-nums">
-              <span className="text-xl font-semibold text-[var(--text)]">{match.homeScore}</span>
+              <span className="text-xl font-semibold text-[var(--text)]">{display.homeScore}</span>
               <span className="text-xs text-[var(--text-faint)]">:</span>
-              <span className="text-xl font-semibold text-[var(--text)]">{match.awayScore}</span>
+              <span className="text-xl font-semibold text-[var(--text)]">{display.awayScore}</span>
             </div>
           ) : (
             <span className="text-sm font-medium text-[var(--text-faint)]">VS</span>
@@ -51,7 +52,7 @@ export default function MatchCard({ match, onClick }: MatchCardProps) {
               isLive ? 'sb-badge-live animate-pulse' : 'sb-badge'
             }`}
           >
-            {statusLabel(match.status)}
+            {matchStatusLabelShort(display.status)}
           </span>
         </div>
 

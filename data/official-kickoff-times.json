@@ -1,0 +1,946 @@
+{
+  "source": "FIFA FWC26 Match Schedule (December 2025 update)",
+  "sourceUrl": "https://inside.fifa.com/organisation/media-releases/updated-world-cup-2026-match-schedule-venues-kick-off-times-104-matches",
+  "pdfUrl": "https://digitalhub.fifa.com/m/1be9ce37eb98fcc5/original/FWC26-Match-Schedule/_English.pdf",
+  "generatedAt": "2026-06-16T03:13:56.485Z",
+  "matchCount": 104,
+  "matches": [
+    {
+      "seq": 1,
+      "fifaCity": "Mexico City",
+      "cityZh": "墨西哥城",
+      "localDate": "6月11日",
+      "localTime": "13:00",
+      "beijingTime": "2026-06-12 03:00",
+      "kickoffAt": "2026-06-11T19:00:00Z"
+    },
+    {
+      "seq": 2,
+      "fifaCity": "Guadalajara",
+      "cityZh": "萨波潘",
+      "localDate": "6月11日",
+      "localTime": "20:00",
+      "beijingTime": "2026-06-12 10:00",
+      "kickoffAt": "2026-06-12T02:00:00Z"
+    },
+    {
+      "seq": 3,
+      "fifaCity": "Toronto",
+      "cityZh": "多伦多",
+      "localDate": "6月12日",
+      "localTime": "15:00",
+      "beijingTime": "2026-06-13 03:00",
+      "kickoffAt": "2026-06-12T19:00:00Z"
+    },
+    {
+      "seq": 4,
+      "fifaCity": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "localDate": "6月12日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-13 09:00",
+      "kickoffAt": "2026-06-13T01:00:00Z"
+    },
+    {
+      "seq": 5,
+      "fifaCity": "Boston",
+      "cityZh": "福克斯堡",
+      "localDate": "6月13日",
+      "localTime": "21:00",
+      "beijingTime": "2026-06-14 03:00",
+      "kickoffAt": "2026-06-13T19:00:00Z"
+    },
+    {
+      "seq": 6,
+      "fifaCity": "Vancouver",
+      "cityZh": "温哥华",
+      "localDate": "6月12日",
+      "localTime": "21:00",
+      "beijingTime": "2026-06-14 06:00",
+      "kickoffAt": "2026-06-13T22:00:00Z"
+    },
+    {
+      "seq": 7,
+      "fifaCity": "New York/New Jersey",
+      "cityZh": "纽约/新泽西",
+      "localDate": "6月13日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-14 09:00",
+      "kickoffAt": "2026-06-14T01:00:00Z"
+    },
+    {
+      "seq": 8,
+      "fifaCity": "San Francisco Bay Area",
+      "cityZh": "圣克拉拉",
+      "localDate": "6月13日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-14 12:00",
+      "kickoffAt": "2026-06-14T04:00:00Z"
+    },
+    {
+      "seq": 9,
+      "fifaCity": "Philadelphia",
+      "cityZh": "费城",
+      "localDate": "6月14日",
+      "localTime": "19:00",
+      "beijingTime": "2026-06-15 01:00",
+      "kickoffAt": "2026-06-14T17:00:00Z"
+    },
+    {
+      "seq": 10,
+      "fifaCity": "Houston",
+      "cityZh": "休斯顿",
+      "localDate": "6月14日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-15 04:00",
+      "kickoffAt": "2026-06-14T20:00:00Z"
+    },
+    {
+      "seq": 11,
+      "fifaCity": "Dallas",
+      "cityZh": "阿灵顿",
+      "localDate": "6月14日",
+      "localTime": "15:00",
+      "beijingTime": "2026-06-15 07:00",
+      "kickoffAt": "2026-06-14T23:00:00Z"
+    },
+    {
+      "seq": 12,
+      "fifaCity": "Monterrey",
+      "cityZh": "蒙特雷",
+      "localDate": "6月14日",
+      "localTime": "20:00",
+      "beijingTime": "2026-06-15 10:00",
+      "kickoffAt": "2026-06-15T02:00:00Z"
+    },
+    {
+      "seq": 13,
+      "fifaCity": "Miami",
+      "cityZh": "迈阿密",
+      "localDate": "6月15日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-16 00:00",
+      "kickoffAt": "2026-06-15T16:00:00Z"
+    },
+    {
+      "seq": 14,
+      "fifaCity": "Atlanta",
+      "cityZh": "亚特兰大",
+      "localDate": "6月15日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-16 03:00",
+      "kickoffAt": "2026-06-15T19:00:00Z"
+    },
+    {
+      "seq": 15,
+      "fifaCity": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "localDate": "6月15日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-16 06:00",
+      "kickoffAt": "2026-06-15T22:00:00Z"
+    },
+    {
+      "seq": 16,
+      "fifaCity": "Seattle",
+      "cityZh": "西雅图",
+      "localDate": "6月15日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-16 09:00",
+      "kickoffAt": "2026-06-16T01:00:00Z"
+    },
+    {
+      "seq": 17,
+      "fifaCity": "New York/New Jersey",
+      "cityZh": "纽约/新泽西",
+      "localDate": "6月16日",
+      "localTime": "15:00",
+      "beijingTime": "2026-06-17 03:00",
+      "kickoffAt": "2026-06-16T19:00:00Z"
+    },
+    {
+      "seq": 18,
+      "fifaCity": "Boston",
+      "cityZh": "福克斯堡",
+      "localDate": "6月16日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-17 06:00",
+      "kickoffAt": "2026-06-16T22:00:00Z"
+    },
+    {
+      "seq": 19,
+      "fifaCity": "Kansas City",
+      "cityZh": "堪萨斯城",
+      "localDate": "6月16日",
+      "localTime": "20:00",
+      "beijingTime": "2026-06-17 09:00",
+      "kickoffAt": "2026-06-17T01:00:00Z"
+    },
+    {
+      "seq": 20,
+      "fifaCity": "San Francisco Bay Area",
+      "cityZh": "圣克拉拉",
+      "localDate": "6月15日",
+      "localTime": "21:00",
+      "beijingTime": "2026-06-17 12:00",
+      "kickoffAt": "2026-06-17T04:00:00Z"
+    },
+    {
+      "seq": 21,
+      "fifaCity": "Toronto",
+      "cityZh": "多伦多",
+      "localDate": "6月17日",
+      "localTime": "19:00",
+      "beijingTime": "2026-06-18 01:00",
+      "kickoffAt": "2026-06-17T17:00:00Z"
+    },
+    {
+      "seq": 22,
+      "fifaCity": "Dallas",
+      "cityZh": "阿灵顿",
+      "localDate": "6月17日",
+      "localTime": "15:00",
+      "beijingTime": "2026-06-18 04:00",
+      "kickoffAt": "2026-06-17T20:00:00Z"
+    },
+    {
+      "seq": 23,
+      "fifaCity": "Houston",
+      "cityZh": "休斯顿",
+      "localDate": "6月17日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-18 07:00",
+      "kickoffAt": "2026-06-17T23:00:00Z"
+    },
+    {
+      "seq": 24,
+      "fifaCity": "Mexico City",
+      "cityZh": "墨西哥城",
+      "localDate": "6月17日",
+      "localTime": "20:00",
+      "beijingTime": "2026-06-18 10:00",
+      "kickoffAt": "2026-06-18T02:00:00Z"
+    },
+    {
+      "seq": 25,
+      "fifaCity": "Atlanta",
+      "cityZh": "亚特兰大",
+      "localDate": "6月18日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-19 00:00",
+      "kickoffAt": "2026-06-18T16:00:00Z"
+    },
+    {
+      "seq": 26,
+      "fifaCity": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "localDate": "6月18日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-19 03:00",
+      "kickoffAt": "2026-06-18T19:00:00Z"
+    },
+    {
+      "seq": 27,
+      "fifaCity": "Vancouver",
+      "cityZh": "温哥华",
+      "localDate": "6月18日",
+      "localTime": "15:00",
+      "beijingTime": "2026-06-19 06:00",
+      "kickoffAt": "2026-06-18T22:00:00Z"
+    },
+    {
+      "seq": 28,
+      "fifaCity": "Guadalajara",
+      "cityZh": "萨波潘",
+      "localDate": "6月18日",
+      "localTime": "19:00",
+      "beijingTime": "2026-06-19 09:00",
+      "kickoffAt": "2026-06-19T01:00:00Z"
+    },
+    {
+      "seq": 29,
+      "fifaCity": "Philadelphia",
+      "cityZh": "费城",
+      "localDate": "6月19日",
+      "localTime": "21:00",
+      "beijingTime": "2026-06-20 03:00",
+      "kickoffAt": "2026-06-19T19:00:00Z"
+    },
+    {
+      "seq": 30,
+      "fifaCity": "Boston",
+      "cityZh": "福克斯堡",
+      "localDate": "6月19日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-20 06:00",
+      "kickoffAt": "2026-06-19T22:00:00Z"
+    },
+    {
+      "seq": 31,
+      "fifaCity": "San Francisco Bay Area",
+      "cityZh": "圣克拉拉",
+      "localDate": "6月19日",
+      "localTime": "20:00",
+      "beijingTime": "2026-06-20 08:30",
+      "kickoffAt": "2026-06-20T00:30:00Z"
+    },
+    {
+      "seq": 32,
+      "fifaCity": "Seattle",
+      "cityZh": "西雅图",
+      "localDate": "6月19日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-20 11:00",
+      "kickoffAt": "2026-06-20T03:00:00Z"
+    },
+    {
+      "seq": 33,
+      "fifaCity": "Toronto",
+      "cityZh": "多伦多",
+      "localDate": "6月20日",
+      "localTime": "16:00",
+      "beijingTime": "2026-06-21 01:00",
+      "kickoffAt": "2026-06-20T17:00:00Z"
+    },
+    {
+      "seq": 34,
+      "fifaCity": "Kansas City",
+      "cityZh": "堪萨斯城",
+      "localDate": "6月20日",
+      "localTime": "19:00",
+      "beijingTime": "2026-06-21 04:00",
+      "kickoffAt": "2026-06-20T20:00:00Z"
+    },
+    {
+      "seq": 35,
+      "fifaCity": "Houston",
+      "cityZh": "休斯顿",
+      "localDate": "6月20日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-21 08:00",
+      "kickoffAt": "2026-06-21T00:00:00Z"
+    },
+    {
+      "seq": 36,
+      "fifaCity": "Monterrey",
+      "cityZh": "蒙特雷",
+      "localDate": "6月20日",
+      "localTime": "22:00",
+      "beijingTime": "2026-06-21 12:00",
+      "kickoffAt": "2026-06-21T04:00:00Z"
+    },
+    {
+      "seq": 37,
+      "fifaCity": "Miami",
+      "cityZh": "迈阿密",
+      "localDate": "6月21日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-22 06:00",
+      "kickoffAt": "2026-06-21T22:00:00Z"
+    },
+    {
+      "seq": 38,
+      "fifaCity": "Atlanta",
+      "cityZh": "亚特兰大",
+      "localDate": "6月21日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-22 00:00",
+      "kickoffAt": "2026-06-21T16:00:00Z"
+    },
+    {
+      "seq": 39,
+      "fifaCity": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "localDate": "6月21日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-22 03:00",
+      "kickoffAt": "2026-06-21T19:00:00Z"
+    },
+    {
+      "seq": 40,
+      "fifaCity": "Vancouver",
+      "cityZh": "温哥华",
+      "localDate": "6月21日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-22 09:00",
+      "kickoffAt": "2026-06-22T01:00:00Z"
+    },
+    {
+      "seq": 41,
+      "fifaCity": "New York/New Jersey",
+      "cityZh": "纽约/新泽西",
+      "localDate": "6月22日",
+      "localTime": "20:00",
+      "beijingTime": "2026-06-23 01:00",
+      "kickoffAt": "2026-06-22T17:00:00Z"
+    },
+    {
+      "seq": 42,
+      "fifaCity": "Philadelphia",
+      "cityZh": "费城",
+      "localDate": "6月22日",
+      "localTime": "17:00",
+      "beijingTime": "2026-06-23 05:00",
+      "kickoffAt": "2026-06-22T21:00:00Z"
+    },
+    {
+      "seq": 43,
+      "fifaCity": "Dallas",
+      "cityZh": "阿灵顿",
+      "localDate": "6月22日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-23 08:00",
+      "kickoffAt": "2026-06-23T00:00:00Z"
+    },
+    {
+      "seq": 44,
+      "fifaCity": "San Francisco Bay Area",
+      "cityZh": "圣克拉拉",
+      "localDate": "6月22日",
+      "localTime": "20:00",
+      "beijingTime": "2026-06-23 11:00",
+      "kickoffAt": "2026-06-23T03:00:00Z"
+    },
+    {
+      "seq": 45,
+      "fifaCity": "Boston",
+      "cityZh": "福克斯堡",
+      "localDate": "6月23日",
+      "localTime": "16:00",
+      "beijingTime": "2026-06-23 01:00",
+      "kickoffAt": "2026-06-22T17:00:00Z"
+    },
+    {
+      "seq": 46,
+      "fifaCity": "Toronto",
+      "cityZh": "多伦多",
+      "localDate": "6月23日",
+      "localTime": "19:00",
+      "beijingTime": "2026-06-23 04:00",
+      "kickoffAt": "2026-06-22T20:00:00Z"
+    },
+    {
+      "seq": 47,
+      "fifaCity": "Houston",
+      "cityZh": "休斯顿",
+      "localDate": "6月23日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-23 07:00",
+      "kickoffAt": "2026-06-22T23:00:00Z"
+    },
+    {
+      "seq": 48,
+      "fifaCity": "Guadalajara",
+      "cityZh": "萨波潘",
+      "localDate": "6月23日",
+      "localTime": "20:00",
+      "beijingTime": "2026-06-23 10:00",
+      "kickoffAt": "2026-06-23T02:00:00Z"
+    },
+    {
+      "seq": 49,
+      "fifaCity": "Miami",
+      "cityZh": "迈阿密",
+      "localDate": "6月24日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-25 03:00",
+      "kickoffAt": "2026-06-24T19:00:00Z"
+    },
+    {
+      "seq": 50,
+      "fifaCity": "Atlanta",
+      "cityZh": "亚特兰大",
+      "localDate": "6月24日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-25 03:00",
+      "kickoffAt": "2026-06-24T19:00:00Z"
+    },
+    {
+      "seq": 51,
+      "fifaCity": "Vancouver",
+      "cityZh": "温哥华",
+      "localDate": "6月24日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-25 06:00",
+      "kickoffAt": "2026-06-24T22:00:00Z"
+    },
+    {
+      "seq": 52,
+      "fifaCity": "Seattle",
+      "cityZh": "西雅图",
+      "localDate": "6月24日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-25 06:00",
+      "kickoffAt": "2026-06-24T22:00:00Z"
+    },
+    {
+      "seq": 53,
+      "fifaCity": "Mexico City",
+      "cityZh": "墨西哥城",
+      "localDate": "6月24日",
+      "localTime": "19:00",
+      "beijingTime": "2026-06-25 09:00",
+      "kickoffAt": "2026-06-25T01:00:00Z"
+    },
+    {
+      "seq": 54,
+      "fifaCity": "Monterrey",
+      "cityZh": "蒙特雷",
+      "localDate": "6月24日",
+      "localTime": "19:00",
+      "beijingTime": "2026-06-25 09:00",
+      "kickoffAt": "2026-06-25T01:00:00Z"
+    },
+    {
+      "seq": 55,
+      "fifaCity": "Philadelphia",
+      "cityZh": "费城",
+      "localDate": "6月25日",
+      "localTime": "16:00",
+      "beijingTime": "2026-06-26 04:00",
+      "kickoffAt": "2026-06-25T20:00:00Z"
+    },
+    {
+      "seq": 56,
+      "fifaCity": "New York/New Jersey",
+      "cityZh": "纽约/新泽西",
+      "localDate": "6月25日",
+      "localTime": "16:00",
+      "beijingTime": "2026-06-26 04:00",
+      "kickoffAt": "2026-06-25T20:00:00Z"
+    },
+    {
+      "seq": 57,
+      "fifaCity": "Dallas",
+      "cityZh": "阿灵顿",
+      "localDate": "6月25日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-26 07:00",
+      "kickoffAt": "2026-06-25T23:00:00Z"
+    },
+    {
+      "seq": 58,
+      "fifaCity": "Kansas City",
+      "cityZh": "堪萨斯城",
+      "localDate": "6月25日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-26 07:00",
+      "kickoffAt": "2026-06-25T23:00:00Z"
+    },
+    {
+      "seq": 59,
+      "fifaCity": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "localDate": "6月25日",
+      "localTime": "19:00",
+      "beijingTime": "2026-06-25 12:00",
+      "kickoffAt": "2026-06-25T04:00:00Z"
+    },
+    {
+      "seq": 60,
+      "fifaCity": "San Francisco Bay Area",
+      "cityZh": "圣克拉拉",
+      "localDate": "6月25日",
+      "localTime": "19:00",
+      "beijingTime": "2026-06-26 10:00",
+      "kickoffAt": "2026-06-26T02:00:00Z"
+    },
+    {
+      "seq": 61,
+      "fifaCity": "Boston",
+      "cityZh": "福克斯堡",
+      "localDate": "6月26日",
+      "localTime": "15:00",
+      "beijingTime": "2026-06-27 03:00",
+      "kickoffAt": "2026-06-26T19:00:00Z"
+    },
+    {
+      "seq": 62,
+      "fifaCity": "Toronto",
+      "cityZh": "多伦多",
+      "localDate": "6月26日",
+      "localTime": "15:00",
+      "beijingTime": "2026-06-27 03:00",
+      "kickoffAt": "2026-06-26T19:00:00Z"
+    },
+    {
+      "seq": 63,
+      "fifaCity": "Seattle",
+      "cityZh": "西雅图",
+      "localDate": "6月26日",
+      "localTime": "20:00",
+      "beijingTime": "2026-06-27 11:00",
+      "kickoffAt": "2026-06-27T03:00:00Z"
+    },
+    {
+      "seq": 64,
+      "fifaCity": "Vancouver",
+      "cityZh": "温哥华",
+      "localDate": "6月26日",
+      "localTime": "20:00",
+      "beijingTime": "2026-06-27 11:00",
+      "kickoffAt": "2026-06-27T03:00:00Z"
+    },
+    {
+      "seq": 65,
+      "fifaCity": "Houston",
+      "cityZh": "休斯顿",
+      "localDate": "6月26日",
+      "localTime": "19:00",
+      "beijingTime": "2026-06-27 08:00",
+      "kickoffAt": "2026-06-27T00:00:00Z"
+    },
+    {
+      "seq": 66,
+      "fifaCity": "Guadalajara",
+      "cityZh": "萨波潘",
+      "localDate": "6月26日",
+      "localTime": "18:00",
+      "beijingTime": "2026-06-27 08:00",
+      "kickoffAt": "2026-06-27T00:00:00Z"
+    },
+    {
+      "seq": 67,
+      "fifaCity": "New York/New Jersey",
+      "cityZh": "纽约/新泽西",
+      "localDate": "6月27日",
+      "localTime": "17:00",
+      "beijingTime": "2026-06-28 05:00",
+      "kickoffAt": "2026-06-27T21:00:00Z"
+    },
+    {
+      "seq": 68,
+      "fifaCity": "Philadelphia",
+      "cityZh": "费城",
+      "localDate": "6月27日",
+      "localTime": "17:00",
+      "beijingTime": "2026-06-28 05:00",
+      "kickoffAt": "2026-06-27T21:00:00Z"
+    },
+    {
+      "seq": 69,
+      "fifaCity": "Kansas City",
+      "cityZh": "堪萨斯城",
+      "localDate": "6月27日",
+      "localTime": "21:00",
+      "beijingTime": "2026-06-28 10:00",
+      "kickoffAt": "2026-06-28T02:00:00Z"
+    },
+    {
+      "seq": 70,
+      "fifaCity": "Dallas",
+      "cityZh": "阿灵顿",
+      "localDate": "6月27日",
+      "localTime": "21:00",
+      "beijingTime": "2026-06-28 10:00",
+      "kickoffAt": "2026-06-28T02:00:00Z"
+    },
+    {
+      "seq": 71,
+      "fifaCity": "Miami",
+      "cityZh": "迈阿密",
+      "localDate": "6月27日",
+      "localTime": "19:30",
+      "beijingTime": "2026-06-28 07:30",
+      "kickoffAt": "2026-06-27T23:30:00Z"
+    },
+    {
+      "seq": 72,
+      "fifaCity": "Atlanta",
+      "cityZh": "亚特兰大",
+      "localDate": "6月27日",
+      "localTime": "19:30",
+      "beijingTime": "2026-06-28 07:30",
+      "kickoffAt": "2026-06-27T23:30:00Z"
+    },
+    {
+      "seq": 73,
+      "fifaCity": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "localDate": "6月28日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-29 03:00",
+      "kickoffAt": "2026-06-28T19:00:00Z"
+    },
+    {
+      "seq": 74,
+      "fifaCity": "Boston",
+      "cityZh": "福克斯堡",
+      "localDate": "6月29日",
+      "localTime": "16:30",
+      "beijingTime": "2026-06-30 04:30",
+      "kickoffAt": "2026-06-29T20:30:00Z"
+    },
+    {
+      "seq": 75,
+      "fifaCity": "Monterrey",
+      "cityZh": "蒙特雷",
+      "localDate": "6月29日",
+      "localTime": "19:00",
+      "beijingTime": "2026-06-30 09:00",
+      "kickoffAt": "2026-06-30T01:00:00Z"
+    },
+    {
+      "seq": 76,
+      "fifaCity": "Houston",
+      "cityZh": "休斯顿",
+      "localDate": "6月29日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-30 01:00",
+      "kickoffAt": "2026-06-29T17:00:00Z"
+    },
+    {
+      "seq": 77,
+      "fifaCity": "New York/New Jersey",
+      "cityZh": "纽约/新泽西",
+      "localDate": "6月30日",
+      "localTime": "17:00",
+      "beijingTime": "2026-07-01 05:00",
+      "kickoffAt": "2026-06-30T21:00:00Z"
+    },
+    {
+      "seq": 78,
+      "fifaCity": "Dallas",
+      "cityZh": "阿灵顿",
+      "localDate": "6月30日",
+      "localTime": "12:00",
+      "beijingTime": "2026-07-01 01:00",
+      "kickoffAt": "2026-06-30T17:00:00Z"
+    },
+    {
+      "seq": 79,
+      "fifaCity": "Mexico City",
+      "cityZh": "墨西哥城",
+      "localDate": "6月30日",
+      "localTime": "19:00",
+      "beijingTime": "2026-07-01 09:00",
+      "kickoffAt": "2026-07-01T01:00:00Z"
+    },
+    {
+      "seq": 80,
+      "fifaCity": "Atlanta",
+      "cityZh": "亚特兰大",
+      "localDate": "7月1日",
+      "localTime": "12:00",
+      "beijingTime": "2026-07-02 00:00",
+      "kickoffAt": "2026-07-01T16:00:00Z"
+    },
+    {
+      "seq": 81,
+      "fifaCity": "San Francisco Bay Area",
+      "cityZh": "圣克拉拉",
+      "localDate": "7月1日",
+      "localTime": "17:00",
+      "beijingTime": "2026-07-02 08:00",
+      "kickoffAt": "2026-07-02T00:00:00Z"
+    },
+    {
+      "seq": 82,
+      "fifaCity": "Seattle",
+      "cityZh": "西雅图",
+      "localDate": "7月1日",
+      "localTime": "13:00",
+      "beijingTime": "2026-07-02 04:00",
+      "kickoffAt": "2026-07-01T20:00:00Z"
+    },
+    {
+      "seq": 83,
+      "fifaCity": "Toronto",
+      "cityZh": "多伦多",
+      "localDate": "7月2日",
+      "localTime": "19:00",
+      "beijingTime": "2026-07-03 07:00",
+      "kickoffAt": "2026-07-02T23:00:00Z"
+    },
+    {
+      "seq": 84,
+      "fifaCity": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "localDate": "7月2日",
+      "localTime": "12:00",
+      "beijingTime": "2026-07-03 03:00",
+      "kickoffAt": "2026-07-02T19:00:00Z"
+    },
+    {
+      "seq": 85,
+      "fifaCity": "Vancouver",
+      "cityZh": "温哥华",
+      "localDate": "7月2日",
+      "localTime": "20:00",
+      "beijingTime": "2026-07-03 11:00",
+      "kickoffAt": "2026-07-03T03:00:00Z"
+    },
+    {
+      "seq": 86,
+      "fifaCity": "Miami",
+      "cityZh": "迈阿密",
+      "localDate": "7月3日",
+      "localTime": "18:00",
+      "beijingTime": "2026-07-04 06:00",
+      "kickoffAt": "2026-07-03T22:00:00Z"
+    },
+    {
+      "seq": 87,
+      "fifaCity": "Kansas City",
+      "cityZh": "堪萨斯城",
+      "localDate": "7月3日",
+      "localTime": "20:30",
+      "beijingTime": "2026-07-04 09:30",
+      "kickoffAt": "2026-07-04T01:30:00Z"
+    },
+    {
+      "seq": 88,
+      "fifaCity": "Dallas",
+      "cityZh": "阿灵顿",
+      "localDate": "7月3日",
+      "localTime": "13:00",
+      "beijingTime": "2026-07-04 02:00",
+      "kickoffAt": "2026-07-03T18:00:00Z"
+    },
+    {
+      "seq": 89,
+      "fifaCity": "Philadelphia",
+      "cityZh": "费城",
+      "localDate": "7月4日",
+      "localTime": "17:00",
+      "beijingTime": "2026-07-05 05:00",
+      "kickoffAt": "2026-07-04T21:00:00Z"
+    },
+    {
+      "seq": 90,
+      "fifaCity": "Houston",
+      "cityZh": "休斯顿",
+      "localDate": "7月4日",
+      "localTime": "12:00",
+      "beijingTime": "2026-07-05 01:00",
+      "kickoffAt": "2026-07-04T17:00:00Z"
+    },
+    {
+      "seq": 91,
+      "fifaCity": "New York/New Jersey",
+      "cityZh": "纽约/新泽西",
+      "localDate": "7月5日",
+      "localTime": "16:00",
+      "beijingTime": "2026-07-06 04:00",
+      "kickoffAt": "2026-07-05T20:00:00Z"
+    },
+    {
+      "seq": 92,
+      "fifaCity": "Mexico City",
+      "cityZh": "墨西哥城",
+      "localDate": "7月5日",
+      "localTime": "18:00",
+      "beijingTime": "2026-07-06 08:00",
+      "kickoffAt": "2026-07-06T00:00:00Z"
+    },
+    {
+      "seq": 93,
+      "fifaCity": "Dallas",
+      "cityZh": "阿灵顿",
+      "localDate": "7月6日",
+      "localTime": "14:00",
+      "beijingTime": "2026-07-07 03:00",
+      "kickoffAt": "2026-07-06T19:00:00Z"
+    },
+    {
+      "seq": 94,
+      "fifaCity": "Seattle",
+      "cityZh": "西雅图",
+      "localDate": "7月6日",
+      "localTime": "17:00",
+      "beijingTime": "2026-07-07 08:00",
+      "kickoffAt": "2026-07-07T00:00:00Z"
+    },
+    {
+      "seq": 95,
+      "fifaCity": "Atlanta",
+      "cityZh": "亚特兰大",
+      "localDate": "7月7日",
+      "localTime": "12:00",
+      "beijingTime": "2026-07-08 00:00",
+      "kickoffAt": "2026-07-07T16:00:00Z"
+    },
+    {
+      "seq": 96,
+      "fifaCity": "Vancouver",
+      "cityZh": "温哥华",
+      "localDate": "7月7日",
+      "localTime": "13:00",
+      "beijingTime": "2026-07-08 04:00",
+      "kickoffAt": "2026-07-07T20:00:00Z"
+    },
+    {
+      "seq": 97,
+      "fifaCity": "Boston",
+      "cityZh": "福克斯堡",
+      "localDate": "7月9日",
+      "localTime": "16:00",
+      "beijingTime": "2026-07-10 04:00",
+      "kickoffAt": "2026-07-09T20:00:00Z"
+    },
+    {
+      "seq": 98,
+      "fifaCity": "Los Angeles",
+      "cityZh": "洛杉矶",
+      "localDate": "7月10日",
+      "localTime": "12:00",
+      "beijingTime": "2026-07-11 03:00",
+      "kickoffAt": "2026-07-10T19:00:00Z"
+    },
+    {
+      "seq": 99,
+      "fifaCity": "Miami",
+      "cityZh": "迈阿密",
+      "localDate": "7月11日",
+      "localTime": "17:00",
+      "beijingTime": "2026-07-12 05:00",
+      "kickoffAt": "2026-07-11T21:00:00Z"
+    },
+    {
+      "seq": 100,
+      "fifaCity": "Kansas City",
+      "cityZh": "堪萨斯城",
+      "localDate": "7月11日",
+      "localTime": "20:00",
+      "beijingTime": "2026-07-12 09:00",
+      "kickoffAt": "2026-07-12T01:00:00Z"
+    },
+    {
+      "seq": 101,
+      "fifaCity": "Dallas",
+      "cityZh": "阿灵顿",
+      "localDate": "7月14日",
+      "localTime": "14:00",
+      "beijingTime": "2026-07-15 03:00",
+      "kickoffAt": "2026-07-14T19:00:00Z"
+    },
+    {
+      "seq": 102,
+      "fifaCity": "Atlanta",
+      "cityZh": "亚特兰大",
+      "localDate": "7月15日",
+      "localTime": "15:00",
+      "beijingTime": "2026-07-16 03:00",
+      "kickoffAt": "2026-07-15T19:00:00Z"
+    },
+    {
+      "seq": 103,
+      "fifaCity": "Miami",
+      "cityZh": "迈阿密",
+      "localDate": "7月18日",
+      "localTime": "17:00",
+      "beijingTime": "2026-07-19 04:00",
+      "kickoffAt": "2026-07-18T20:00:00Z"
+    },
+    {
+      "seq": 104,
+      "fifaCity": "New York/New Jersey",
+      "cityZh": "纽约/新泽西",
+      "localDate": "7月19日",
+      "localTime": "15:00",
+      "beijingTime": "2026-07-20 03:00",
+      "kickoffAt": "2026-07-19T19:00:00Z"
+    }
+  ],
+  "sourceNote": "beijingTime aligned with deepseek_markdown_20260616_eac1b9.md (2026-06-16)"
+}

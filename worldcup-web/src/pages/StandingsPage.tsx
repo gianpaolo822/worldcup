@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { groups } from '@/lib/data';
 import { isGroupStageComplete } from '@/lib/knockout';
 import GroupSelector from '@/components/GroupSelector';
@@ -12,21 +12,49 @@ const PHASE_TABS: { id: PhaseTab; label: string }[] = [
   { id: 'knockout', label: '淘汰赛' },
 ];
 
-const ANCHOR_SCROLL_MARGIN = 'scroll-mt-[calc(7.5rem+env(safe-area-inset-top))]';
+/** 顶部导航 + 定位小组 sticky 栏的大致高度（scroll-mt 回退值） */
+const ANCHOR_SCROLL_MARGIN =
+  'scroll-mt-[calc(6.75rem+7.5rem+env(safe-area-inset-top))]';
 
 export default function StandingsPage() {
+  const stickyNavRef = useRef<HTMLElement>(null);
   const [phaseTab, setPhaseTab] = useState<PhaseTab>(() =>
     isGroupStageComplete() ? 'knockout' : 'group',
   );
   const [anchorGroup, setAnchorGroup] = useState(groups[0] ?? 'A');
 
+  const getGroupScrollOffset = () => {
+    const topNav = document.querySelector('header');
+    const topNavHeight = topNav?.getBoundingClientRect().height ?? 0;
+    const stickyHeight = stickyNavRef.current?.getBoundingClientRect().height ?? 0;
+    return topNavHeight + stickyHeight + 12;
+  };
+
+  useEffect(() => {
+    if (phaseTab !== 'group') return;
+
+    const applyScrollMargin = () => {
+      const offset = getGroupScrollOffset();
+      for (const group of groups) {
+        const el = document.getElementById(`standings-group-${group}`);
+        if (el) el.style.scrollMarginTop = `${offset}px`;
+      }
+    };
+
+    applyScrollMargin();
+    window.addEventListener('resize', applyScrollMargin);
+    return () => window.removeEventListener('resize', applyScrollMargin);
+  }, [phaseTab]);
+
   const scrollToGroup = (groupLabel: string) => {
     const code = groupLabel.replace(' 组', '').replace('组', '');
     setAnchorGroup(code);
-    document.getElementById(`standings-group-${code}`)?.scrollIntoView({
-      behavior: 'smooth',
-      block: 'start',
-    });
+    const target = document.getElementById(`standings-group-${code}`);
+    if (!target) return;
+
+    const offset = getGroupScrollOffset();
+    target.style.scrollMarginTop = `${offset}px`;
+    target.scrollIntoView({ behavior: 'smooth', block: 'start' });
   };
 
   return (
@@ -58,6 +86,7 @@ export default function StandingsPage() {
       {phaseTab === 'group' && (
         <>
           <section
+            ref={stickyNavRef}
             className="sticky z-20 px-4 pb-3 pt-1 -mx-0 backdrop-blur-md"
             style={{
               top: 'calc(6.75rem + env(safe-area-inset-top))',
@@ -70,9 +99,17 @@ export default function StandingsPage() {
               activeGroup={`${anchorGroup} 组`}
               onSelect={scrollToGroup}
             />
-            <div className="flex items-center gap-2 mt-3">
-              <div className="w-2 h-2 rounded-sm" style={{ backgroundColor: 'var(--accent)' }} />
-              <span className="text-[10px] text-[var(--text-muted)]">绿色高亮为晋级区（前 2 名）</span>
+            <div className="flex flex-col gap-1.5 mt-3">
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 rounded-sm" style={{ backgroundColor: 'var(--accent)' }} />
+                <span className="text-[10px] text-[var(--text-muted)]">绿色：小组前 2 名确定出线</span>
+              </div>
+              <div className="flex items-center gap-2">
+                <div className="w-2 h-2 rounded-sm bg-amber-400" />
+                <span className="text-[10px] text-[var(--text-muted)]">
+                  黄色：小组第 3 名待定（12 组第三中取成绩最好 8 支；小组赛结束后确定）
+                </span>
+              </div>
             </div>
           </section>
 

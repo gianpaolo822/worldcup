@@ -4,6 +4,7 @@ import MainLayout from '@/layouts/MainLayout';
 import DetailLayout from '@/layouts/DetailLayout';
 import HomePage from '@/pages/HomePage';
 import StandingsPage from '@/pages/StandingsPage';
+import StatsPage from '@/pages/StatsPage';
 import HistoryPage from '@/pages/HistoryPage';
 import MatchDetailPage from '@/pages/MatchDetailPage';
 import TeamDetailPage from '@/pages/TeamDetailPage';
@@ -17,6 +18,7 @@ export default function App() {
       <Route element={<MainLayout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/standings" element={<StandingsPage />} />
+        <Route path="/stats" element={<StatsPage />} />
         <Route path="/history" element={<HistoryPage />} />
       </Route>
 

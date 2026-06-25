@@ -1,0 +1,50 @@
+{
+  "$schema": "./player-injury-overrides.schema.json",
+  "updatedAt": "2026-06-24",
+  "players": {
+    "germany-15": {
+      "status": "injured",
+      "injuryNote": "对科特迪瓦一战中左踝关节内侧副韧带撕裂，已确认缺席本届世界杯剩余赛事（仍随队），预计康复数月。赛事开始后无法增补替补。"
+    },
+    "canada-8": {
+      "status": "injured",
+      "injuryNote": "对卡塔尔一战中左小腿胫骨与腓骨双骨折，6 月 19 日完成手术，已确认缺席本届世界杯剩余赛事，预计康复 4–5 个月。"
+    },
+    "japan-6": {
+      "status": "injured",
+      "injuryNote": "2 月左脚手术后在冰岛热身赛复出再度受伤，6 月 11 日退出 26 人名单并宣布从国家队退役，由町野修斗递补。"
+    },
+    "argentina-2": {
+      "status": "injured",
+      "injuryNote": "集训期间右腿比目鱼肌严重撕裂，已退出 26 人名单。"
+    },
+    "austria-19": {
+      "status": "injured",
+      "injuryNote": "对突尼斯热身赛前夕右腿大腿肌受伤，已退出 26 人名单。"
+    },
+    "canada-26": {
+      "status": "injured",
+      "injuryNote": "2025 年 5 月前交叉韧带断裂，已退出大名单，由 Jayden Nelson 顶替。"
+    },
+    "ghana-1": {
+      "status": "active",
+      "injuryNote": "对巴拿马一战中出击碰撞腹股沟伤退，已缺席与英格兰一战，正在接受逐日康复评估（尚未确认退赛）。"
+    },
+    "canada-19": {
+      "status": "active",
+      "injuryNote": "腘绳肌伤势导致小组赛首战缺席，此后已恢复出场。"
+    },
+    "canada-15": {
+      "status": "active",
+      "injuryNote": null
+    },
+    "brazil-10": {
+      "status": "active",
+      "injuryNote": "小腿伤势，世界杯前两场未出场，正在进行恢复训练，尚未确认退赛。"
+    },
+    "brazil-11": {
+      "status": "active",
+      "injuryNote": "对海地一战中右腿腘绳肌拉伤，缺席与苏格兰一战，留队强化治疗，若晋级淘汰赛有望复出。"
+    }
+  }
+}

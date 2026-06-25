@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { getOpeningMatch } from '@/lib/data';
+import { formatMatchKickoffBeijing, getOpeningMatch } from '@/lib/data';
 
 function formatOpeningLabel(time: string): string {
   const m = time.match(/^(\d{4})-(\d{2})-(\d{2})\s+(\d{1,2}):(\d{2})/);
@@ -96,7 +96,7 @@ export default function OpeningCountdown() {
           </span>
         </h2>
 
-        <p className="mt-3 text-sm text-white/90">{formatOpeningLabel(opening.time)}</p>
+        <p className="mt-3 text-sm text-white/90">{formatOpeningLabel(formatMatchKickoffBeijing(opening))}</p>
 
         <div className="mt-4 overflow-x-auto hide-scrollbar">
           <div className="inline-flex min-w-full items-center justify-center gap-1 whitespace-nowrap text-white">

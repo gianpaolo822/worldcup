@@ -24,7 +24,7 @@ function seedData(): { teams: Team[]; matches: Match[] } {
     { id: 'esp', name: '西班牙', nameEn: 'Spain', code: 'ESP', group: 'B', flag: '🇪🇸', color: 'from-red-600 to-yellow-500' },
     { id: 'ger', name: '德国', nameEn: 'Germany', code: 'GER', group: 'B', flag: '🇩🇪', color: 'from-black to-red-600' },
     { id: 'mar', name: '摩洛哥', nameEn: 'Morocco', code: 'MAR', group: 'B', flag: '🇲🇦', color: 'from-red-600 to-green-600' },
-    { id: 'kor', name: '韩国', nameEn: 'South Korea', code: 'KOR', group: 'B', flag: '🇰🇷', color: 'from-white to-red-600' },
+    { id: 'kor', name: '韩国', nameEn: 'Korea Republic', code: 'KOR', group: 'B', flag: '🇰🇷', color: 'from-white to-red-600' },
   ];
 
   const byId = Object.fromEntries(teams.map((t) => [t.id, t]));

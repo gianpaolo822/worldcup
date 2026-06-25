@@ -1,4 +1,4 @@
-import { matches } from '@/lib/data';
+import { matches, formatMatchKickoffBeijing } from '@/lib/data';
 import type { Match, Team } from '@/types';
 
 export const KNOCKOUT_ROUNDS = [
@@ -29,7 +29,8 @@ export function getKnockoutMatches(stage: string): Match[] {
     .sort((a, b) => (a.kickoffAt ?? a.time).localeCompare(b.kickoffAt ?? b.time));
 }
 
-export function formatKnockoutTime(time: string): string {
+export function formatKnockoutTime(match: Match): string {
+  const time = formatMatchKickoffBeijing(match);
   const m = time.match(/^(\d{4})-(\d{2})-(\d{2})\s+(\d{2}:\d{2})/);
   if (!m) return time;
   return `${m[2]}.${m[3]} ${m[4]}`;

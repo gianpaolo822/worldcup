@@ -15,5 +15,10 @@ export const PATHS = {
   topScorers: path.join(DATA_DIR, 'top-scorers.json'),
   generatedTeams: path.join(GENERATED_DIR, 'teams.json'),
   generatedMatches: path.join(GENERATED_DIR, 'matches.json'),
+  generatedPlayers: path.join(GENERATED_DIR, 'players.json'),
   syncMeta: path.join(GENERATED_DIR, 'sync-meta.json'),
+  players: path.join(DATA_DIR, 'players.json'),
+  playerLocale: path.join(DATA_DIR, 'player-locale.json'),
+  playerInjuryOverrides: path.join(DATA_DIR, 'player-injury-overrides.json'),
+  playerPhotos: path.join(DATA_DIR, 'player-photos.json'),
 } as const;

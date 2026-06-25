@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PlayerLocaleFile",
+  "type": "object",
+  "properties": {
+    "$schema": { "type": "string" },
+    "players": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "nameZh": { "type": "string", "description": "中文姓名" },
+          "club": { "type": "string", "description": "中文俱乐部名称" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "required": ["players"],
+  "additionalProperties": false
+}

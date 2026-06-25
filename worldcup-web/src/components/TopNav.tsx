@@ -9,6 +9,7 @@ interface TopNavProps {
 const subtitles: Record<string, string> = {
   home: '2026 美加墨世界杯',
   standings: '小组排名 · 晋级区',
+  stats: '进球 · 助攻 · 红黄牌',
   history: '历届冠军 · 射手榜',
 };
 
@@ -47,7 +48,7 @@ export default function TopNav({ title, activeTab, onTabChange }: TopNavProps) {
       </div>
 
       <div
-        className="grid grid-cols-3 gap-1 px-3 pb-2 border-t"
+        className="grid grid-cols-4 gap-1 px-3 pb-2 border-t"
         style={{ borderColor: 'var(--border)' }}
         role="tablist"
         aria-label="页面切换"

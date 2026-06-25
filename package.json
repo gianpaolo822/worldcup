@@ -3,13 +3,20 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "data:import": "python3 scripts/import-from-xlsx.py && npm run data:merge && npm run data:standings",
+    "data:import": "python3 scripts/import-from-xlsx.py && npm run data:fifa && npm run data:merge && npm run data:standings && npm run data:locale",
     "data:sync": "tsx scripts/sync-openfootball.ts",
     "data:merge": "tsx scripts/merge-overrides.ts",
     "data:standings": "tsx scripts/compute-standings.ts",
+    "data:locale": "tsx scripts/merge-player-locale.ts",
+    "data:fifa:import": "tsx scripts/import-fifa-members.ts",
+    "data:fifa": "tsx scripts/import-fifa-members.ts && tsx scripts/apply-fifa-names.ts",
+    "data:locale:files": "python3 scripts/merge-locale-files.py && npm run data:locale",
+    "data:photos": "tsx scripts/fetch-player-photos-sportsdb.ts",
+    "data:photos-wiki": "tsx scripts/fetch-player-photos.ts",
     "data:refresh": "tsx scripts/refresh.ts",
-    "data:build": "npm run data:merge && npm run data:standings",
-    "build:web": "npm run data:build && npm run build --prefix worldcup-web"
+    "data:build": "npm run data:fifa && npm run data:merge && npm run data:standings && npm run data:locale",
+    "build:web": "npm run data:build && npm run build --prefix worldcup-web",
+    "dev": "npm run dev:clean --prefix worldcup-web"
   },
   "devDependencies": {
     "tsx": "^4.19.4",

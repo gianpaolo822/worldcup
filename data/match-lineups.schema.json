@@ -1,0 +1,94 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "MatchLineupsFile",
+  "type": "object",
+  "properties": {
+    "$schema": { "type": "string" },
+    "lineups": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["formation", "home", "away"],
+        "properties": {
+          "formation": { "type": "string" },
+          "home": { "$ref": "#/$defs/teamLineup" },
+          "away": { "$ref": "#/$defs/teamLineup" },
+          "events": {
+            "type": "array",
+            "items": { "$ref": "#/$defs/matchEvent" }
+          },
+          "stats": { "$ref": "#/$defs/matchStats" }
+        }
+      }
+    }
+  },
+  "required": ["lineups"],
+  "$defs": {
+    "teamStats": {
+      "type": "object",
+      "properties": {
+        "shots": { "type": "number" },
+        "shotsOnTarget": { "type": "number" },
+        "shotsOffTarget": { "type": "number" },
+        "attacks": { "type": "number" },
+        "dangerousAttacks": { "type": "number" },
+        "possession": { "type": "number" },
+        "passAccuracy": { "type": "number" },
+        "corners": { "type": "number" },
+        "freeKicks": { "type": "number" },
+        "offsides": { "type": "number" },
+        "fouls": { "type": "number" },
+        "yellowCards": { "type": "number" },
+        "redCards": { "type": "number" }
+      }
+    },
+    "matchStats": {
+      "type": "object",
+      "required": ["home", "away"],
+      "properties": {
+        "home": { "$ref": "#/$defs/teamStats" },
+        "away": { "$ref": "#/$defs/teamStats" }
+      }
+    },
+    "starterSlot": {
+      "type": "object",
+      "required": ["playerId"],
+      "properties": {
+        "playerId": { "type": "string" },
+        "captain": { "type": "boolean" }
+      }
+    },
+    "teamLineup": {
+      "type": "object",
+      "required": ["teamId", "formation", "starters"],
+      "properties": {
+        "teamId": { "type": "string" },
+        "formation": { "type": "string" },
+        "starters": {
+          "type": "object",
+          "additionalProperties": { "$ref": "#/$defs/starterSlot" }
+        },
+        "bench": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": ["playerId"],
+            "properties": {
+              "playerId": { "type": "string" },
+              "note": { "type": "string" }
+            }
+          }
+        }
+      }
+    },
+    "matchEvent": {
+      "type": "object",
+      "properties": {
+        "minute": { "type": "number" },
+        "type": { "enum": ["goal", "yellow", "red", "sub"] },
+        "playerId": { "type": "string" },
+        "note": { "type": "string" }
+      }
+    }
+  }
+}

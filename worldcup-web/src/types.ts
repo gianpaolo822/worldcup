@@ -75,8 +75,8 @@ export interface Player {
   id: string;
   teamId: string;
   number: number;
-  name: string;
   nameEn: string;
+  nameZh?: string;
   nat: string;
   position: PlayerPosition | string;
   height?: number;
@@ -84,6 +84,7 @@ export interface Player {
   birthDate?: string;
   birthPlace?: string;
   club?: string;
+  clubEn?: string;
   group?: string;
   status?: 'active' | 'injured';
   injuryNote?: string;

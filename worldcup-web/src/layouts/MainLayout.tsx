@@ -6,11 +6,13 @@ import BottomNav, { APP_TABS } from '@/components/BottomNav';
 const pageTitles: Record<string, string> = {
   home: '赛程',
   standings: '积分榜',
+  stats: '数据榜',
   history: '历史数据',
 };
 
 function tabFromPath(pathname: string): string {
   if (pathname.startsWith('/standings')) return 'standings';
+  if (pathname.startsWith('/stats')) return 'stats';
   if (pathname.startsWith('/history')) return 'history';
   return 'home';
 }

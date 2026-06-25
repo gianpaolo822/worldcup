@@ -1,0 +1,765 @@
+{
+  "updatedAt": "2026-06-13T03:42:22.398Z",
+  "photos": {
+    "mexico-1": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/b3xv161780401837.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Raúl Rangel"
+    },
+    "mexico-2": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/xftyyb1698428324.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Jorge Sánchez"
+    },
+    "mexico-3": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/hfmpbv1754726674.png",
+      "source": "thesportsdb",
+      "sourceTitle": "César Montes"
+    },
+    "mexico-4": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/nt933u1769179587.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Edson Álvarez"
+    },
+    "mexico-5": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/7q4sks1758997735.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Johan Vásquez"
+    },
+    "mexico-6": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/qflanz1780401683.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Érik Lira"
+    },
+    "mexico-7": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/w5g1po1716821279.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Luis Romo"
+    },
+    "mexico-8": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/hcx8an1750328188.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Álvaro Fidalgo"
+    },
+    "mexico-9": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/w4chsd1757070949.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Raúl Jiménez"
+    },
+    "mexico-10": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/0mmqo91776412620.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Alexis Vega"
+    },
+    "mexico-11": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/j63fz01758892529.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Santiago Giménez"
+    },
+    "mexico-12": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/h8j8151780401617.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Carlos Acevedo"
+    },
+    "mexico-13": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/2oh1dq1707692146.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Guillermo Ochoa"
+    },
+    "mexico-14": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/d2if0h1780401651.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Armando González"
+    },
+    "mexico-15": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/gopczi1750327134.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Israel Reyes"
+    },
+    "mexico-16": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/ol1x961719501112.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Julián Quiñones"
+    },
+    "mexico-17": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/yechmf1668721648.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Orbelín Pineda"
+    },
+    "mexico-18": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/q2lr0l1778763555.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Obed Vargas"
+    },
+    "mexico-19": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/55a3re1780401807.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Gilberto Mora"
+    },
+    "mexico-20": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/jlz1uf1759781173.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Mateo Chávez"
+    },
+    "mexico-21": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/u0d1li1768080617.png",
+      "source": "thesportsdb",
+      "sourceTitle": "César Huerta"
+    },
+    "mexico-22": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/j0m63f1716820105.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Guillermo Martínez"
+    },
+    "mexico-23": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/syauia1776427423.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Jesús Gallardo"
+    },
+    "mexico-24": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/9thmwa1668718994.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Luis Chávez"
+    },
+    "mexico-25": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/dup2qf1630164554.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Roberto Alvarado"
+    },
+    "mexico-26": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/ardabg1766490164.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Brian Gutiérrez"
+    },
+    "south-africa-1": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/kd7edx1750875629.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ronwen Williams"
+    },
+    "south-africa-2": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/gzfik81779971915.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Thabang Matuludi"
+    },
+    "south-africa-3": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/j418331779972390.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Khulumani Ndamane"
+    },
+    "south-africa-4": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/3dq0ds1750874921.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Teboho Mokoena"
+    },
+    "south-africa-5": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/471uwy1779971985.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Thalente Mbatha"
+    },
+    "south-africa-6": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/nh3ddz1750874984.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Aubrey Modiba"
+    },
+    "south-africa-7": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/51f8ha1779969554.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Oswin Appollis"
+    },
+    "south-africa-8": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/6zan8z1779972227.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Tshepang Moremi"
+    },
+    "south-africa-9": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/0fo5fd1757174497.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Lyle Foster"
+    },
+    "south-africa-10": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/mw8id81779972149.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Relebohile Mofokeng"
+    },
+    "south-africa-11": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/76q7yr1750875450.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Themba Zwane"
+    },
+    "south-africa-12": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/6uwojl1779971640.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Thapelo Maseko"
+    },
+    "south-africa-13": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/nb9i241779972658.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Sphephelo Sithole"
+    },
+    "south-africa-14": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/s5f84y1779972076.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Mbekezeli Mbokazi"
+    },
+    "south-africa-15": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/49juqb1750875069.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Iqraam Rayners"
+    },
+    "south-africa-16": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/6hfhqs1779969674.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Sipho Chaine"
+    },
+    "south-africa-17": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/5hspcm1779970805.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Evidence Makgopa"
+    },
+    "south-africa-19": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/m45e0b1777992147.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Nkosinathi Sibisi"
+    },
+    "south-africa-20": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/ods0zi1750875546.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Khuliso Mudau"
+    },
+    "south-africa-21": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/4p86da1773070885.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ime Okon"
+    },
+    "south-africa-22": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/pmp3yi1779970285.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ricardo Goss"
+    },
+    "south-africa-23": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/q8api81750874993.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Jayden Adams"
+    },
+    "south-africa-24": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/t54jb71778670143.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Olwethu Makhanya"
+    },
+    "south-africa-25": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/kci2f81779972465.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Kamogelo Sebelebele"
+    },
+    "south-africa-26": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/h6uoxk1779970007.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Bradley Cross"
+    },
+    "canada-1": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/at1um91776499323.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Dayne St. Clair"
+    },
+    "canada-2": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/g6eohm1701350643.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Alistair Johnston"
+    },
+    "canada-3": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/phdusb1767621327.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Luc de Fougerolles"
+    },
+    "canada-4": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/xop3tf1761830137.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Alfie Jones"
+    },
+    "canada-5": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/c73cn41766490474.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Joel Waterman"
+    },
+    "canada-6": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/6mihaf1759501166.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Mathieu Choinière"
+    },
+    "canada-7": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/4q6t9d1778157858.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Stephen Eustáquio"
+    },
+    "canada-8": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/kiabdn1764106047.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ismaël Koné"
+    },
+    "canada-9": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/bgse2n1777485421.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Cyle Larin"
+    },
+    "canada-10": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/nyd9d91759225738.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Jonathan David"
+    },
+    "canada-11": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/i9obah1761922181.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Liam Millar"
+    },
+    "canada-12": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/6kcri81762889021.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Tani Oluwaseyi"
+    },
+    "canada-13": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/8ifr0w1777017367.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Derek Cornelius"
+    },
+    "canada-14": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/rj1wn11778158071.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Jacob Shaffelburg"
+    },
+    "canada-15": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/pz6zo51766319628.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Moïse Bombito"
+    },
+    "canada-16": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/tm8isx1766759820.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Maxime Crépeau"
+    },
+    "canada-17": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/ar6mwv1762888718.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Tajon Buchanan"
+    },
+    "canada-18": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/wqc8cd1766145439.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Owen Goodman"
+    },
+    "canada-19": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/11afh31756409066.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Alphonso Davies"
+    },
+    "canada-21": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/j30x9f1766575844.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Jonathan Osorio"
+    },
+    "canada-22": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/milfrs1766575517.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Richie Laryea"
+    },
+    "canada-23": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/bpkmh91780138915.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Niko Sigur"
+    },
+    "canada-24": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/t1efon1767102514.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Promise David"
+    },
+    "canada-25": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/ju6son1768082239.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Nathan Saliba"
+    },
+    "canada-26": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/cmcklc1780138452.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Marcelo Flores"
+    },
+    "qatar-1": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/wuu1r21780432415.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Mahmud Abunada"
+    },
+    "qatar-3": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/fhxgzr1707601353.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Lucas Mendes"
+    },
+    "qatar-4": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/x9yv6y1780503080.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Issa Laye"
+    },
+    "qatar-5": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/r8igue1668608171.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Jassem Gaber"
+    },
+    "qatar-7": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/0vj7zr1668609076.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ahmed Alaaeldin"
+    },
+    "qatar-8": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/eaytix1780503056.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Edmilson Junior"
+    },
+    "qatar-9": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/gixdmu1668609407.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Mohammed Muntari"
+    },
+    "qatar-10": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/3xhwao1707597905.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Hassan Al-Haydos"
+    },
+    "qatar-11": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/rv8cvv1707592143.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Akram Afif"
+    },
+    "qatar-12": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/oozrq51668609711.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Karim Boudiaf"
+    },
+    "qatar-13": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/ti7gbv1780502957.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ayoub Al-Oui"
+    },
+    "qatar-14": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/4j713o1668598216.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Homam Ahmed"
+    },
+    "qatar-15": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/6wq2k61707599411.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Yusuf Abdurisag"
+    },
+    "qatar-16": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/d4bcg31707645603.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Boualem Khoukhi"
+    },
+    "qatar-17": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/9vq4521780502865.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ahmed Al-Ganehi"
+    },
+    "qatar-18": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/c4cmzh1780502837.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Sultan Al-Brake"
+    },
+    "qatar-19": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/gjet2n1668609534.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Almoez Ali"
+    },
+    "qatar-21": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/lqppdx1780503109.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Salah Zakaria"
+    },
+    "qatar-22": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/eztua91707596619.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Meshaal Barsham"
+    },
+    "qatar-23": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/3o6qq81668609347.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Assim Madibo"
+    },
+    "qatar-24": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/s890f21780503030.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Tahsin Jamshid"
+    },
+    "qatar-25": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/rzcxdq1780502899.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Al-Hashmi Al-Hussain"
+    },
+    "qatar-26": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/8s7pp51780502928.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Mohamed Al-Mannai"
+    },
+    "switzerland-1": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/vri4zw1756326279.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Gregor Kobel"
+    },
+    "switzerland-2": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/ohb4za1763416967.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Miro Muheim"
+    },
+    "switzerland-3": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/w2omdl1763554296.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Silvan Widmer"
+    },
+    "switzerland-4": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/aelb5v1756313277.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Nico Elvedi"
+    },
+    "switzerland-5": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/k7o5oh1759408095.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Manuel Akanji"
+    },
+    "switzerland-6": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/xh4nwr1766238364.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Denis Zakaria"
+    },
+    "switzerland-7": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/k5xqvx1766136320.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Breel Embolo"
+    },
+    "switzerland-8": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/gwqmdw1758896917.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Remo Freuler"
+    },
+    "switzerland-9": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/pg2bjt1763328991.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Johan Manzambi"
+    },
+    "switzerland-10": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/2xa5dp1756903726.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Granit Xhaka"
+    },
+    "switzerland-18": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/i8talq1762864103.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Eray Cömert"
+    },
+    "switzerland-19": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/bx1rq91757086099.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Noah Okafor"
+    },
+    "switzerland-20": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/bhy5cz1764188556.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Michel Aebischer"
+    },
+    "switzerland-21": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/cqdhul1739363352.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Marvin Keller"
+    },
+    "switzerland-22": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/8l9f3r1763034407.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Fabian Rieder"
+    },
+    "switzerland-23": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/2exh3l1757175582.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Zeki Amdouni"
+    },
+    "switzerland-24": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/e68zdr1762974273.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Aurèle Amenda"
+    },
+    "switzerland-25": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/tt71dl1763586249.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Luca Jaquez"
+    },
+    "switzerland-26": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/rgs2da1772721851.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Cedric Itten"
+    },
+    "bosnia-and-herzegovina-1": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/85qp2e1763567779.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Nikola Vasilj"
+    },
+    "bosnia-and-herzegovina-2": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/b961ge1779017042.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Nihad Mujakić"
+    },
+    "bosnia-and-herzegovina-3": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/sz222f1678829240.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Dennis Hadžikadunić"
+    },
+    "bosnia-and-herzegovina-4": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/zrpkc31764106120.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Tarik Muharemović"
+    },
+    "bosnia-and-herzegovina-5": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/ae2jmk1695157289.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Sead Kolašinac"
+    },
+    "bosnia-and-herzegovina-6": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/wrr6m21765376681.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Benjamin Tahirović"
+    },
+    "bosnia-and-herzegovina-7": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/3qhv951758216357.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Amar Dedić"
+    },
+    "bosnia-and-herzegovina-8": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/esyc771742067604.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Armin Gigović"
+    },
+    "bosnia-and-herzegovina-9": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/o3tqwz1779017584.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Samed Baždar"
+    },
+    "bosnia-and-herzegovina-10": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/hvuj8v1763586169.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ermedin Demirović"
+    },
+    "bosnia-and-herzegovina-11": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/0jo14d1773611434.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Edin Džeko"
+    },
+    "bosnia-and-herzegovina-12": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/7fx34a1780503468.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Mladen Jurkas"
+    },
+    "bosnia-and-herzegovina-13": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/247gi31726000720.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ivan Bašić"
+    },
+    "bosnia-and-herzegovina-14": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/13uqrz1694550036.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ivan Šunjić"
+    },
+    "bosnia-and-herzegovina-15": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/bcyk9s1779017172.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Amar Memić"
+    },
+    "bosnia-and-herzegovina-16": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/d701ms1761922073.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Amir Hadžiahmetović"
+    },
+    "bosnia-and-herzegovina-17": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/mohhc51773244613.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Dženis Burnić"
+    },
+    "bosnia-and-herzegovina-18": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/tnvi3o1773611092.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Nikola Katić"
+    },
+    "bosnia-and-herzegovina-19": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/sfkv2p1769721901.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Kerim Alajbegović"
+    },
+    "bosnia-and-herzegovina-20": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/896xbs1764594499.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Esmir Bajraktarević"
+    },
+    "bosnia-and-herzegovina-21": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/umezbz1779017106.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Stjepan Radeljić"
+    },
+    "bosnia-and-herzegovina-22": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/nabcnf1779016971.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Martin Zlomislić"
+    },
+    "bosnia-and-herzegovina-23": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/rjvats1756313128.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Haris Tabaković"
+    },
+    "bosnia-and-herzegovina-24": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/6gk0ur1779017519.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Nidal Čelik"
+    },
+    "bosnia-and-herzegovina-25": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/finvmi1721292254.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Jovo Lukić"
+    },
+    "bosnia-and-herzegovina-26": {
+      "url": "https://www.thesportsdb.com/images/media/player/cutout/tgoi7x1779017253.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ermin Mahmić"
+    },
+    "qatar-6": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/zsl75o1668609309.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Abdulaziz Hatem"
+    },
+    "switzerland-11": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/yr9p371757163162.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Dan Ndoye"
+    },
+    "switzerland-12": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/ic8gbl1765969788.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Yvon Mvogo"
+    },
+    "switzerland-13": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/edg6gk1762603105.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ricardo Rodriguez"
+    },
+    "switzerland-14": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/yvd5v21762956511.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Ardon Jashari"
+    },
+    "switzerland-15": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/b5k7ty1762860513.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Djibril Sow"
+    },
+    "switzerland-16": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/6ayw411758184733.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Christian Fassnacht"
+    },
+    "switzerland-17": {
+      "url": "https://r2.thesportsdb.com/images/media/player/cutout/9jkl9w1762860549.png",
+      "source": "thesportsdb",
+      "sourceTitle": "Rubén Vargas"
+    }
+  }
+}

@@ -20,7 +20,7 @@
   {
     "id": "south-korea",
     "name": "韩国",
-    "nameEn": "South Korea",
+    "nameEn": "Korea Republic",
     "code": "KOR",
     "group": "A",
     "flag": "🇰🇷",
@@ -29,7 +29,7 @@
   {
     "id": "czechia",
     "name": "捷克",
-    "nameEn": "Czechia",
+    "nameEn": "Czech Republic",
     "code": "CZE",
     "group": "A",
     "flag": "🇨🇿",
@@ -155,7 +155,7 @@
   {
     "id": "curacao",
     "name": "库拉索",
-    "nameEn": "Curacao",
+    "nameEn": "Curaçao",
     "code": "CUW",
     "group": "E",
     "flag": "🇨🇼",
@@ -164,7 +164,7 @@
   {
     "id": "ivory-coast",
     "name": "科特迪瓦",
-    "nameEn": "Ivory Coast",
+    "nameEn": "Côte d'Ivoire",
     "code": "CIV",
     "group": "E",
     "flag": "🇨🇮",
@@ -371,7 +371,7 @@
   {
     "id": "dr-congo",
     "name": "民主刚果",
-    "nameEn": "DR Congo",
+    "nameEn": "Congo DR",
     "code": "COD",
     "group": "K",
     "flag": "🇨🇩",

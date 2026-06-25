@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://2026worldcup.local/player-injury-overrides.schema.json",
+  "title": "Player injury overrides",
+  "type": "object",
+  "required": ["players"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "updatedAt": { "type": "string" },
+    "players": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "properties": {
+          "_note": { "type": "string" },
+          "status": { "enum": ["active", "injured"] },
+          "injuryNote": { "type": ["string", "null"] }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

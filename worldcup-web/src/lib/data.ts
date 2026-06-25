@@ -8,6 +8,7 @@ import worldCupHistoryJson from '@data/world-cup-history.json';
 import topScorersJson from '@data/top-scorers.json';
 import type { Coach, Match, Player, StandingsByGroup, Team, TopScorer, Venue, WorldCupEdition } from '@/types';
 import { historicalPlayerId } from '@/lib/playerUtils';
+import { getMatchKickoffMs, resolveMatchDisplay } from '@/lib/matchDisplay';
 
 export const matches = matchesJson as Match[];
 export const standings = standingsJson as StandingsByGroup;
@@ -37,11 +38,39 @@ function resolveVenueName(name: string): string {
 }
 const historicalById = new Map(topScorers.map((s) => [historicalPlayerId(s), s]));
 
-/** 赛程日期键 YYYY-MM-DD（优先用展示用 time 字段的日期部分） */
+const BEIJING_TZ = 'Asia/Shanghai';
+
+/** 北京时间开球时间展示（优先 kickoffAt，与导入脚本一致） */
+export function formatMatchKickoffBeijing(match: Match): string {
+  if (match.kickoffAt) {
+    const parts = new Intl.DateTimeFormat('zh-CN', {
+      timeZone: BEIJING_TZ,
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+      hour: '2-digit',
+      minute: '2-digit',
+      hour12: false,
+    }).formatToParts(new Date(match.kickoffAt));
+    const get = (type: Intl.DateTimeFormatPartTypes) =>
+      parts.find((p) => p.type === type)?.value ?? '';
+    return `${get('year')}-${get('month')}-${get('day')} ${get('hour')}:${get('minute')}`;
+  }
+  return match.time;
+}
+
+/** 赛程日期键 YYYY-MM-DD（北京时间，与开球展示一致） */
 export function getMatchDateKey(match: Match): string {
+  if (match.kickoffAt) {
+    return new Intl.DateTimeFormat('en-CA', {
+      timeZone: BEIJING_TZ,
+      year: 'numeric',
+      month: '2-digit',
+      day: '2-digit',
+    }).format(new Date(match.kickoffAt));
+  }
   const fromTime = match.time?.split(' ')[0];
   if (fromTime && /^\d{4}-\d{2}-\d{2}$/.test(fromTime)) return fromTime;
-  if (match.kickoffAt) return match.kickoffAt.slice(0, 10);
   return 'unknown';
 }
 
@@ -130,12 +159,33 @@ export function getStandingsByGroup(group: string) {
   return standings[group] ?? [];
 }
 
-export function pickHeroMatch(): Match | undefined {
-  return (
-    matches.find((m) => m.status === 'live') ??
-    matches.find((m) => m.status === 'finished') ??
-    matches[0]
-  );
+/** 同开球时间时 id 较小者优先（如 wc2026-m001 早于 m002） */
+function compareMatchId(a: Match, b: Match): number {
+  return a.id.localeCompare(b.id);
+}
+
+/** 首页「焦点赛事」：优先进行中；否则取未开球且最近即将开球的场次（不含已结束），开球时间相同则 id 靠前 */
+export function pickHeroMatch(nowMs = Date.now()): Match | undefined {
+  const live = matches.find((m) => resolveMatchDisplay(m, nowMs).status === 'live');
+  if (live) return live;
+
+  const upcoming = matches
+    .map((m) => ({ match: m, kickoff: getMatchKickoffMs(m) }))
+    .filter((x): x is { match: Match; kickoff: number } => {
+      if (x.kickoff == null) return false;
+      if (x.match.status === 'finished') return false;
+      return x.kickoff > nowMs;
+    });
+
+  if (upcoming.length > 0) {
+    upcoming.sort((a, b) => {
+      if (a.kickoff !== b.kickoff) return a.kickoff - b.kickoff;
+      return compareMatchId(a.match, b.match);
+    });
+    return upcoming[0].match;
+  }
+
+  return matches.find((m) => m.status !== 'finished') ?? matches[0];
 }
 
 /** 按开赛时间排序后的第一场（揭幕战） */

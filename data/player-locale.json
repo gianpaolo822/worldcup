@@ -1,0 +1,4997 @@
+{
+  "$schema": "./player-locale.schema.json",
+  "players": {
+    "united-states-1": {
+      "nameZh": "马特·特纳",
+      "club": "新英格兰革命（外租）"
+    },
+    "united-states-2": {
+      "nameZh": "塞尔吉诺·德斯",
+      "club": "埃因霍温"
+    },
+    "united-states-3": {
+      "nameZh": "克里斯·理查兹",
+      "club": "水晶宫"
+    },
+    "united-states-4": {
+      "nameZh": "泰勒·亚当斯",
+      "club": "伯恩茅斯"
+    },
+    "united-states-5": {
+      "nameZh": "安东尼·罗宾逊",
+      "club": "富勒姆"
+    },
+    "united-states-6": {
+      "nameZh": "奥斯顿·特拉斯蒂",
+      "club": "凯尔特人"
+    },
+    "united-states-7": {
+      "nameZh": "乔瓦尼·雷纳",
+      "club": "门兴格拉德巴赫"
+    },
+    "united-states-8": {
+      "nameZh": "韦斯顿·麦肯尼",
+      "club": "尤文图斯"
+    },
+    "united-states-9": {
+      "nameZh": "里卡多·佩皮",
+      "club": "埃因霍温"
+    },
+    "united-states-10": {
+      "nameZh": "克里斯蒂安·普利西奇",
+      "club": "AC米兰"
+    },
+    "united-states-11": {
+      "nameZh": "布伦登·阿隆森",
+      "club": "利兹联"
+    },
+    "united-states-12": {
+      "nameZh": "迈尔斯·罗宾逊",
+      "club": "辛辛那提FC"
+    },
+    "united-states-13": {
+      "nameZh": "蒂姆·里姆",
+      "club": "夏洛特FC"
+    },
+    "united-states-14": {
+      "nameZh": "塞巴斯蒂安·伯哈尔特",
+      "club": "温哥华白帽"
+    },
+    "united-states-15": {
+      "nameZh": "克里斯蒂安·罗尔丹",
+      "club": "西雅图海湾人"
+    },
+    "united-states-16": {
+      "nameZh": "亚历克斯·弗里曼",
+      "club": "比利亚雷亚尔"
+    },
+    "united-states-17": {
+      "nameZh": "马利克·蒂尔曼",
+      "club": "勒沃库森"
+    },
+    "united-states-18": {
+      "nameZh": "马克斯·阿夫斯滕",
+      "club": "哥伦布机员"
+    },
+    "united-states-19": {
+      "nameZh": "哈吉·赖特",
+      "club": "考文垂"
+    },
+    "united-states-20": {
+      "nameZh": "福拉林·巴洛贡",
+      "club": "摩纳哥"
+    },
+    "united-states-21": {
+      "nameZh": "蒂莫西·维阿",
+      "club": "马赛（外租）"
+    },
+    "united-states-22": {
+      "nameZh": "马克·麦肯齐",
+      "club": "图卢兹"
+    },
+    "united-states-23": {
+      "nameZh": "乔·斯卡利",
+      "club": "门兴格拉德巴赫"
+    },
+    "united-states-24": {
+      "nameZh": "马特·弗里斯",
+      "club": "纽约城"
+    },
+    "united-states-25": {
+      "nameZh": "克里斯·布雷迪",
+      "club": "芝加哥火焰"
+    },
+    "united-states-26": {
+      "nameZh": "亚历杭德罗·岑德哈斯",
+      "club": "美洲"
+    },
+    "mexico-1": {
+      "nameZh": "劳尔·兰赫尔",
+      "club": "瓜达拉哈拉"
+    },
+    "mexico-2": {
+      "nameZh": "豪尔赫·桑切斯",
+      "club": "塞萨洛尼基PAOK"
+    },
+    "mexico-3": {
+      "nameZh": "塞萨尔·蒙特斯",
+      "club": "莫斯科火车头"
+    },
+    "mexico-4": {
+      "nameZh": "埃德森·阿尔瓦雷斯",
+      "club": "费内巴切（外租）"
+    },
+    "mexico-5": {
+      "nameZh": "约翰·巴斯克斯",
+      "club": "热那亚"
+    },
+    "mexico-6": {
+      "nameZh": "埃里克·利拉",
+      "club": "蓝十字"
+    },
+    "mexico-7": {
+      "nameZh": "路易斯·罗莫",
+      "club": "瓜达拉哈拉"
+    },
+    "mexico-8": {
+      "nameZh": "阿尔瓦罗·菲达尔戈",
+      "club": "贝蒂斯"
+    },
+    "mexico-9": {
+      "nameZh": "劳尔·希门尼斯",
+      "club": "富勒姆"
+    },
+    "mexico-10": {
+      "nameZh": "埃内斯托·维加",
+      "club": "托卢卡"
+    },
+    "mexico-11": {
+      "nameZh": "圣地亚哥·希门尼斯",
+      "club": "AC米兰"
+    },
+    "mexico-12": {
+      "nameZh": "卡洛斯·阿塞韦多",
+      "club": "桑托斯拉古纳"
+    },
+    "mexico-13": {
+      "nameZh": "吉列尔莫·奥乔亚",
+      "club": "利马索尔AEL"
+    },
+    "mexico-14": {
+      "nameZh": "阿曼多·冈萨雷斯",
+      "club": "瓜达拉哈拉"
+    },
+    "mexico-15": {
+      "nameZh": "伊斯雷尔·雷耶斯",
+      "club": "美洲"
+    },
+    "mexico-16": {
+      "nameZh": "胡利安·基尼奥内斯",
+      "club": "卡迪西亚"
+    },
+    "mexico-17": {
+      "nameZh": "奥贝尔林·皮内达",
+      "club": "雅典AEK"
+    },
+    "mexico-18": {
+      "nameZh": "奥贝德·巴尔加斯",
+      "club": "马德里竞技"
+    },
+    "mexico-19": {
+      "nameZh": "吉尔贝托·莫拉",
+      "club": "蒂华纳"
+    },
+    "mexico-20": {
+      "nameZh": "马特奥·查韦斯",
+      "club": "阿尔克马尔"
+    },
+    "mexico-21": {
+      "nameZh": "塞萨尔·韦尔塔",
+      "club": "安德莱赫特"
+    },
+    "mexico-22": {
+      "nameZh": "吉列尔莫·马丁内斯",
+      "club": "墨西哥国立自治大学"
+    },
+    "mexico-23": {
+      "nameZh": "赫苏斯·加利亚多",
+      "club": "托卢卡"
+    },
+    "mexico-24": {
+      "nameZh": "路易斯·查韦斯",
+      "club": "莫斯科迪纳摩"
+    },
+    "mexico-25": {
+      "nameZh": "罗伯托·阿尔瓦拉多",
+      "club": "瓜达拉哈拉"
+    },
+    "mexico-26": {
+      "nameZh": "布赖恩·古铁雷斯",
+      "club": "瓜达拉哈拉"
+    },
+    "south-africa-1": {
+      "nameZh": "罗温·威廉姆斯",
+      "club": "马梅洛迪日落"
+    },
+    "south-africa-2": {
+      "nameZh": "塔邦·马图卢迪",
+      "club": "波洛夸内城"
+    },
+    "south-africa-3": {
+      "nameZh": "库卢马尼·恩达马内",
+      "club": "马梅洛迪日落"
+    },
+    "south-africa-4": {
+      "nameZh": "特博霍·莫科埃纳",
+      "club": "马梅洛迪日落"
+    },
+    "south-africa-5": {
+      "nameZh": "塔伦特·姆巴塔",
+      "club": "奥兰多海盗"
+    },
+    "south-africa-6": {
+      "nameZh": "奥布里·莫迪巴",
+      "club": "马梅洛迪日落"
+    },
+    "south-africa-7": {
+      "nameZh": "奥斯温·阿波利斯",
+      "club": "奥兰多海盗"
+    },
+    "south-africa-8": {
+      "nameZh": "切潘·莫雷米",
+      "club": "奥兰多海盗"
+    },
+    "south-africa-9": {
+      "nameZh": "莱尔·福斯特",
+      "club": "伯恩利"
+    },
+    "south-africa-10": {
+      "nameZh": "雷莱博希勒·莫福肯",
+      "club": "奥兰多海盗"
+    },
+    "south-africa-11": {
+      "nameZh": "滕巴·兹瓦内",
+      "club": "马梅洛迪日落"
+    },
+    "south-africa-12": {
+      "nameZh": "塔佩洛·马塞科",
+      "club": "利马索尔AEL（外租）"
+    },
+    "south-africa-13": {
+      "nameZh": "斯费费洛·西托莱",
+      "club": "通德拉"
+    },
+    "south-africa-14": {
+      "nameZh": "姆贝凯泽利·姆博卡齐",
+      "club": "芝加哥火焰"
+    },
+    "south-africa-15": {
+      "nameZh": "伊克拉姆·雷恩斯",
+      "club": "马梅洛迪日落"
+    },
+    "south-africa-16": {
+      "nameZh": "西波·蔡恩",
+      "club": "奥兰多海盗"
+    },
+    "south-africa-17": {
+      "nameZh": "埃维登斯·马戈帕",
+      "club": "奥兰多海盗"
+    },
+    "south-africa-18": {
+      "nameZh": "萨穆凯洛·卡比尼",
+      "club": "莫尔德"
+    },
+    "south-africa-19": {
+      "nameZh": "恩科西纳蒂·西比西",
+      "club": "奥兰多海盗"
+    },
+    "south-africa-20": {
+      "nameZh": "库利索·穆达乌",
+      "club": "马梅洛迪日落"
+    },
+    "south-africa-21": {
+      "nameZh": "伊梅·奥孔",
+      "club": "汉诺威96"
+    },
+    "south-africa-22": {
+      "nameZh": "里卡多·戈斯",
+      "club": "西韦勒勒"
+    },
+    "south-africa-23": {
+      "nameZh": "杰登·亚当斯",
+      "club": "马梅洛迪日落"
+    },
+    "south-africa-24": {
+      "nameZh": "奥尔韦图·马卡尼亚",
+      "club": "费城联合"
+    },
+    "south-africa-25": {
+      "nameZh": "卡莫盖洛·塞贝莱贝莱",
+      "club": "奥兰多海盗"
+    },
+    "south-africa-26": {
+      "nameZh": "布拉德利·克罗斯",
+      "club": "凯泽酋长"
+    },
+    "south-korea-1": {
+      "nameZh": "金承奎",
+      "club": "东京FC"
+    },
+    "south-korea-2": {
+      "nameZh": "李韩汎",
+      "club": "中日德兰"
+    },
+    "south-korea-3": {
+      "nameZh": "李期奕",
+      "club": "江原FC"
+    },
+    "south-korea-4": {
+      "nameZh": "金玟哉",
+      "club": "拜仁慕尼黑"
+    },
+    "south-korea-5": {
+      "nameZh": "金泰贤",
+      "club": "鹿岛鹿角"
+    },
+    "south-korea-6": {
+      "nameZh": "黄仁范",
+      "club": "费耶诺德"
+    },
+    "south-korea-7": {
+      "nameZh": "孙兴慜",
+      "club": "洛杉矶FC"
+    },
+    "south-korea-8": {
+      "nameZh": "白昇浩",
+      "club": "伯明翰城"
+    },
+    "south-korea-9": {
+      "nameZh": "曹圭成",
+      "club": "中日德兰"
+    },
+    "south-korea-10": {
+      "nameZh": "李在城",
+      "club": "美因茨"
+    },
+    "south-korea-11": {
+      "nameZh": "黄喜灿",
+      "club": "狼队"
+    },
+    "south-korea-12": {
+      "nameZh": "宋范根",
+      "club": "全北现代汽车"
+    },
+    "south-korea-13": {
+      "nameZh": "李泰锡",
+      "club": "奥地利维也纳"
+    },
+    "south-korea-14": {
+      "nameZh": "赵维济",
+      "club": "全北现代汽车"
+    },
+    "south-korea-15": {
+      "nameZh": "金纹焕",
+      "club": "大田韩亚市民"
+    },
+    "south-korea-16": {
+      "nameZh": "朴镇燮",
+      "club": "浙江队"
+    },
+    "south-korea-17": {
+      "nameZh": "裴俊浩",
+      "club": "斯托克城"
+    },
+    "south-korea-18": {
+      "nameZh": "吴贤揆",
+      "club": "贝西克塔斯"
+    },
+    "south-korea-19": {
+      "nameZh": "李刚仁",
+      "club": "巴黎圣日耳曼"
+    },
+    "south-korea-20": {
+      "nameZh": "梁贤俊",
+      "club": "凯尔特人"
+    },
+    "south-korea-21": {
+      "nameZh": "赵贤祐",
+      "club": "蔚山HD"
+    },
+    "south-korea-22": {
+      "nameZh": "薛英祐",
+      "club": "贝尔格莱德红星"
+    },
+    "south-korea-23": {
+      "nameZh": "延斯·卡斯特罗普",
+      "club": "门兴格拉德巴赫"
+    },
+    "south-korea-24": {
+      "nameZh": "金晋圭",
+      "club": "全北现代汽车"
+    },
+    "south-korea-25": {
+      "nameZh": "严智星",
+      "club": "斯旺西城"
+    },
+    "south-korea-26": {
+      "nameZh": "李东庆",
+      "club": "蔚山HD"
+    },
+    "czechia-1": {
+      "nameZh": "马泰·科瓦尔",
+      "club": "埃因霍温"
+    },
+    "czechia-2": {
+      "nameZh": "戴维·齐马",
+      "club": "布拉格斯拉维亚"
+    },
+    "czechia-3": {
+      "nameZh": "托马斯·赫莱什",
+      "club": "布拉格斯拉维亚"
+    },
+    "czechia-4": {
+      "nameZh": "罗宾·赫拉纳奇",
+      "club": "霍芬海姆"
+    },
+    "czechia-5": {
+      "nameZh": "弗拉迪米尔·库法尔",
+      "club": "霍芬海姆"
+    },
+    "czechia-6": {
+      "nameZh": "斯特潘·哈卢佩克",
+      "club": "布拉格斯拉维亚"
+    },
+    "czechia-7": {
+      "nameZh": "拉迪斯拉夫·克雷伊奇",
+      "club": "狼队（外租）"
+    },
+    "czechia-8": {
+      "nameZh": "弗拉迪米尔·达里达",
+      "club": "赫拉德茨-克拉洛韦"
+    },
+    "czechia-9": {
+      "nameZh": "亚当·赫洛热克",
+      "club": "霍芬海姆"
+    },
+    "czechia-10": {
+      "nameZh": "帕特里克·希克",
+      "club": "勒沃库森"
+    },
+    "czechia-11": {
+      "nameZh": "扬·库赫塔",
+      "club": "布拉格斯巴达"
+    },
+    "czechia-12": {
+      "nameZh": "卢卡斯·切尔",
+      "club": "比尔森胜利"
+    },
+    "czechia-13": {
+      "nameZh": "莫伊米尔·希蒂尔",
+      "club": "布拉格斯拉维亚"
+    },
+    "czechia-14": {
+      "nameZh": "戴维·尤拉塞克",
+      "club": "布拉格斯拉维亚"
+    },
+    "czechia-15": {
+      "nameZh": "帕维尔·舒尔茨",
+      "club": "里昂"
+    },
+    "czechia-16": {
+      "nameZh": "金德里赫·斯塔内克",
+      "club": "布拉格斯拉维亚"
+    },
+    "czechia-17": {
+      "nameZh": "卢卡斯·普罗沃德",
+      "club": "布拉格斯拉维亚"
+    },
+    "czechia-18": {
+      "nameZh": "米哈尔·萨迪莱克",
+      "club": "布拉格斯拉维亚"
+    },
+    "czechia-19": {
+      "nameZh": "托马斯·乔里",
+      "club": "布拉格斯拉维亚"
+    },
+    "czechia-20": {
+      "nameZh": "雅罗斯拉夫·泽莱尼",
+      "club": "布拉格斯巴达"
+    },
+    "czechia-21": {
+      "nameZh": "戴维·多德拉",
+      "club": "布拉格斯拉维亚"
+    },
+    "czechia-22": {
+      "nameZh": "托马斯·绍切克",
+      "club": "西汉姆联"
+    },
+    "czechia-23": {
+      "nameZh": "卢卡斯·霍尔尼切克",
+      "club": "布拉加"
+    },
+    "czechia-24": {
+      "nameZh": "亚历山大·索伊卡",
+      "club": "比尔森胜利"
+    },
+    "czechia-25": {
+      "nameZh": "雨果·索胡雷克",
+      "club": "布拉格斯巴达"
+    },
+    "czechia-26": {
+      "nameZh": "丹尼斯·维欣斯基",
+      "club": "比尔森胜利"
+    },
+    "japan-6": {
+      "nameZh": "町野修斗",
+      "club": "门兴格拉德巴赫"
+    },
+    "canada-1": {
+      "nameZh": "戴恩·圣克莱尔",
+      "club": "迈阿密国际"
+    },
+    "canada-2": {
+      "nameZh": "阿利斯泰尔·约翰斯顿",
+      "club": "凯尔特人"
+    },
+    "canada-3": {
+      "nameZh": "吕克·德·富热罗勒",
+      "club": "登德尔（外租）"
+    },
+    "canada-4": {
+      "nameZh": "阿尔菲·琼斯",
+      "club": "米德尔斯堡"
+    },
+    "canada-5": {
+      "nameZh": "乔尔·沃特曼",
+      "club": "芝加哥火焰"
+    },
+    "canada-6": {
+      "nameZh": "马修·舒瓦尼耶",
+      "club": "洛杉矶FC"
+    },
+    "canada-7": {
+      "nameZh": "斯蒂芬·欧斯塔基奥",
+      "club": "洛杉矶FC（外租）"
+    },
+    "canada-8": {
+      "nameZh": "伊斯梅拉·科内",
+      "club": "萨索洛（外租）"
+    },
+    "canada-9": {
+      "nameZh": "赛尔·拉林",
+      "club": "南安普顿（外租）"
+    },
+    "canada-10": {
+      "nameZh": "乔纳森·戴维",
+      "club": "尤文图斯"
+    },
+    "canada-11": {
+      "nameZh": "利亚姆·米勒",
+      "club": "赫尔城"
+    },
+    "canada-12": {
+      "nameZh": "塔尼·奥卢瓦塞伊",
+      "club": "比利亚雷亚尔"
+    },
+    "canada-13": {
+      "nameZh": "德里克·科内利乌斯",
+      "club": "格拉斯哥流浪者（外租）"
+    },
+    "canada-14": {
+      "nameZh": "雅各布·沙菲尔堡",
+      "club": "洛杉矶FC"
+    },
+    "canada-15": {
+      "nameZh": "莫伊斯·邦比托",
+      "club": "尼斯"
+    },
+    "canada-16": {
+      "nameZh": "马克西姆·克里波",
+      "club": "奥兰多城"
+    },
+    "canada-17": {
+      "nameZh": "塔琼·布坎南",
+      "club": "比利亚雷亚尔"
+    },
+    "canada-18": {
+      "nameZh": "欧文·古德曼",
+      "club": "巴恩斯利（外租）"
+    },
+    "canada-19": {
+      "nameZh": "阿方索·戴维斯",
+      "club": "拜仁慕尼黑"
+    },
+    "canada-20": {
+      "nameZh": "阿里·艾哈迈德",
+      "club": "诺维奇"
+    },
+    "canada-21": {
+      "nameZh": "乔纳森·奥索里奥",
+      "club": "多伦多FC"
+    },
+    "canada-22": {
+      "nameZh": "里奇·拉雷亚",
+      "club": "多伦多FC"
+    },
+    "canada-23": {
+      "nameZh": "尼科·西古尔",
+      "club": "斯普利特海杜克"
+    },
+    "canada-24": {
+      "nameZh": "普罗米斯·戴维",
+      "club": "圣吉罗斯联合"
+    },
+    "canada-25": {
+      "nameZh": "内森-迪伦·萨利巴",
+      "club": "安德莱赫特"
+    },
+    "canada-26": {
+      "nameZh": "马塞洛·弗洛雷斯",
+      "club": "墨西哥老虎"
+    },
+    "bosnia-and-herzegovina-1": {
+      "nameZh": "尼古拉·瓦西利",
+      "club": "圣保利"
+    },
+    "bosnia-and-herzegovina-2": {
+      "nameZh": "尼哈德·穆亚基奇",
+      "club": "加济安泰普（外租）"
+    },
+    "bosnia-and-herzegovina-3": {
+      "nameZh": "丹尼斯·哈日卡杜尼奇",
+      "club": "桑普多利亚（外租）"
+    },
+    "bosnia-and-herzegovina-4": {
+      "nameZh": "塔里克·穆哈雷莫维奇",
+      "club": "萨索洛"
+    },
+    "bosnia-and-herzegovina-5": {
+      "nameZh": "塞阿德·科拉希纳茨",
+      "club": "亚特兰大"
+    },
+    "bosnia-and-herzegovina-6": {
+      "nameZh": "本杰明·塔希罗维奇",
+      "club": "布隆德比"
+    },
+    "bosnia-and-herzegovina-7": {
+      "nameZh": "阿马尔·德迪奇",
+      "club": "本菲卡"
+    },
+    "bosnia-and-herzegovina-8": {
+      "nameZh": "阿尔明·吉戈维奇",
+      "club": "伯尔尼年轻人"
+    },
+    "bosnia-and-herzegovina-9": {
+      "nameZh": "萨梅德·巴日达尔",
+      "club": "比亚韦斯托克雅盖隆（外租）"
+    },
+    "bosnia-and-herzegovina-10": {
+      "nameZh": "埃尔梅丁·德米罗维奇",
+      "club": "斯图加特"
+    },
+    "bosnia-and-herzegovina-11": {
+      "nameZh": "埃丁·哲科",
+      "club": "沙尔克04"
+    },
+    "bosnia-and-herzegovina-12": {
+      "nameZh": "姆拉登·尤尔卡斯",
+      "club": "巴尼亚卢卡博尔茨"
+    },
+    "bosnia-and-herzegovina-13": {
+      "nameZh": "伊万·巴西奇",
+      "club": "阿斯塔纳"
+    },
+    "bosnia-and-herzegovina-14": {
+      "nameZh": "伊万·苏尼奇",
+      "club": "帕福斯"
+    },
+    "bosnia-and-herzegovina-15": {
+      "nameZh": "阿马尔·梅米奇",
+      "club": "比尔森胜利"
+    },
+    "bosnia-and-herzegovina-16": {
+      "nameZh": "阿米尔·哈吉艾哈梅托维奇",
+      "club": "赫尔城（外租）"
+    },
+    "bosnia-and-herzegovina-17": {
+      "nameZh": "杰尼斯·布尔尼奇",
+      "club": "卡尔斯鲁厄"
+    },
+    "bosnia-and-herzegovina-18": {
+      "nameZh": "尼古拉·卡蒂奇",
+      "club": "沙尔克04"
+    },
+    "bosnia-and-herzegovina-19": {
+      "nameZh": "凯里姆·阿拉伊贝戈维奇",
+      "club": "萨尔茨堡红牛"
+    },
+    "bosnia-and-herzegovina-20": {
+      "nameZh": "埃斯米尔·巴伊拉克塔雷维奇",
+      "club": "埃因霍温"
+    },
+    "bosnia-and-herzegovina-21": {
+      "nameZh": "斯特耶潘·拉德尔日奇",
+      "club": "里耶卡"
+    },
+    "bosnia-and-herzegovina-22": {
+      "nameZh": "马丁·兹洛米斯利奇",
+      "club": "里耶卡"
+    },
+    "bosnia-and-herzegovina-23": {
+      "nameZh": "哈里斯·塔巴科维奇",
+      "club": "门兴格拉德巴赫（外租）"
+    },
+    "bosnia-and-herzegovina-24": {
+      "nameZh": "尼达尔·切利克",
+      "club": "朗斯"
+    },
+    "bosnia-and-herzegovina-25": {
+      "nameZh": "约沃·卢基奇",
+      "club": "克卢日大学"
+    },
+    "bosnia-and-herzegovina-26": {
+      "nameZh": "埃尔明·马赫米奇",
+      "club": "利贝雷茨斯洛瓦恩"
+    },
+    "qatar-1": {
+      "nameZh": "马哈茂德·阿布纳达",
+      "club": "赖扬"
+    },
+    "qatar-2": {
+      "nameZh": "罗-罗",
+      "club": "萨德"
+    },
+    "qatar-3": {
+      "nameZh": "卢卡斯·门德斯",
+      "club": "沃克拉"
+    },
+    "qatar-4": {
+      "nameZh": "伊萨·拉耶",
+      "club": "阿拉伯"
+    },
+    "qatar-5": {
+      "nameZh": "贾西姆·贾贝尔",
+      "club": "赖扬"
+    },
+    "qatar-6": {
+      "nameZh": "阿卜杜勒阿齐兹·哈特姆",
+      "club": "赖扬"
+    },
+    "qatar-7": {
+      "nameZh": "艾哈迈德·阿拉埃丁",
+      "club": "赖扬"
+    },
+    "qatar-8": {
+      "nameZh": "埃德米尔森·儒尼奥尔",
+      "club": "杜海勒"
+    },
+    "qatar-9": {
+      "nameZh": "穆罕默德·蒙塔里",
+      "club": "加拉法"
+    },
+    "qatar-10": {
+      "nameZh": "哈桑·海多斯",
+      "club": "萨德"
+    },
+    "qatar-11": {
+      "nameZh": "阿克拉姆·阿菲夫",
+      "club": "萨德"
+    },
+    "qatar-12": {
+      "nameZh": "卡里姆·布迪亚夫",
+      "club": "杜海勒"
+    },
+    "qatar-13": {
+      "nameZh": "阿尤布·阿尔-奥伊",
+      "club": "加拉法"
+    },
+    "qatar-14": {
+      "nameZh": "霍马姆·艾哈迈德",
+      "club": "文化莱昂内萨（外租）"
+    },
+    "qatar-15": {
+      "nameZh": "优素福·阿卜杜里萨格",
+      "club": "沃克拉（外租）"
+    },
+    "qatar-16": {
+      "nameZh": "布阿莱姆·库希",
+      "club": "萨德"
+    },
+    "qatar-17": {
+      "nameZh": "艾哈迈德·阿尔-加内希",
+      "club": "加拉法"
+    },
+    "qatar-18": {
+      "nameZh": "苏丹·阿尔-布拉克",
+      "club": "杜海勒"
+    },
+    "qatar-19": {
+      "nameZh": "阿尔莫埃兹·阿里",
+      "club": "杜海勒"
+    },
+    "qatar-20": {
+      "nameZh": "艾哈迈德·法提希",
+      "club": "阿拉伯"
+    },
+    "qatar-21": {
+      "nameZh": "萨拉赫·扎卡里亚",
+      "club": "杜海勒"
+    },
+    "qatar-22": {
+      "nameZh": "米沙尔·巴尔沙姆",
+      "club": "萨德"
+    },
+    "qatar-23": {
+      "nameZh": "阿西姆·马迪博",
+      "club": "沃克拉（外租）"
+    },
+    "qatar-24": {
+      "nameZh": "塔辛·贾姆希德",
+      "club": "杜海勒"
+    },
+    "qatar-25": {
+      "nameZh": "阿尔-哈希米·阿尔-侯赛因",
+      "club": "阿拉伯"
+    },
+    "qatar-26": {
+      "nameZh": "穆罕默德·阿尔-曼纳伊",
+      "club": "沙马尔"
+    },
+    "switzerland-1": {
+      "nameZh": "格雷戈尔·科贝尔",
+      "club": "多特蒙德"
+    },
+    "switzerland-2": {
+      "nameZh": "米罗·穆海姆",
+      "club": "汉堡"
+    },
+    "switzerland-3": {
+      "nameZh": "西尔万·维德默",
+      "club": "美因茨"
+    },
+    "switzerland-4": {
+      "nameZh": "尼科·埃尔维迪",
+      "club": "门兴格拉德巴赫"
+    },
+    "switzerland-5": {
+      "nameZh": "曼努埃尔·阿坎吉",
+      "club": "国际米兰（外租）"
+    },
+    "switzerland-6": {
+      "nameZh": "丹尼斯·扎卡里亚",
+      "club": "摩纳哥"
+    },
+    "switzerland-7": {
+      "nameZh": "布雷尔·恩博洛",
+      "club": "雷恩"
+    },
+    "switzerland-8": {
+      "nameZh": "雷莫·弗罗伊勒",
+      "club": "博洛尼亚"
+    },
+    "switzerland-9": {
+      "nameZh": "约翰·曼赞比",
+      "club": "弗赖堡"
+    },
+    "switzerland-10": {
+      "nameZh": "格拉尼特·扎卡",
+      "club": "桑德兰"
+    },
+    "switzerland-11": {
+      "nameZh": "丹·恩多耶",
+      "club": "诺丁汉森林"
+    },
+    "switzerland-12": {
+      "nameZh": "伊冯·姆沃戈",
+      "club": "洛里昂"
+    },
+    "switzerland-13": {
+      "nameZh": "里卡多·罗德里格斯",
+      "club": "皇家贝蒂斯"
+    },
+    "switzerland-14": {
+      "nameZh": "阿顿·贾沙里",
+      "club": "AC米兰"
+    },
+    "switzerland-15": {
+      "nameZh": "吉布里尔·索乌",
+      "club": "塞维利亚"
+    },
+    "switzerland-16": {
+      "nameZh": "克里斯蒂安·法斯纳赫特",
+      "club": "伯尔尼年轻人"
+    },
+    "switzerland-17": {
+      "nameZh": "鲁本·巴尔加斯",
+      "club": "塞维利亚"
+    },
+    "switzerland-18": {
+      "nameZh": "埃拉伊·乔默特",
+      "club": "瓦伦西亚"
+    },
+    "switzerland-19": {
+      "nameZh": "诺阿·奥卡福",
+      "club": "利兹联"
+    },
+    "switzerland-20": {
+      "nameZh": "米歇尔·埃比舍尔",
+      "club": "比萨（外租）"
+    },
+    "switzerland-21": {
+      "nameZh": "马文·凯勒",
+      "club": "伯尔尼年轻人"
+    },
+    "switzerland-22": {
+      "nameZh": "法比安·里德",
+      "club": "奥格斯堡"
+    },
+    "switzerland-23": {
+      "nameZh": "泽基·阿姆杜尼",
+      "club": "伯恩利"
+    },
+    "switzerland-24": {
+      "nameZh": "奥雷勒·阿门达",
+      "club": "法兰克福"
+    },
+    "switzerland-25": {
+      "nameZh": "卢卡·雅克",
+      "club": "斯图加特"
+    },
+    "switzerland-26": {
+      "nameZh": "塞德里克·伊滕",
+      "club": "杜塞尔多夫"
+    },
+    "argentina-1": {
+      "nameZh": "胡安·穆索",
+      "club": "马德里竞技"
+    },
+    "argentina-2": {
+      "nameZh": "莱昂纳多·巴列尔迪",
+      "club": "马赛"
+    },
+    "argentina-3": {
+      "nameZh": "尼古拉斯·塔利亚菲科",
+      "club": "里昂"
+    },
+    "argentina-4": {
+      "nameZh": "贡萨洛·蒙铁尔",
+      "club": "河床"
+    },
+    "argentina-5": {
+      "nameZh": "莱安德罗·帕雷德斯",
+      "club": "博卡青年"
+    },
+    "argentina-6": {
+      "nameZh": "利桑德罗·马丁内斯",
+      "club": "曼联"
+    },
+    "argentina-7": {
+      "nameZh": "罗德里戈·德保罗",
+      "club": "迈阿密国际"
+    },
+    "argentina-8": {
+      "nameZh": "瓦伦丁·巴尔科",
+      "club": "斯特拉斯堡"
+    },
+    "argentina-9": {
+      "nameZh": "胡利安·阿尔瓦雷斯",
+      "club": "马德里竞技"
+    },
+    "argentina-10": {
+      "nameZh": "莱昂内尔·梅西",
+      "club": "迈阿密国际"
+    },
+    "argentina-11": {
+      "nameZh": "乔瓦尼·洛塞尔索",
+      "club": "贝蒂斯"
+    },
+    "argentina-12": {
+      "nameZh": "赫罗尼莫·鲁利",
+      "club": "马赛"
+    },
+    "argentina-13": {
+      "nameZh": "克里斯蒂安·罗梅罗",
+      "club": "热刺"
+    },
+    "argentina-14": {
+      "nameZh": "埃塞基耶尔·帕拉西奥斯",
+      "club": "勒沃库森"
+    },
+    "argentina-15": {
+      "nameZh": "尼古拉斯·冈萨雷斯",
+      "club": "马德里竞技（外租）"
+    },
+    "argentina-16": {
+      "nameZh": "蒂亚戈·阿尔马达",
+      "club": "马德里竞技"
+    },
+    "argentina-17": {
+      "nameZh": "朱利亚诺·西蒙尼",
+      "club": "马德里竞技"
+    },
+    "argentina-18": {
+      "nameZh": "尼科·帕斯",
+      "club": "科莫"
+    },
+    "argentina-19": {
+      "nameZh": "尼古拉斯·奥塔门迪",
+      "club": "本菲卡"
+    },
+    "argentina-20": {
+      "nameZh": "亚历克西斯·麦卡利斯特",
+      "club": "利物浦"
+    },
+    "argentina-21": {
+      "nameZh": "何塞·曼努埃尔·洛佩斯",
+      "club": "帕尔梅拉斯"
+    },
+    "argentina-22": {
+      "nameZh": "劳塔罗·马丁内斯",
+      "club": "国际米兰"
+    },
+    "argentina-23": {
+      "nameZh": "埃米利亚诺·马丁内斯",
+      "club": "阿斯顿维拉"
+    },
+    "argentina-24": {
+      "nameZh": "恩佐·费尔南德斯",
+      "club": "切尔西"
+    },
+    "argentina-25": {
+      "nameZh": "法昆多·梅迪纳",
+      "club": "马赛（外租）"
+    },
+    "argentina-26": {
+      "nameZh": "纳韦尔·莫利纳",
+      "club": "马德里竞技"
+    },
+    "australia-1": {
+      "nameZh": "马修·瑞安",
+      "club": "莱万特"
+    },
+    "australia-2": {
+      "nameZh": "米洛斯·德格内克",
+      "club": "APOEL尼科西亚"
+    },
+    "australia-3": {
+      "nameZh": "亚历山德罗·奇尔卡蒂",
+      "club": "帕尔马"
+    },
+    "australia-4": {
+      "nameZh": "雅各布·意大利亚诺",
+      "club": "格拉茨AK"
+    },
+    "australia-5": {
+      "nameZh": "乔丹·博斯",
+      "club": "费耶诺德"
+    },
+    "australia-6": {
+      "nameZh": "贾森·杰里亚",
+      "club": "新潟天鹅"
+    },
+    "australia-7": {
+      "nameZh": "马修·莱基",
+      "club": "墨尔本城"
+    },
+    "australia-8": {
+      "nameZh": "康纳·梅特卡夫",
+      "club": "圣保利"
+    },
+    "australia-9": {
+      "nameZh": "穆罕默德·图雷",
+      "club": "诺维奇"
+    },
+    "australia-10": {
+      "nameZh": "阿伊丁·赫鲁斯蒂奇",
+      "club": "赫拉克勒斯"
+    },
+    "australia-11": {
+      "nameZh": "阿韦尔·马比尔",
+      "club": "卡斯特利翁"
+    },
+    "australia-12": {
+      "nameZh": "保罗·伊佐",
+      "club": "兰德斯"
+    },
+    "australia-13": {
+      "nameZh": "艾登·奥尼尔",
+      "club": "纽约城"
+    },
+    "australia-14": {
+      "nameZh": "卡梅伦·德夫林",
+      "club": "哈茨"
+    },
+    "australia-15": {
+      "nameZh": "凯·特鲁温",
+      "club": "纽约城"
+    },
+    "australia-16": {
+      "nameZh": "阿齐兹·贝希奇",
+      "club": "墨尔本城"
+    },
+    "australia-17": {
+      "nameZh": "内斯托里·伊兰昆达",
+      "club": "沃特福德"
+    },
+    "australia-18": {
+      "nameZh": "帕特里克·比奇",
+      "club": "墨尔本城"
+    },
+    "australia-19": {
+      "nameZh": "哈里·索塔",
+      "club": "莱斯特城"
+    },
+    "australia-20": {
+      "nameZh": "克里斯蒂安·沃尔帕托",
+      "club": "萨索洛"
+    },
+    "australia-21": {
+      "nameZh": "卡梅伦·伯吉斯",
+      "club": "斯旺西"
+    },
+    "australia-22": {
+      "nameZh": "杰克逊·欧文",
+      "club": "圣保利"
+    },
+    "australia-23": {
+      "nameZh": "尼尚·维卢皮莱",
+      "club": "墨尔本胜利"
+    },
+    "australia-24": {
+      "nameZh": "保罗·奥孔-恩格斯特勒",
+      "club": "悉尼FC"
+    },
+    "australia-25": {
+      "nameZh": "卢卡斯·赫林顿",
+      "club": "科罗拉多急流"
+    },
+    "australia-26": {
+      "nameZh": "特特·延吉",
+      "club": "町田泽维亚（外租）"
+    },
+    "austria-1": {
+      "nameZh": "亚历山大·施拉格尔",
+      "club": "萨尔茨堡红牛"
+    },
+    "austria-2": {
+      "nameZh": "戴维·阿芬格鲁伯",
+      "club": "埃尔切"
+    },
+    "austria-3": {
+      "nameZh": "凯文·丹索",
+      "club": "热刺"
+    },
+    "austria-4": {
+      "nameZh": "扎维尔·施拉格尔",
+      "club": "RB莱比锡"
+    },
+    "austria-5": {
+      "nameZh": "斯特凡·波施",
+      "club": "美因茨（外租）"
+    },
+    "austria-6": {
+      "nameZh": "尼古拉斯·塞瓦尔德",
+      "club": "RB莱比锡"
+    },
+    "austria-7": {
+      "nameZh": "马克·阿瑙托维奇",
+      "club": "贝尔格莱德红星"
+    },
+    "austria-8": {
+      "nameZh": "戴维·阿拉巴",
+      "club": "皇家马德里"
+    },
+    "austria-9": {
+      "nameZh": "马塞尔·萨比策",
+      "club": "多特蒙德"
+    },
+    "austria-10": {
+      "nameZh": "弗洛里安·格里利奇",
+      "club": "布拉加"
+    },
+    "austria-11": {
+      "nameZh": "米夏埃尔·格雷戈里奇",
+      "club": "奥格斯堡（外租）"
+    },
+    "austria-12": {
+      "nameZh": "弗洛里安·维格勒",
+      "club": "比尔森胜利"
+    },
+    "austria-13": {
+      "nameZh": "帕特里克·彭茨",
+      "club": "布隆德比"
+    },
+    "austria-14": {
+      "nameZh": "萨沙·卡拉伊季奇",
+      "club": "林茨（外租）"
+    },
+    "austria-15": {
+      "nameZh": "菲利普·林哈特",
+      "club": "弗赖堡"
+    },
+    "austria-16": {
+      "nameZh": "菲利普·姆韦内",
+      "club": "美因茨"
+    },
+    "austria-17": {
+      "nameZh": "卡尼·楚克乌梅卡",
+      "club": "多特蒙德"
+    },
+    "austria-18": {
+      "nameZh": "罗曼诺·施密德",
+      "club": "云达不莱梅"
+    },
+    "austria-19": {
+      "nameZh": "克里斯托夫·鲍姆加特纳",
+      "club": "RB莱比锡"
+    },
+    "austria-20": {
+      "nameZh": "康拉德·莱默",
+      "club": "拜仁慕尼黑"
+    },
+    "austria-21": {
+      "nameZh": "帕特里克·维默",
+      "club": "沃尔夫斯堡"
+    },
+    "austria-22": {
+      "nameZh": "亚历山大·普拉斯",
+      "club": "霍芬海姆"
+    },
+    "austria-23": {
+      "nameZh": "马尔科·弗里德尔",
+      "club": "云达不莱梅"
+    },
+    "austria-24": {
+      "nameZh": "保罗·万纳",
+      "club": "埃因霍温"
+    },
+    "austria-25": {
+      "nameZh": "米夏埃尔·施沃博达",
+      "club": "威尼斯"
+    },
+    "austria-26": {
+      "nameZh": "亚历山德罗·舍普夫",
+      "club": "沃尔夫斯贝格"
+    },
+    "belgium-1": {
+      "nameZh": "蒂博·库尔图瓦",
+      "club": "皇家马德里"
+    },
+    "belgium-2": {
+      "nameZh": "泽诺·德巴斯特",
+      "club": "葡萄牙体育"
+    },
+    "belgium-3": {
+      "nameZh": "阿蒂尔·泰阿特",
+      "club": "法兰克福"
+    },
+    "belgium-4": {
+      "nameZh": "布兰登·梅切勒",
+      "club": "布鲁日"
+    },
+    "belgium-5": {
+      "nameZh": "马克西姆·德库伊珀",
+      "club": "布莱顿"
+    },
+    "belgium-6": {
+      "nameZh": "阿克塞尔·维特塞尔",
+      "club": "赫罗纳"
+    },
+    "belgium-7": {
+      "nameZh": "凯文·德布劳内",
+      "club": "那不勒斯"
+    },
+    "belgium-8": {
+      "nameZh": "尤里·蒂勒曼斯",
+      "club": "阿斯顿维拉"
+    },
+    "belgium-9": {
+      "nameZh": "罗梅卢·卢卡库",
+      "club": "那不勒斯"
+    },
+    "belgium-10": {
+      "nameZh": "莱昂德罗·特罗萨德",
+      "club": "阿森纳"
+    },
+    "belgium-11": {
+      "nameZh": "杰雷米·多库",
+      "club": "曼城"
+    },
+    "belgium-12": {
+      "nameZh": "森内·拉门斯",
+      "club": "曼联"
+    },
+    "belgium-13": {
+      "nameZh": "迈克·彭德斯",
+      "club": "斯特拉斯堡（外租）"
+    },
+    "belgium-14": {
+      "nameZh": "多迪·卢克巴吉奥",
+      "club": "本菲卡"
+    },
+    "belgium-15": {
+      "nameZh": "托马斯·默尼耶",
+      "club": "里尔"
+    },
+    "belgium-16": {
+      "nameZh": "科尼·德温特",
+      "club": "AC米兰"
+    },
+    "belgium-17": {
+      "nameZh": "查尔斯·德凯特莱尔",
+      "club": "亚特兰大"
+    },
+    "belgium-18": {
+      "nameZh": "华金·塞斯",
+      "club": "布鲁日"
+    },
+    "belgium-19": {
+      "nameZh": "迭戈·莫雷拉",
+      "club": "斯特拉斯堡"
+    },
+    "belgium-20": {
+      "nameZh": "汉斯·范阿肯",
+      "club": "布鲁日"
+    },
+    "belgium-21": {
+      "nameZh": "蒂莫西·卡斯塔涅",
+      "club": "富勒姆"
+    },
+    "belgium-22": {
+      "nameZh": "亚历克西斯·萨勒马克尔斯",
+      "club": "AC米兰"
+    },
+    "belgium-23": {
+      "nameZh": "尼古拉·拉斯金",
+      "club": "格拉斯哥流浪者"
+    },
+    "belgium-24": {
+      "nameZh": "阿马杜·奥纳纳",
+      "club": "阿斯顿维拉"
+    },
+    "belgium-25": {
+      "nameZh": "内森·恩戈伊",
+      "club": "里尔"
+    },
+    "belgium-26": {
+      "nameZh": "马蒂亚斯·费尔南德斯-帕尔多",
+      "club": "里尔"
+    },
+    "brazil-1": {
+      "nameZh": "阿利森·贝克尔",
+      "club": "利物浦"
+    },
+    "brazil-2": {
+      "nameZh": "埃德尔森",
+      "club": "亚特兰大"
+    },
+    "brazil-3": {
+      "nameZh": "加布里埃尔",
+      "club": "阿森纳"
+    },
+    "brazil-4": {
+      "nameZh": "马尔基尼奥斯",
+      "club": "巴黎圣日耳曼"
+    },
+    "brazil-5": {
+      "nameZh": "卡塞米罗",
+      "club": "曼联"
+    },
+    "brazil-6": {
+      "nameZh": "阿莱士·桑德罗",
+      "club": "弗拉门戈"
+    },
+    "brazil-7": {
+      "nameZh": "维尼修斯",
+      "club": "皇马"
+    },
+    "brazil-8": {
+      "nameZh": "布鲁诺·吉马良斯",
+      "club": "纽卡斯尔联"
+    },
+    "brazil-9": {
+      "nameZh": "马特乌斯·库尼亚",
+      "club": "曼联"
+    },
+    "brazil-10": {
+      "nameZh": "内马尔",
+      "club": "桑托斯"
+    },
+    "brazil-11": {
+      "nameZh": "拉菲尼亚",
+      "club": "巴塞罗那"
+    },
+    "brazil-12": {
+      "nameZh": "韦弗顿",
+      "club": "格雷米奥"
+    },
+    "brazil-13": {
+      "nameZh": "达尼洛",
+      "club": "弗拉门戈"
+    },
+    "brazil-14": {
+      "nameZh": "布雷默",
+      "club": "尤文图斯"
+    },
+    "brazil-15": {
+      "nameZh": "莱奥·佩雷拉",
+      "club": "弗拉门戈"
+    },
+    "brazil-16": {
+      "nameZh": "道格拉斯",
+      "club": "泽尼特"
+    },
+    "brazil-17": {
+      "nameZh": "法比尼奥",
+      "club": "吉达联合"
+    },
+    "brazil-18": {
+      "nameZh": "达尼洛",
+      "club": "博塔弗戈"
+    },
+    "brazil-19": {
+      "nameZh": "恩德里克",
+      "club": "里昂（外租）"
+    },
+    "brazil-20": {
+      "nameZh": "卢卡斯·帕奎塔",
+      "club": "弗拉门戈"
+    },
+    "brazil-21": {
+      "nameZh": "路易斯·恩里克",
+      "club": "泽尼特"
+    },
+    "brazil-22": {
+      "nameZh": "加布里埃尔·马丁内利",
+      "club": "阿森纳"
+    },
+    "brazil-23": {
+      "nameZh": "埃德尔森",
+      "club": "费内巴切"
+    },
+    "brazil-24": {
+      "nameZh": "罗杰·伊巴涅斯",
+      "club": "吉达国民"
+    },
+    "brazil-25": {
+      "nameZh": "伊戈尔·蒂亚戈",
+      "club": "布伦特福德"
+    },
+    "brazil-26": {
+      "nameZh": "拉扬",
+      "club": "伯恩茅斯"
+    },
+    "colombia-1": {
+      "nameZh": "戴维·奥斯皮纳",
+      "club": "国民竞技"
+    },
+    "colombia-2": {
+      "nameZh": "丹尼尔·穆尼奥斯",
+      "club": "水晶宫"
+    },
+    "colombia-3": {
+      "nameZh": "洪·卢库米",
+      "club": "博洛尼亚"
+    },
+    "colombia-4": {
+      "nameZh": "圣地亚哥·阿里亚斯",
+      "club": "独立"
+    },
+    "colombia-5": {
+      "nameZh": "凯文·卡斯塔尼奥",
+      "club": "河床"
+    },
+    "colombia-6": {
+      "nameZh": "理查德·里奥斯",
+      "club": "本菲卡"
+    },
+    "colombia-7": {
+      "nameZh": "路易斯·迪亚斯",
+      "club": "拜仁慕尼黑"
+    },
+    "colombia-8": {
+      "nameZh": "豪尔赫·卡拉斯卡尔",
+      "club": "弗拉门戈"
+    },
+    "colombia-9": {
+      "nameZh": "洪·科尔多瓦",
+      "club": "克拉斯诺达尔"
+    },
+    "colombia-10": {
+      "nameZh": "哈梅斯·罗德里格斯",
+      "club": "明尼苏达联"
+    },
+    "colombia-11": {
+      "nameZh": "洪·阿里亚斯",
+      "club": "帕尔梅拉斯"
+    },
+    "colombia-12": {
+      "nameZh": "卡米洛·巴尔加斯",
+      "club": "阿特拉斯"
+    },
+    "colombia-13": {
+      "nameZh": "耶里·米纳",
+      "club": "卡利亚里"
+    },
+    "colombia-14": {
+      "nameZh": "古斯塔沃·普埃尔塔",
+      "club": "桑坦德竞技"
+    },
+    "colombia-15": {
+      "nameZh": "胡安·波蒂利亚",
+      "club": "巴拉纳竞技"
+    },
+    "colombia-16": {
+      "nameZh": "杰斐逊·莱尔马",
+      "club": "水晶宫"
+    },
+    "colombia-17": {
+      "nameZh": "约翰·莫吉卡",
+      "club": "马略卡"
+    },
+    "colombia-18": {
+      "nameZh": "维勒·迪塔",
+      "club": "蓝十字"
+    },
+    "colombia-19": {
+      "nameZh": "库乔·埃尔南德斯",
+      "club": "贝蒂斯"
+    },
+    "colombia-20": {
+      "nameZh": "胡安·金特罗",
+      "club": "河床"
+    },
+    "colombia-21": {
+      "nameZh": "哈明顿·坎帕斯",
+      "club": "罗萨里奥中央"
+    },
+    "colombia-22": {
+      "nameZh": "戴弗·马查多",
+      "club": "南特"
+    },
+    "colombia-23": {
+      "nameZh": "达文森·桑切斯",
+      "club": "加拉塔萨雷"
+    },
+    "colombia-24": {
+      "nameZh": "阿尔瓦罗·蒙特罗",
+      "club": "萨斯菲尔德（外租）"
+    },
+    "colombia-25": {
+      "nameZh": "路易斯·苏亚雷斯",
+      "club": "葡萄牙体育"
+    },
+    "colombia-26": {
+      "nameZh": "卡洛斯·安德烈斯·戈麦斯",
+      "club": "瓦斯科达伽马"
+    },
+    "curacao-1": {
+      "nameZh": "埃洛伊·鲁姆",
+      "club": "迈阿密FC"
+    },
+    "curacao-2": {
+      "nameZh": "舒兰迪·桑博",
+      "club": "鹿特丹斯巴达（外租）"
+    },
+    "curacao-3": {
+      "nameZh": "尤里恩·加阿里",
+      "club": "艾卜哈"
+    },
+    "curacao-4": {
+      "nameZh": "罗雄·范艾伊马",
+      "club": "瓦尔韦克"
+    },
+    "curacao-5": {
+      "nameZh": "谢雷尔·弗洛拉努斯",
+      "club": "兹沃勒"
+    },
+    "curacao-6": {
+      "nameZh": "戈德弗里德·罗梅拉托",
+      "club": "瓦尔韦克"
+    },
+    "curacao-7": {
+      "nameZh": "朱尼尼奥·巴库纳",
+      "club": "福伦丹（外租）"
+    },
+    "curacao-8": {
+      "nameZh": "利瓦诺·科梅嫩西亚",
+      "club": "苏黎世"
+    },
+    "curacao-9": {
+      "nameZh": "于尔根·洛卡迪亚",
+      "club": "迈阿密FC"
+    },
+    "curacao-10": {
+      "nameZh": "莱安德罗·巴库纳",
+      "club": "伊迪尔"
+    },
+    "curacao-11": {
+      "nameZh": "杰里米·安东尼斯",
+      "club": "基菲西亚"
+    },
+    "curacao-12": {
+      "nameZh": "松特耶·汉森",
+      "club": "米德尔斯堡"
+    },
+    "curacao-13": {
+      "nameZh": "泰瑞斯·诺斯林",
+      "club": "特尔斯达"
+    },
+    "curacao-14": {
+      "nameZh": "肯吉·戈雷",
+      "club": "海法马卡比"
+    },
+    "curacao-15": {
+      "nameZh": "阿尔贾尼·玛莎",
+      "club": "罗瑟汉姆联"
+    },
+    "curacao-16": {
+      "nameZh": "耶尔·玛格丽塔",
+      "club": "贝弗伦"
+    },
+    "curacao-17": {
+      "nameZh": "布兰德利·库瓦斯",
+      "club": "福伦丹"
+    },
+    "curacao-18": {
+      "nameZh": "阿曼多·奥比斯波",
+      "club": "埃因霍温"
+    },
+    "curacao-19": {
+      "nameZh": "热尔瓦内·卡斯塔内尔",
+      "club": "登嘉楼"
+    },
+    "curacao-20": {
+      "nameZh": "约书亚·布雷诺",
+      "club": "开塞利体育"
+    },
+    "curacao-21": {
+      "nameZh": "塔希特·钟",
+      "club": "谢菲尔德联"
+    },
+    "curacao-22": {
+      "nameZh": "凯文·费利达",
+      "club": "登博斯"
+    },
+    "curacao-23": {
+      "nameZh": "里切德利·巴佐尔",
+      "club": "科尼亚体育"
+    },
+    "curacao-24": {
+      "nameZh": "德韦龙·丰维尔",
+      "club": "奈梅亨"
+    },
+    "curacao-25": {
+      "nameZh": "泰里克·博达克",
+      "club": "特尔斯达"
+    },
+    "curacao-26": {
+      "nameZh": "特雷弗·多恩布施",
+      "club": "芬洛"
+    },
+    "dr-congo-1": {
+      "nameZh": "莱昂内尔·姆帕西",
+      "club": "勒阿弗尔"
+    },
+    "dr-congo-2": {
+      "nameZh": "阿伦·万-比萨卡",
+      "club": "西汉姆联"
+    },
+    "dr-congo-3": {
+      "nameZh": "史蒂夫·卡普阿迪",
+      "club": "罗兹维德泽夫"
+    },
+    "dr-congo-4": {
+      "nameZh": "阿克塞尔·图安泽贝",
+      "club": "伯恩利"
+    },
+    "dr-congo-5": {
+      "nameZh": "迪伦·巴图宾西卡",
+      "club": "拉里萨"
+    },
+    "dr-congo-6": {
+      "nameZh": "恩加莱耶尔·穆考",
+      "club": "里尔"
+    },
+    "dr-congo-7": {
+      "nameZh": "纳塔纳尔·姆布库",
+      "club": "蒙彼利埃（外租）"
+    },
+    "dr-congo-8": {
+      "nameZh": "塞缪尔·穆图萨米",
+      "club": "阿特罗米托斯"
+    },
+    "dr-congo-9": {
+      "nameZh": "布赖恩·奇彭加",
+      "club": "卡斯特利翁"
+    },
+    "dr-congo-10": {
+      "nameZh": "泰奥·邦贡达",
+      "club": "莫斯科斯巴达"
+    },
+    "dr-congo-11": {
+      "nameZh": "盖尔·卡库塔",
+      "club": "拉里萨"
+    },
+    "dr-congo-12": {
+      "nameZh": "约里斯·卡耶姆贝",
+      "club": "亨克"
+    },
+    "dr-congo-13": {
+      "nameZh": "梅沙克·埃利亚",
+      "club": "阿拉尼亚体育"
+    },
+    "dr-congo-14": {
+      "nameZh": "诺亚·萨迪基",
+      "club": "桑德兰"
+    },
+    "dr-congo-15": {
+      "nameZh": "阿隆·奇博拉",
+      "club": "基尔马诺克"
+    },
+    "dr-congo-16": {
+      "nameZh": "蒂莫西·法尤卢",
+      "club": "诺亚（外租）"
+    },
+    "dr-congo-17": {
+      "nameZh": "塞德里克·巴坎布",
+      "club": "贝蒂斯"
+    },
+    "dr-congo-18": {
+      "nameZh": "查尔斯·皮克尔",
+      "club": "西班牙人"
+    },
+    "dr-congo-19": {
+      "nameZh": "菲斯顿·马耶勒",
+      "club": "金字塔"
+    },
+    "dr-congo-20": {
+      "nameZh": "约昂·维萨",
+      "club": "纽卡斯尔联"
+    },
+    "dr-congo-21": {
+      "nameZh": "马蒂厄·埃波洛",
+      "club": "标准列日"
+    },
+    "dr-congo-22": {
+      "nameZh": "尚塞尔·姆本巴",
+      "club": "里尔"
+    },
+    "dr-congo-23": {
+      "nameZh": "西蒙·班扎",
+      "club": "阿联酋贾兹拉"
+    },
+    "dr-congo-24": {
+      "nameZh": "热德翁·卡卢卢",
+      "club": "利马索尔阿瑞斯"
+    },
+    "dr-congo-25": {
+      "nameZh": "埃多·卡耶姆贝",
+      "club": "沃特福德"
+    },
+    "dr-congo-26": {
+      "nameZh": "阿瑟·马苏阿库",
+      "club": "朗斯（外租）"
+    },
+    "ecuador-1": {
+      "nameZh": "埃尔南·加林德斯",
+      "club": "飓风"
+    },
+    "ecuador-2": {
+      "nameZh": "费利克斯·托雷斯",
+      "club": "巴西国际（外租）"
+    },
+    "ecuador-3": {
+      "nameZh": "皮耶罗·欣卡皮耶",
+      "club": "阿森纳（外租）"
+    },
+    "ecuador-4": {
+      "nameZh": "乔尔·奥尔东内斯",
+      "club": "布鲁日"
+    },
+    "ecuador-5": {
+      "nameZh": "若尔迪·阿尔西瓦尔",
+      "club": "山谷独立"
+    },
+    "ecuador-6": {
+      "nameZh": "威廉·帕乔",
+      "club": "巴黎圣日耳曼"
+    },
+    "ecuador-7": {
+      "nameZh": "佩尔维斯·埃斯图皮尼安",
+      "club": "AC米兰"
+    },
+    "ecuador-8": {
+      "nameZh": "安东尼·巴伦西亚",
+      "club": "安特卫普"
+    },
+    "ecuador-9": {
+      "nameZh": "约翰·耶博阿",
+      "club": "威尼斯"
+    },
+    "ecuador-10": {
+      "nameZh": "肯德里·帕埃斯",
+      "club": "河床（外租）"
+    },
+    "ecuador-11": {
+      "nameZh": "凯文·罗德里格斯",
+      "club": "圣吉罗斯联合"
+    },
+    "ecuador-12": {
+      "nameZh": "莫伊塞斯·拉米雷斯",
+      "club": "基菲西亚"
+    },
+    "ecuador-13": {
+      "nameZh": "恩纳·瓦伦西亚",
+      "club": "帕丘卡"
+    },
+    "ecuador-14": {
+      "nameZh": "阿兰·明达",
+      "club": "米内罗竞技"
+    },
+    "ecuador-15": {
+      "nameZh": "佩德罗·维特",
+      "club": "美洲狮"
+    },
+    "ecuador-16": {
+      "nameZh": "若尔迪·凯塞多",
+      "club": "飓风（外租）"
+    },
+    "ecuador-17": {
+      "nameZh": "安杰洛·普雷西亚多",
+      "club": "米内罗竞技"
+    },
+    "ecuador-18": {
+      "nameZh": "德尼尔·卡斯蒂略",
+      "club": "中日德兰"
+    },
+    "ecuador-19": {
+      "nameZh": "贡萨洛·普拉塔",
+      "club": "弗拉门戈"
+    },
+    "ecuador-20": {
+      "nameZh": "尼尔森·安古洛",
+      "club": "桑德兰"
+    },
+    "ecuador-21": {
+      "nameZh": "阿兰·弗兰科",
+      "club": "米内罗竞技"
+    },
+    "ecuador-22": {
+      "nameZh": "贡萨洛·巴莱",
+      "club": "基多大学体育联盟"
+    },
+    "ecuador-23": {
+      "nameZh": "莫伊塞斯·凯塞多",
+      "club": "切尔西"
+    },
+    "ecuador-24": {
+      "nameZh": "杰里米·阿雷瓦洛",
+      "club": "斯图加特"
+    },
+    "ecuador-25": {
+      "nameZh": "杰克逊·波罗索",
+      "club": "蒂华纳"
+    },
+    "ecuador-26": {
+      "nameZh": "亚伊玛尔·梅迪纳",
+      "club": "亨克"
+    },
+    "egypt-1": {
+      "nameZh": "穆罕默德·埃尔-谢纳维",
+      "club": "开罗国民"
+    },
+    "egypt-2": {
+      "nameZh": "亚西尔·易卜拉欣",
+      "club": "开罗国民"
+    },
+    "egypt-3": {
+      "nameZh": "穆罕默德·哈尼",
+      "club": "开罗国民"
+    },
+    "egypt-4": {
+      "nameZh": "侯赛姆·阿卜杜勒马吉德",
+      "club": "扎马雷克"
+    },
+    "egypt-5": {
+      "nameZh": "拉米·拉比亚",
+      "club": "阿联酋艾因"
+    },
+    "egypt-6": {
+      "nameZh": "穆罕默德·阿卜杜勒莫内姆",
+      "club": "尼斯"
+    },
+    "egypt-7": {
+      "nameZh": "马哈茂德·哈桑·特雷泽盖",
+      "club": "开罗国民"
+    },
+    "egypt-8": {
+      "nameZh": "伊马姆·阿舒尔",
+      "club": "开罗国民"
+    },
+    "egypt-9": {
+      "nameZh": "哈姆扎·阿卜杜勒卡里姆",
+      "club": "巴塞罗那B队（外租）"
+    },
+    "egypt-10": {
+      "nameZh": "穆罕默德·萨拉赫",
+      "club": "利物浦"
+    },
+    "egypt-11": {
+      "nameZh": "穆斯塔法·齐科",
+      "club": "金字塔"
+    },
+    "egypt-12": {
+      "nameZh": "海塞姆·哈桑",
+      "club": "奥维耶多"
+    },
+    "egypt-13": {
+      "nameZh": "艾哈迈德·阿布·埃尔-福图赫",
+      "club": "扎马雷克"
+    },
+    "egypt-14": {
+      "nameZh": "哈姆迪·法蒂",
+      "club": "沃克拉"
+    },
+    "egypt-15": {
+      "nameZh": "卡里姆·哈菲兹",
+      "club": "金字塔"
+    },
+    "egypt-16": {
+      "nameZh": "埃尔-马赫迪·索利曼",
+      "club": "扎马雷克"
+    },
+    "egypt-17": {
+      "nameZh": "穆哈纳德·拉什温",
+      "club": "金字塔"
+    },
+    "egypt-18": {
+      "nameZh": "纳比勒·敦加",
+      "club": "纳杰马"
+    },
+    "egypt-19": {
+      "nameZh": "马尔万·阿提亚",
+      "club": "开罗国民"
+    },
+    "egypt-20": {
+      "nameZh": "易卜拉欣·阿德尔",
+      "club": "北西兰（外租）"
+    },
+    "egypt-21": {
+      "nameZh": "马哈茂德·萨贝尔",
+      "club": "ZED（外租）"
+    },
+    "egypt-22": {
+      "nameZh": "奥马尔·马尔穆什",
+      "club": "曼城"
+    },
+    "egypt-23": {
+      "nameZh": "穆斯塔法·舒拜尔",
+      "club": "开罗国民"
+    },
+    "egypt-24": {
+      "nameZh": "塔里克·阿拉",
+      "club": "ZED（外租）"
+    },
+    "egypt-25": {
+      "nameZh": "艾哈迈德·赛义德",
+      "club": "开罗国民"
+    },
+    "egypt-26": {
+      "nameZh": "穆罕默德·阿拉",
+      "club": "埃尔古纳"
+    },
+    "england-1": {
+      "nameZh": "乔丹·皮克福德",
+      "club": "埃弗顿"
+    },
+    "england-2": {
+      "nameZh": "埃兹里·孔萨",
+      "club": "阿斯顿维拉"
+    },
+    "england-3": {
+      "nameZh": "尼科·奥赖利",
+      "club": "曼城"
+    },
+    "england-4": {
+      "nameZh": "德克兰·赖斯",
+      "club": "阿森纳"
+    },
+    "england-5": {
+      "nameZh": "约翰·斯通斯",
+      "club": "曼城"
+    },
+    "england-6": {
+      "nameZh": "马克·格伊",
+      "club": "曼城"
+    },
+    "england-7": {
+      "nameZh": "布卡约·萨卡",
+      "club": "阿森纳"
+    },
+    "england-8": {
+      "nameZh": "埃利奥特·安德森",
+      "club": "诺丁汉森林"
+    },
+    "england-9": {
+      "nameZh": "哈里·凯恩",
+      "club": "拜仁慕尼黑"
+    },
+    "england-10": {
+      "nameZh": "裘德·贝林厄姆",
+      "club": "皇家马德里"
+    },
+    "england-11": {
+      "nameZh": "马库斯·拉什福德",
+      "club": "巴塞罗那（外租）"
+    },
+    "england-12": {
+      "nameZh": "蒂诺·利夫拉门托",
+      "club": "纽卡斯尔联"
+    },
+    "england-13": {
+      "nameZh": "迪恩·亨德森",
+      "club": "水晶宫"
+    },
+    "england-14": {
+      "nameZh": "乔丹·亨德森",
+      "club": "布伦特福德"
+    },
+    "england-15": {
+      "nameZh": "丹·伯恩",
+      "club": "纽卡斯尔联"
+    },
+    "england-16": {
+      "nameZh": "科比·梅努",
+      "club": "曼联"
+    },
+    "england-17": {
+      "nameZh": "摩根·罗杰斯",
+      "club": "阿斯顿维拉"
+    },
+    "england-18": {
+      "nameZh": "安东尼·戈登",
+      "club": "纽卡斯尔联"
+    },
+    "england-19": {
+      "nameZh": "奥利·沃特金斯",
+      "club": "阿斯顿维拉"
+    },
+    "england-20": {
+      "nameZh": "诺尼·马杜埃凯",
+      "club": "阿森纳"
+    },
+    "england-21": {
+      "nameZh": "埃贝雷奇·埃泽",
+      "club": "阿森纳"
+    },
+    "england-22": {
+      "nameZh": "伊万·托尼",
+      "club": "吉达国民"
+    },
+    "england-23": {
+      "nameZh": "詹姆斯·特拉福德",
+      "club": "曼城"
+    },
+    "england-24": {
+      "nameZh": "里斯·詹姆斯",
+      "club": "切尔西"
+    },
+    "england-25": {
+      "nameZh": "杰德·斯彭斯",
+      "club": "热刺"
+    },
+    "england-26": {
+      "nameZh": "贾雷尔·宽萨",
+      "club": "勒沃库森"
+    },
+    "france-1": {
+      "nameZh": "布里斯·桑巴",
+      "club": "雷恩"
+    },
+    "france-2": {
+      "nameZh": "马洛·古斯托",
+      "club": "切尔西"
+    },
+    "france-3": {
+      "nameZh": "卢卡斯·迪涅",
+      "club": "阿斯顿维拉"
+    },
+    "france-4": {
+      "nameZh": "达约·于帕梅卡诺",
+      "club": "拜仁慕尼黑"
+    },
+    "france-5": {
+      "nameZh": "朱尔·孔德",
+      "club": "巴塞罗那"
+    },
+    "france-6": {
+      "nameZh": "马努·科内",
+      "club": "罗马"
+    },
+    "france-7": {
+      "nameZh": "奥斯曼·登贝莱",
+      "club": "巴黎圣日耳曼"
+    },
+    "france-8": {
+      "nameZh": "奥雷利安·楚阿梅尼",
+      "club": "皇家马德里"
+    },
+    "france-9": {
+      "nameZh": "马库斯·图拉姆",
+      "club": "国际米兰"
+    },
+    "france-10": {
+      "nameZh": "基利安·姆巴佩",
+      "club": "皇家马德里"
+    },
+    "france-11": {
+      "nameZh": "迈克尔·奥利塞",
+      "club": "拜仁慕尼黑"
+    },
+    "france-12": {
+      "nameZh": "布拉德利·巴尔科拉",
+      "club": "巴黎圣日耳曼"
+    },
+    "france-13": {
+      "nameZh": "恩戈洛·坎特",
+      "club": "费内巴切"
+    },
+    "france-14": {
+      "nameZh": "阿德里安·拉比奥",
+      "club": "AC米兰"
+    },
+    "france-15": {
+      "nameZh": "易卜拉希马·科纳特",
+      "club": "利物浦"
+    },
+    "france-16": {
+      "nameZh": "迈克·迈尼昂",
+      "club": "AC米兰"
+    },
+    "france-17": {
+      "nameZh": "威廉·萨利巴",
+      "club": "阿森纳"
+    },
+    "france-18": {
+      "nameZh": "沃伦·扎伊尔-埃梅里",
+      "club": "巴黎圣日耳曼"
+    },
+    "france-19": {
+      "nameZh": "特奥·埃尔南德斯",
+      "club": "利雅得新月"
+    },
+    "france-20": {
+      "nameZh": "德西雷·杜埃",
+      "club": "巴黎圣日耳曼"
+    },
+    "france-21": {
+      "nameZh": "卢卡斯·埃尔南德斯",
+      "club": "巴黎圣日耳曼"
+    },
+    "france-22": {
+      "nameZh": "让-菲利普·马特塔",
+      "club": "水晶宫"
+    },
+    "france-23": {
+      "nameZh": "罗宾·里瑟",
+      "club": "朗斯"
+    },
+    "france-24": {
+      "nameZh": "拉扬·谢尔基",
+      "club": "曼城"
+    },
+    "france-25": {
+      "nameZh": "马格内斯·阿克里乌什",
+      "club": "摩纳哥"
+    },
+    "france-26": {
+      "nameZh": "马克桑斯·拉克鲁瓦",
+      "club": "水晶宫"
+    },
+    "germany-1": {
+      "nameZh": "曼努埃尔·诺伊尔",
+      "club": "拜仁慕尼黑"
+    },
+    "germany-2": {
+      "nameZh": "安东尼奥·吕迪格",
+      "club": "皇家马德里"
+    },
+    "germany-3": {
+      "nameZh": "瓦尔德马尔·安东",
+      "club": "多特蒙德"
+    },
+    "germany-4": {
+      "nameZh": "乔纳森·塔",
+      "club": "拜仁慕尼黑"
+    },
+    "germany-5": {
+      "nameZh": "亚历山大·帕夫洛维奇",
+      "club": "拜仁慕尼黑"
+    },
+    "germany-6": {
+      "nameZh": "约书亚·基米希",
+      "club": "拜仁慕尼黑"
+    },
+    "germany-7": {
+      "nameZh": "凯·哈弗茨",
+      "club": "阿森纳"
+    },
+    "germany-8": {
+      "nameZh": "莱昂·格雷茨卡",
+      "club": "拜仁慕尼黑"
+    },
+    "germany-9": {
+      "nameZh": "杰米·莱韦林",
+      "club": "斯图加特"
+    },
+    "germany-10": {
+      "nameZh": "贾马尔·穆西亚拉",
+      "club": "拜仁慕尼黑"
+    },
+    "germany-11": {
+      "nameZh": "尼克·沃尔特马德",
+      "club": "纽卡斯尔联"
+    },
+    "germany-12": {
+      "nameZh": "奥利弗·鲍曼",
+      "club": "霍芬海姆"
+    },
+    "germany-13": {
+      "nameZh": "帕斯卡尔·格罗斯",
+      "club": "布莱顿"
+    },
+    "germany-14": {
+      "nameZh": "马克西米利安·拜尔",
+      "club": "多特蒙德"
+    },
+    "germany-15": {
+      "nameZh": "尼科·施洛特贝克",
+      "club": "多特蒙德"
+    },
+    "germany-16": {
+      "nameZh": "安杰洛·施蒂勒",
+      "club": "斯图加特"
+    },
+    "germany-17": {
+      "nameZh": "弗洛里安·维尔茨",
+      "club": "利物浦"
+    },
+    "germany-18": {
+      "nameZh": "纳撒尼尔·布朗",
+      "club": "法兰克福"
+    },
+    "germany-19": {
+      "nameZh": "勒罗伊·萨内",
+      "club": "加拉塔萨雷"
+    },
+    "germany-20": {
+      "nameZh": "纳迪姆·阿米里",
+      "club": "美因茨"
+    },
+    "germany-21": {
+      "nameZh": "亚历山大·努贝尔",
+      "club": "斯图加特（外租）"
+    },
+    "germany-22": {
+      "nameZh": "戴维·劳姆",
+      "club": "莱比锡红牛"
+    },
+    "germany-23": {
+      "nameZh": "费利克斯·恩梅查",
+      "club": "多特蒙德"
+    },
+    "germany-24": {
+      "nameZh": "马利克·蒂奥",
+      "club": "纽卡斯尔联"
+    },
+    "germany-25": {
+      "nameZh": "阿桑·韦德拉奥戈",
+      "club": "莱比锡红牛"
+    },
+    "germany-26": {
+      "nameZh": "德尼兹·翁达夫",
+      "club": "斯图加特"
+    },
+    "haiti-1": {
+      "nameZh": "约翰尼·普拉西德",
+      "club": "巴斯蒂亚"
+    },
+    "haiti-2": {
+      "nameZh": "卡伦斯·阿库斯",
+      "club": "昂热"
+    },
+    "haiti-3": {
+      "nameZh": "基托·瑟蒙西",
+      "club": "伯尔尼年轻人"
+    },
+    "haiti-4": {
+      "nameZh": "里卡多·阿德",
+      "club": "基多大学体育联盟"
+    },
+    "haiti-5": {
+      "nameZh": "汉内斯·德尔克鲁瓦",
+      "club": "卢加诺"
+    },
+    "haiti-6": {
+      "nameZh": "卡尔·圣泰",
+      "club": "埃尔帕索机车"
+    },
+    "haiti-7": {
+      "nameZh": "德里克·艾蒂安",
+      "club": "多伦多FC"
+    },
+    "haiti-8": {
+      "nameZh": "马丁·埃克斯佩里安斯",
+      "club": "南锡"
+    },
+    "haiti-9": {
+      "nameZh": "杜肯斯·纳宗",
+      "club": "独立"
+    },
+    "haiti-10": {
+      "nameZh": "让-里克纳·贝勒加德",
+      "club": "狼队"
+    },
+    "haiti-11": {
+      "nameZh": "路易修斯·唐",
+      "club": "达拉斯FC"
+    },
+    "haiti-12": {
+      "nameZh": "亚历山大·皮埃尔",
+      "club": "索肖"
+    },
+    "haiti-13": {
+      "nameZh": "杜克·拉克罗瓦",
+      "club": "科罗拉多斯普林斯"
+    },
+    "haiti-14": {
+      "nameZh": "勒弗顿·皮埃尔",
+      "club": "维泽拉"
+    },
+    "haiti-15": {
+      "nameZh": "鲁本·普罗维登斯",
+      "club": "阿尔梅勒城"
+    },
+    "haiti-16": {
+      "nameZh": "伦尼·约瑟夫",
+      "club": "费伦茨瓦罗斯"
+    },
+    "haiti-17": {
+      "nameZh": "丹利·让-雅克",
+      "club": "费城联合"
+    },
+    "haiti-18": {
+      "nameZh": "威尔逊·伊西多尔",
+      "club": "桑德兰"
+    },
+    "haiti-19": {
+      "nameZh": "亚辛·福蒂内",
+      "club": "维泽拉"
+    },
+    "haiti-20": {
+      "nameZh": "弗朗茨迪·皮耶罗",
+      "club": "里泽体育（外租）"
+    },
+    "haiti-21": {
+      "nameZh": "若苏埃·卡西米尔",
+      "club": "欧塞尔"
+    },
+    "haiti-22": {
+      "nameZh": "让-凯文·迪韦尔纳",
+      "club": "根特（外租）"
+    },
+    "haiti-23": {
+      "nameZh": "若苏埃·迪韦热",
+      "club": "科布伦茨宇宙"
+    },
+    "haiti-24": {
+      "nameZh": "维尔居恩斯·波甘",
+      "club": "聚尔特-瓦雷赫姆"
+    },
+    "haiti-25": {
+      "nameZh": "多米尼克·西蒙",
+      "club": "普雷绍夫（外租）"
+    },
+    "haiti-26": {
+      "nameZh": "伍登斯基·皮埃尔",
+      "club": "紫罗兰竞技"
+    },
+    "iran-1": {
+      "nameZh": "阿里礼萨·贝兰万德",
+      "club": "拖拉机"
+    },
+    "iran-2": {
+      "nameZh": "萨利赫·哈达尼",
+      "club": "独立"
+    },
+    "iran-3": {
+      "nameZh": "伊赫桑·哈杰萨菲",
+      "club": "塞帕罕"
+    },
+    "iran-4": {
+      "nameZh": "舒贾·哈利勒扎德",
+      "club": "拖拉机"
+    },
+    "iran-5": {
+      "nameZh": "米拉德·穆罕默迪",
+      "club": "波斯波利斯"
+    },
+    "iran-6": {
+      "nameZh": "赛义德·埃扎托拉希",
+      "club": "沙巴布阿赫利"
+    },
+    "iran-7": {
+      "nameZh": "阿里礼萨·贾汉巴赫什",
+      "club": "登德尔"
+    },
+    "iran-8": {
+      "nameZh": "穆罕默德·莫赫比",
+      "club": "罗斯托夫"
+    },
+    "iran-9": {
+      "nameZh": "迈赫迪·塔雷米",
+      "club": "奥林匹亚科斯"
+    },
+    "iran-10": {
+      "nameZh": "迈赫迪·加耶迪",
+      "club": "阿联酋纳斯尔"
+    },
+    "iran-11": {
+      "nameZh": "阿里·阿里普尔",
+      "club": "波斯波利斯"
+    },
+    "iran-12": {
+      "nameZh": "帕亚姆·尼亚兹曼德",
+      "club": "波斯波利斯"
+    },
+    "iran-13": {
+      "nameZh": "侯赛因·卡纳尼扎德甘",
+      "club": "波斯波利斯"
+    },
+    "iran-14": {
+      "nameZh": "萨曼·古多斯",
+      "club": "卡尔巴"
+    },
+    "iran-15": {
+      "nameZh": "鲁兹贝·切什米",
+      "club": "独立"
+    },
+    "iran-16": {
+      "nameZh": "迈赫迪·托拉比",
+      "club": "拖拉机"
+    },
+    "iran-17": {
+      "nameZh": "阿里亚·优素菲",
+      "club": "塞帕罕"
+    },
+    "iran-18": {
+      "nameZh": "阿米尔侯赛因·侯赛因扎德",
+      "club": "拖拉机"
+    },
+    "iran-19": {
+      "nameZh": "阿里·内马蒂",
+      "club": "富勒德"
+    },
+    "iran-20": {
+      "nameZh": "沙赫里亚尔·莫汉劳",
+      "club": "卡尔巴"
+    },
+    "iran-21": {
+      "nameZh": "穆罕默德·戈尔巴尼",
+      "club": "阿联酋瓦赫达"
+    },
+    "iran-22": {
+      "nameZh": "侯赛因·侯赛尼",
+      "club": "塞帕罕"
+    },
+    "iran-23": {
+      "nameZh": "拉明·雷扎伊扬",
+      "club": "富勒德（外租）"
+    },
+    "iran-24": {
+      "nameZh": "丹尼斯-耶莱·埃克特",
+      "club": "标准列日"
+    },
+    "iran-25": {
+      "nameZh": "达尼尔·艾里",
+      "club": "马拉万（外租）"
+    },
+    "iran-26": {
+      "nameZh": "阿米尔穆罕默德·拉扎吉尼亚",
+      "club": "独立"
+    },
+    "iraq-1": {
+      "nameZh": "法赫德·塔利布",
+      "club": "塔拉巴"
+    },
+    "iraq-2": {
+      "nameZh": "雷宾·苏拉卡",
+      "club": "波特"
+    },
+    "iraq-3": {
+      "nameZh": "侯赛因·阿里",
+      "club": "什切青波贡"
+    },
+    "iraq-4": {
+      "nameZh": "扎伊德·塔辛",
+      "club": "帕赫塔科尔"
+    },
+    "iraq-5": {
+      "nameZh": "阿坎·哈希姆",
+      "club": "扎瓦拉"
+    },
+    "iraq-6": {
+      "nameZh": "马纳夫·尤尼斯",
+      "club": "肖塔"
+    },
+    "iraq-7": {
+      "nameZh": "优素福·阿明",
+      "club": "拉纳卡AEK"
+    },
+    "iraq-8": {
+      "nameZh": "易卜拉欣·巴耶什",
+      "club": "达夫拉"
+    },
+    "iraq-9": {
+      "nameZh": "阿里·哈马迪",
+      "club": "卢顿（外租）"
+    },
+    "iraq-10": {
+      "nameZh": "穆罕默德·阿里",
+      "club": "迪巴"
+    },
+    "iraq-11": {
+      "nameZh": "艾哈迈德·卡塞姆",
+      "club": "纳什维尔"
+    },
+    "iraq-12": {
+      "nameZh": "贾拉尔·哈桑",
+      "club": "扎瓦拉"
+    },
+    "iraq-13": {
+      "nameZh": "阿里·优素福",
+      "club": "塔拉巴"
+    },
+    "iraq-14": {
+      "nameZh": "齐达内·伊克巴尔",
+      "club": "乌得勒支"
+    },
+    "iraq-15": {
+      "nameZh": "艾哈迈德·马克恩齐",
+      "club": "肖塔"
+    },
+    "iraq-16": {
+      "nameZh": "阿米尔·阿马里",
+      "club": "克拉科夫"
+    },
+    "iraq-17": {
+      "nameZh": "阿里·贾西姆",
+      "club": "纳杰马（外租）"
+    },
+    "iraq-18": {
+      "nameZh": "艾曼·侯赛因",
+      "club": "卡尔马"
+    },
+    "iraq-19": {
+      "nameZh": "凯文·雅科布",
+      "club": "奥胡斯"
+    },
+    "iraq-20": {
+      "nameZh": "艾马尔·谢尔",
+      "club": "萨尔普斯堡08"
+    },
+    "iraq-21": {
+      "nameZh": "马尔科·法尔吉",
+      "club": "威尼斯"
+    },
+    "iraq-22": {
+      "nameZh": "艾哈迈德·巴西勒",
+      "club": "肖塔"
+    },
+    "iraq-23": {
+      "nameZh": "梅尔查斯·多斯基",
+      "club": "比尔森胜利"
+    },
+    "iraq-24": {
+      "nameZh": "扎伊德·伊斯梅尔",
+      "club": "塔拉巴"
+    },
+    "iraq-25": {
+      "nameZh": "穆斯塔法·萨阿敦",
+      "club": "肖塔"
+    },
+    "iraq-26": {
+      "nameZh": "弗兰斯·迪亚·普特罗斯",
+      "club": "万隆佩西比"
+    },
+    "ivory-coast-1": {
+      "nameZh": "亚希亚·福法纳",
+      "club": "里泽体育"
+    },
+    "ivory-coast-2": {
+      "nameZh": "乌斯曼·迪奥曼德",
+      "club": "葡萄牙体育"
+    },
+    "ivory-coast-3": {
+      "nameZh": "吉斯兰·科南",
+      "club": "吉尔维森特"
+    },
+    "ivory-coast-4": {
+      "nameZh": "让-米歇尔·塞里",
+      "club": "马里博尔"
+    },
+    "ivory-coast-5": {
+      "nameZh": "威利·辛戈",
+      "club": "加拉塔萨雷"
+    },
+    "ivory-coast-6": {
+      "nameZh": "塞科·福法纳",
+      "club": "波尔图（外租）"
+    },
+    "ivory-coast-7": {
+      "nameZh": "奥迪隆·科索努",
+      "club": "亚特兰大"
+    },
+    "ivory-coast-8": {
+      "nameZh": "弗兰克·凯西",
+      "club": "吉达国民"
+    },
+    "ivory-coast-9": {
+      "nameZh": "安热-约安·博尼",
+      "club": "国际米兰"
+    },
+    "ivory-coast-10": {
+      "nameZh": "西蒙·阿丁格拉",
+      "club": "摩纳哥（外租）"
+    },
+    "ivory-coast-11": {
+      "nameZh": "扬·迪奥曼德",
+      "club": "莱比锡红牛"
+    },
+    "ivory-coast-12": {
+      "nameZh": "埃利·瓦希",
+      "club": "尼斯（外租）"
+    },
+    "ivory-coast-13": {
+      "nameZh": "克里斯托弗·奥佩里",
+      "club": "伊斯坦布尔巴萨克赛尔"
+    },
+    "ivory-coast-14": {
+      "nameZh": "乌马尔·迪亚基特",
+      "club": "布鲁日圆环（外租）"
+    },
+    "ivory-coast-15": {
+      "nameZh": "阿马德·迪亚洛",
+      "club": "曼联"
+    },
+    "ivory-coast-16": {
+      "nameZh": "穆罕默德·科内",
+      "club": "沙勒罗瓦"
+    },
+    "ivory-coast-17": {
+      "nameZh": "盖拉·杜埃",
+      "club": "斯特拉斯堡"
+    },
+    "ivory-coast-18": {
+      "nameZh": "易卜拉欣·桑加雷",
+      "club": "诺丁汉森林"
+    },
+    "ivory-coast-19": {
+      "nameZh": "尼古拉·佩佩",
+      "club": "比利亚雷亚尔"
+    },
+    "ivory-coast-20": {
+      "nameZh": "埃马纽埃尔·阿巴杜",
+      "club": "贝西克塔斯（外租）"
+    },
+    "ivory-coast-21": {
+      "nameZh": "埃万·恩迪卡",
+      "club": "罗马"
+    },
+    "ivory-coast-22": {
+      "nameZh": "埃万·盖桑",
+      "club": "水晶宫（外租）"
+    },
+    "ivory-coast-23": {
+      "nameZh": "阿尔班·拉丰",
+      "club": "帕纳辛纳科斯（外租）"
+    },
+    "ivory-coast-24": {
+      "nameZh": "巴祖马纳·图雷",
+      "club": "霍芬海姆"
+    },
+    "ivory-coast-25": {
+      "nameZh": "帕尔费·吉亚贡",
+      "club": "沙勒罗瓦"
+    },
+    "ivory-coast-26": {
+      "nameZh": "克里斯·伊诺·乌莱",
+      "club": "特拉布宗体育"
+    },
+    "morocco-1": {
+      "nameZh": "亚辛·布努",
+      "club": "利雅得新月"
+    },
+    "morocco-2": {
+      "nameZh": "阿什拉夫·哈基米",
+      "club": "巴黎圣日耳曼"
+    },
+    "morocco-3": {
+      "nameZh": "努赛尔·马兹拉维",
+      "club": "曼联"
+    },
+    "morocco-4": {
+      "nameZh": "索费扬·阿姆拉巴特",
+      "club": "贝蒂斯（外租）"
+    },
+    "morocco-5": {
+      "nameZh": "纳伊夫·阿格尔德",
+      "club": "马赛"
+    },
+    "morocco-6": {
+      "nameZh": "阿尤布·布阿迪",
+      "club": "里尔"
+    },
+    "morocco-7": {
+      "nameZh": "切姆斯丁·塔尔比",
+      "club": "桑德兰"
+    },
+    "morocco-8": {
+      "nameZh": "阿兹丁·乌纳希",
+      "club": "赫罗纳"
+    },
+    "morocco-9": {
+      "nameZh": "苏菲扬·拉希米",
+      "club": "艾因"
+    },
+    "morocco-10": {
+      "nameZh": "卜拉欣·迪亚斯",
+      "club": "皇马"
+    },
+    "morocco-11": {
+      "nameZh": "伊斯梅尔·赛巴里",
+      "club": "埃因霍温"
+    },
+    "morocco-12": {
+      "nameZh": "穆尼尔",
+      "club": "贝尔卡内皇家体育"
+    },
+    "morocco-13": {
+      "nameZh": "扎卡里亚·瓦赫迪",
+      "club": "亨克"
+    },
+    "morocco-14": {
+      "nameZh": "伊萨·迪奥普",
+      "club": "富勒姆"
+    },
+    "morocco-15": {
+      "nameZh": "萨米尔·穆拉贝特",
+      "club": "斯特拉斯堡"
+    },
+    "morocco-16": {
+      "nameZh": "盖西姆·亚辛",
+      "club": "斯特拉斯堡"
+    },
+    "morocco-17": {
+      "nameZh": "阿卜德·埃扎尔祖利",
+      "club": "贝蒂斯"
+    },
+    "morocco-18": {
+      "nameZh": "沙迪·里亚德",
+      "club": "水晶宫"
+    },
+    "morocco-19": {
+      "nameZh": "优素福·贝拉马里",
+      "club": "开罗国民"
+    },
+    "morocco-20": {
+      "nameZh": "阿尤布·埃尔卡阿比",
+      "club": "奥林匹亚科斯"
+    },
+    "morocco-21": {
+      "nameZh": "阿尤贝·阿迈穆尼",
+      "club": "法兰克福"
+    },
+    "morocco-22": {
+      "nameZh": "艾哈迈德·雷达·塔格纳乌提",
+      "club": "拉巴特武装力量"
+    },
+    "morocco-23": {
+      "nameZh": "比拉尔·埃尔汉努斯",
+      "club": "斯图加特"
+    },
+    "morocco-24": {
+      "nameZh": "尼尔·艾纳维",
+      "club": "罗马"
+    },
+    "morocco-25": {
+      "nameZh": "雷杜安·哈尔哈尔",
+      "club": "梅赫伦"
+    },
+    "morocco-26": {
+      "nameZh": "阿纳斯·萨拉赫丁",
+      "club": "埃因霍温（外租）"
+    },
+    "netherlands-1": {
+      "nameZh": "巴特·费布鲁亨",
+      "club": "布莱顿"
+    },
+    "netherlands-2": {
+      "nameZh": "卢特沙雷尔·赫尔特鲁伊达",
+      "club": "桑德兰（外租）"
+    },
+    "netherlands-3": {
+      "nameZh": "马滕·德龙",
+      "club": "亚特兰大"
+    },
+    "netherlands-4": {
+      "nameZh": "维吉尔·范戴克",
+      "club": "利物浦"
+    },
+    "netherlands-5": {
+      "nameZh": "纳坦·阿克",
+      "club": "曼城"
+    },
+    "netherlands-6": {
+      "nameZh": "扬·保罗·范赫克",
+      "club": "布莱顿"
+    },
+    "netherlands-7": {
+      "nameZh": "贾斯汀·克鲁伊维特",
+      "club": "伯恩茅斯"
+    },
+    "netherlands-8": {
+      "nameZh": "瑞安·赫拉芬贝赫",
+      "club": "利物浦"
+    },
+    "netherlands-9": {
+      "nameZh": "沃特·韦霍斯特",
+      "club": "阿贾克斯"
+    },
+    "netherlands-10": {
+      "nameZh": "孟菲斯·德佩",
+      "club": "科林蒂安"
+    },
+    "netherlands-11": {
+      "nameZh": "科迪·加克波",
+      "club": "利物浦"
+    },
+    "netherlands-12": {
+      "nameZh": "马茨·维费尔",
+      "club": "布莱顿"
+    },
+    "netherlands-13": {
+      "nameZh": "罗宾·鲁夫斯",
+      "club": "桑德兰"
+    },
+    "netherlands-14": {
+      "nameZh": "蒂贾尼·赖因德斯",
+      "club": "曼城"
+    },
+    "netherlands-15": {
+      "nameZh": "米奇·范德芬",
+      "club": "热刺"
+    },
+    "netherlands-16": {
+      "nameZh": "古斯·蒂尔",
+      "club": "埃因霍温"
+    },
+    "netherlands-17": {
+      "nameZh": "诺阿·朗",
+      "club": "加拉塔萨雷（外租）"
+    },
+    "netherlands-18": {
+      "nameZh": "多尼尔·马伦",
+      "club": "罗马（外租）"
+    },
+    "netherlands-19": {
+      "nameZh": "布赖恩·布罗贝",
+      "club": "桑德兰"
+    },
+    "netherlands-20": {
+      "nameZh": "特恩·库普梅因斯",
+      "club": "尤文图斯"
+    },
+    "netherlands-21": {
+      "nameZh": "弗兰基·德容",
+      "club": "巴塞罗那"
+    },
+    "netherlands-22": {
+      "nameZh": "丹泽尔·邓弗里斯",
+      "club": "国际米兰"
+    },
+    "netherlands-23": {
+      "nameZh": "马克·弗莱肯",
+      "club": "勒沃库森"
+    },
+    "netherlands-24": {
+      "nameZh": "克里森西奥·萨默维尔",
+      "club": "西汉姆联"
+    },
+    "netherlands-25": {
+      "nameZh": "约雷尔·哈托",
+      "club": "切尔西"
+    },
+    "netherlands-26": {
+      "nameZh": "昆滕·廷贝尔",
+      "club": "马赛"
+    },
+    "new-zealand-1": {
+      "nameZh": "马克斯·克罗科姆",
+      "club": "米尔沃尔"
+    },
+    "new-zealand-2": {
+      "nameZh": "蒂姆·佩恩",
+      "club": "惠灵顿凤凰"
+    },
+    "new-zealand-3": {
+      "nameZh": "弗朗西斯·德弗里斯",
+      "club": "奥克兰FC"
+    },
+    "new-zealand-4": {
+      "nameZh": "泰勒·宾登",
+      "club": "谢菲尔德联（外租）"
+    },
+    "new-zealand-5": {
+      "nameZh": "迈克尔·博克萨尔",
+      "club": "明尼苏达联"
+    },
+    "new-zealand-6": {
+      "nameZh": "乔·贝尔",
+      "club": "维京"
+    },
+    "new-zealand-7": {
+      "nameZh": "马修·加贝特",
+      "club": "彼得堡联"
+    },
+    "new-zealand-8": {
+      "nameZh": "马尔科·斯塔梅尼奇",
+      "club": "斯旺西"
+    },
+    "new-zealand-9": {
+      "nameZh": "克里斯·伍德",
+      "club": "诺丁汉森林"
+    },
+    "new-zealand-10": {
+      "nameZh": "萨普雷特·辛格",
+      "club": "惠灵顿凤凰（外租）"
+    },
+    "new-zealand-11": {
+      "nameZh": "伊利亚·贾斯特",
+      "club": "马瑟韦尔"
+    },
+    "new-zealand-12": {
+      "nameZh": "亚历克斯·保尔森",
+      "club": "格但斯克莱吉亚（外租）"
+    },
+    "new-zealand-13": {
+      "nameZh": "利贝拉托·卡卡塞",
+      "club": "雷克瑟姆"
+    },
+    "new-zealand-14": {
+      "nameZh": "亚历克斯·鲁费尔",
+      "club": "惠灵顿凤凰"
+    },
+    "new-zealand-15": {
+      "nameZh": "南多·平纳克",
+      "club": "奥克兰FC"
+    },
+    "new-zealand-16": {
+      "nameZh": "芬恩·瑟曼",
+      "club": "波特兰伐木者"
+    },
+    "new-zealand-17": {
+      "nameZh": "科斯塔·巴尔巴鲁塞斯",
+      "club": "西悉尼流浪者"
+    },
+    "new-zealand-18": {
+      "nameZh": "本·韦恩",
+      "club": "维尔港"
+    },
+    "new-zealand-19": {
+      "nameZh": "本·奥德",
+      "club": "圣埃蒂安"
+    },
+    "new-zealand-20": {
+      "nameZh": "卡勒姆·麦科瓦特",
+      "club": "锡尔克堡"
+    },
+    "new-zealand-21": {
+      "nameZh": "杰西·兰德尔",
+      "club": "奥克兰FC"
+    },
+    "new-zealand-22": {
+      "nameZh": "迈克尔·伍德",
+      "club": "奥克兰FC"
+    },
+    "new-zealand-23": {
+      "nameZh": "瑞安·托马斯",
+      "club": "兹沃勒"
+    },
+    "new-zealand-24": {
+      "nameZh": "卡伦·埃利奥特",
+      "club": "奥克兰FC"
+    },
+    "new-zealand-25": {
+      "nameZh": "拉克伦·贝利斯",
+      "club": "纽卡斯尔喷气机"
+    },
+    "new-zealand-26": {
+      "nameZh": "汤米·史密斯",
+      "club": "布伦特里"
+    },
+    "norway-1": {
+      "nameZh": "厄尔扬·尼兰",
+      "club": "塞维利亚"
+    },
+    "norway-2": {
+      "nameZh": "莫滕·托尔斯比",
+      "club": "克雷莫内塞"
+    },
+    "norway-3": {
+      "nameZh": "克里斯托弗·阿耶",
+      "club": "布伦特福德"
+    },
+    "norway-4": {
+      "nameZh": "莱奥·厄斯蒂高",
+      "club": "热那亚"
+    },
+    "norway-5": {
+      "nameZh": "戴维·默勒·沃尔夫",
+      "club": "狼队"
+    },
+    "norway-6": {
+      "nameZh": "帕特里克·贝格",
+      "club": "博德闪耀"
+    },
+    "norway-7": {
+      "nameZh": "亚历山大·瑟洛特",
+      "club": "马德里竞技"
+    },
+    "norway-8": {
+      "nameZh": "桑德尔·贝格",
+      "club": "富勒姆"
+    },
+    "norway-9": {
+      "nameZh": "埃尔林·哈兰德",
+      "club": "曼城"
+    },
+    "norway-10": {
+      "nameZh": "马丁·厄德高",
+      "club": "阿森纳"
+    },
+    "norway-11": {
+      "nameZh": "约尔根·斯特兰德·拉森",
+      "club": "水晶宫"
+    },
+    "norway-12": {
+      "nameZh": "桑德尔·坦维克",
+      "club": "汉堡"
+    },
+    "norway-13": {
+      "nameZh": "埃吉尔·塞尔维克",
+      "club": "沃特福德"
+    },
+    "norway-14": {
+      "nameZh": "弗雷德里克·奥尔斯内斯",
+      "club": "本菲卡"
+    },
+    "norway-15": {
+      "nameZh": "弗雷德里克·安德烈·比约坎",
+      "club": "博德闪耀"
+    },
+    "norway-16": {
+      "nameZh": "马库斯·霍尔姆格伦·佩德森",
+      "club": "都灵"
+    },
+    "norway-17": {
+      "nameZh": "托尔比约恩·赫格姆",
+      "club": "博洛尼亚"
+    },
+    "norway-18": {
+      "nameZh": "克里斯蒂安·托斯特维特",
+      "club": "萨索洛"
+    },
+    "norway-19": {
+      "nameZh": "特洛·奥阿斯高",
+      "club": "格拉斯哥流浪者"
+    },
+    "norway-20": {
+      "nameZh": "安东尼奥·努萨",
+      "club": "莱比锡红牛"
+    },
+    "norway-21": {
+      "nameZh": "安德烈亚斯·谢尔德鲁普",
+      "club": "本菲卡"
+    },
+    "norway-22": {
+      "nameZh": "奥斯卡·博布",
+      "club": "富勒姆"
+    },
+    "norway-23": {
+      "nameZh": "延斯·佩特·豪格",
+      "club": "博德闪耀"
+    },
+    "norway-24": {
+      "nameZh": "松德雷·朗戈斯",
+      "club": "德比郡"
+    },
+    "norway-25": {
+      "nameZh": "亨里克·法尔切纳",
+      "club": "维京"
+    },
+    "norway-26": {
+      "nameZh": "尤利安·赖尔森",
+      "club": "多特蒙德"
+    },
+    "paraguay-1": {
+      "nameZh": "罗伯托·费尔南德斯",
+      "club": "塞罗波塔诺"
+    },
+    "paraguay-2": {
+      "nameZh": "古斯塔沃·贝拉斯克斯",
+      "club": "塞罗波塔诺"
+    },
+    "paraguay-3": {
+      "nameZh": "奥马尔·阿尔德雷特",
+      "club": "桑德兰"
+    },
+    "paraguay-4": {
+      "nameZh": "胡安·何塞·卡塞雷斯",
+      "club": "莫斯科迪纳摩"
+    },
+    "paraguay-5": {
+      "nameZh": "法维安·巴尔武埃纳",
+      "club": "格雷米奥"
+    },
+    "paraguay-6": {
+      "nameZh": "儒尼奥尔·阿隆索",
+      "club": "米内罗竞技"
+    },
+    "paraguay-7": {
+      "nameZh": "拉蒙·索萨",
+      "club": "帕尔梅拉斯"
+    },
+    "paraguay-8": {
+      "nameZh": "迭戈·戈麦斯",
+      "club": "布莱顿"
+    },
+    "paraguay-9": {
+      "nameZh": "安东尼奥·萨纳夫里亚",
+      "club": "克雷莫内塞"
+    },
+    "paraguay-10": {
+      "nameZh": "米格尔·阿尔米隆",
+      "club": "亚特兰大联"
+    },
+    "paraguay-11": {
+      "nameZh": "毛里西奥",
+      "club": "帕尔梅拉斯"
+    },
+    "paraguay-12": {
+      "nameZh": "奥兰多·吉尔",
+      "club": "圣洛伦索"
+    },
+    "paraguay-13": {
+      "nameZh": "何塞·卡纳莱",
+      "club": "拉努斯"
+    },
+    "paraguay-14": {
+      "nameZh": "安德烈斯·库巴斯",
+      "club": "温哥华白帽"
+    },
+    "paraguay-15": {
+      "nameZh": "古斯塔沃·戈麦斯",
+      "club": "帕尔梅拉斯"
+    },
+    "paraguay-16": {
+      "nameZh": "达米安·博瓦迪利亚",
+      "club": "圣保罗"
+    },
+    "paraguay-17": {
+      "nameZh": "亚历杭德罗·罗梅罗·加马拉",
+      "club": "艾因"
+    },
+    "paraguay-18": {
+      "nameZh": "亚历克斯·阿尔塞",
+      "club": "里瓦达维亚独立"
+    },
+    "paraguay-19": {
+      "nameZh": "胡里奥·恩西索",
+      "club": "斯特拉斯堡"
+    },
+    "paraguay-20": {
+      "nameZh": "布赖安·奥赫达",
+      "club": "奥兰多城"
+    },
+    "paraguay-21": {
+      "nameZh": "加布里埃尔·阿瓦洛斯",
+      "club": "独立"
+    },
+    "paraguay-22": {
+      "nameZh": "加斯东·奥尔维耶拉",
+      "club": "奥林匹亚"
+    },
+    "paraguay-23": {
+      "nameZh": "马蒂亚斯·加拉扎",
+      "club": "亚特兰大联（外租）"
+    },
+    "paraguay-24": {
+      "nameZh": "古斯塔沃·卡瓦列罗",
+      "club": "朴茨茅斯（外租）"
+    },
+    "paraguay-25": {
+      "nameZh": "伊西德罗·皮塔",
+      "club": "布拉甘蒂诺红牛"
+    },
+    "paraguay-26": {
+      "nameZh": "亚历山大·迈达纳",
+      "club": "塔列雷斯"
+    },
+    "scotland-1": {
+      "nameZh": "安格斯·冈恩",
+      "club": "诺丁汉森林"
+    },
+    "scotland-2": {
+      "nameZh": "亚伦·希基",
+      "club": "布伦特福德"
+    },
+    "scotland-3": {
+      "nameZh": "安德鲁·罗伯逊",
+      "club": "利物浦"
+    },
+    "scotland-4": {
+      "nameZh": "斯科特·麦克托米奈",
+      "club": "那不勒斯"
+    },
+    "scotland-5": {
+      "nameZh": "格兰特·汉利",
+      "club": "希伯尼安"
+    },
+    "scotland-6": {
+      "nameZh": "基兰·蒂尔尼",
+      "club": "凯尔特人"
+    },
+    "scotland-7": {
+      "nameZh": "约翰·麦金",
+      "club": "阿斯顿维拉"
+    },
+    "scotland-8": {
+      "nameZh": "泰勒·弗莱彻",
+      "club": "曼联"
+    },
+    "scotland-9": {
+      "nameZh": "林登·戴克斯",
+      "club": "查尔顿"
+    },
+    "scotland-10": {
+      "nameZh": "切·亚当斯",
+      "club": "都灵"
+    },
+    "scotland-11": {
+      "nameZh": "瑞安·克里斯蒂",
+      "club": "伯恩茅斯"
+    },
+    "scotland-12": {
+      "nameZh": "利亚姆·凯利",
+      "club": "格拉斯哥流浪者"
+    },
+    "scotland-13": {
+      "nameZh": "杰克·亨德里",
+      "club": "达曼协作"
+    },
+    "scotland-14": {
+      "nameZh": "罗斯·斯图尔特",
+      "club": "南安普顿"
+    },
+    "scotland-15": {
+      "nameZh": "约翰·索塔",
+      "club": "格拉斯哥流浪者"
+    },
+    "scotland-16": {
+      "nameZh": "多米尼克·海厄姆",
+      "club": "雷克瑟姆"
+    },
+    "scotland-17": {
+      "nameZh": "本·甘农-多克",
+      "club": "伯恩茅斯"
+    },
+    "scotland-18": {
+      "nameZh": "乔治·赫斯特",
+      "club": "伊普斯维奇"
+    },
+    "scotland-19": {
+      "nameZh": "刘易斯·弗格森",
+      "club": "博洛尼亚"
+    },
+    "scotland-20": {
+      "nameZh": "劳伦斯·尚克兰",
+      "club": "哈茨"
+    },
+    "scotland-21": {
+      "nameZh": "克雷格·戈登",
+      "club": "哈茨"
+    },
+    "scotland-22": {
+      "nameZh": "内森·帕特森",
+      "club": "埃弗顿"
+    },
+    "scotland-23": {
+      "nameZh": "肯尼·麦克莱恩",
+      "club": "诺维奇"
+    },
+    "scotland-24": {
+      "nameZh": "安东尼·拉尔斯顿",
+      "club": "凯尔特人"
+    },
+    "scotland-25": {
+      "nameZh": "芬德利·柯蒂斯",
+      "club": "基尔马诺克（外租）"
+    },
+    "scotland-26": {
+      "nameZh": "斯科特·麦肯纳",
+      "club": "萨格勒布迪纳摩"
+    },
+    "senegal-1": {
+      "nameZh": "耶万·迪乌夫",
+      "club": "尼斯"
+    },
+    "senegal-2": {
+      "nameZh": "马马杜·萨尔",
+      "club": "切尔西"
+    },
+    "senegal-3": {
+      "nameZh": "卡利杜·库利巴利",
+      "club": "利雅得新月"
+    },
+    "senegal-4": {
+      "nameZh": "阿卜杜拉耶·塞克",
+      "club": "海法马卡比"
+    },
+    "senegal-5": {
+      "nameZh": "伊德里萨·盖耶",
+      "club": "埃弗顿"
+    },
+    "senegal-6": {
+      "nameZh": "帕特·西斯",
+      "club": "巴列卡诺"
+    },
+    "senegal-7": {
+      "nameZh": "阿萨内·迪奥",
+      "club": "科莫"
+    },
+    "senegal-8": {
+      "nameZh": "拉明·卡马拉",
+      "club": "摩纳哥"
+    },
+    "senegal-9": {
+      "nameZh": "班巴·迪昂",
+      "club": "洛里昂"
+    },
+    "senegal-10": {
+      "nameZh": "萨迪奥·马内",
+      "club": "利雅得胜利"
+    },
+    "senegal-11": {
+      "nameZh": "尼古拉斯·杰克逊",
+      "club": "拜仁慕尼黑（外租）"
+    },
+    "senegal-12": {
+      "nameZh": "谢里夫·恩迪亚耶",
+      "club": "萨姆松体育"
+    },
+    "senegal-13": {
+      "nameZh": "伊利曼·恩迪亚耶",
+      "club": "埃弗顿"
+    },
+    "senegal-14": {
+      "nameZh": "伊斯梅尔·雅各布斯",
+      "club": "加拉塔萨雷"
+    },
+    "senegal-15": {
+      "nameZh": "克雷平·迪亚塔",
+      "club": "摩纳哥"
+    },
+    "senegal-16": {
+      "nameZh": "爱德华·门迪",
+      "club": "吉达国民"
+    },
+    "senegal-17": {
+      "nameZh": "帕普·马塔尔·萨尔",
+      "club": "热刺"
+    },
+    "senegal-18": {
+      "nameZh": "伊斯梅拉·萨尔",
+      "club": "水晶宫"
+    },
+    "senegal-19": {
+      "nameZh": "穆萨·尼亚卡特",
+      "club": "里昂"
+    },
+    "senegal-20": {
+      "nameZh": "易卜拉欣·姆巴耶",
+      "club": "巴黎圣日耳曼"
+    },
+    "senegal-21": {
+      "nameZh": "哈比布·迪亚拉",
+      "club": "桑德兰"
+    },
+    "senegal-22": {
+      "nameZh": "巴拉·萨波科·恩迪亚耶",
+      "club": "拜仁慕尼黑（外租）"
+    },
+    "senegal-23": {
+      "nameZh": "莫里·迪亚乌",
+      "club": "勒阿弗尔"
+    },
+    "senegal-24": {
+      "nameZh": "安托万·门迪",
+      "club": "尼斯"
+    },
+    "senegal-25": {
+      "nameZh": "埃尔哈吉·马利克·迪乌夫",
+      "club": "西汉姆联"
+    },
+    "senegal-26": {
+      "nameZh": "帕普·盖耶",
+      "club": "比利亚雷亚尔"
+    },
+    "sweden-1": {
+      "nameZh": "雅各布·维德尔·泽特斯特伦",
+      "club": "德比郡"
+    },
+    "sweden-2": {
+      "nameZh": "古斯塔夫·拉格比尔克",
+      "club": "布拉加"
+    },
+    "sweden-3": {
+      "nameZh": "维克托·林德洛夫",
+      "club": "阿斯顿维拉"
+    },
+    "sweden-4": {
+      "nameZh": "伊萨克·希恩",
+      "club": "亚特兰大"
+    },
+    "sweden-5": {
+      "nameZh": "加布里埃尔·古德蒙德松",
+      "club": "利兹联"
+    },
+    "sweden-6": {
+      "nameZh": "赫尔曼·约翰松",
+      "club": "达拉斯FC"
+    },
+    "sweden-7": {
+      "nameZh": "卢卡斯·贝里瓦尔",
+      "club": "热刺"
+    },
+    "sweden-8": {
+      "nameZh": "丹尼尔·斯文松",
+      "club": "多特蒙德"
+    },
+    "sweden-9": {
+      "nameZh": "亚历山大·伊萨克",
+      "club": "利物浦"
+    },
+    "sweden-10": {
+      "nameZh": "本杰明·尼格伦",
+      "club": "凯尔特人"
+    },
+    "sweden-11": {
+      "nameZh": "安东尼·埃兰加",
+      "club": "纽卡斯尔联"
+    },
+    "sweden-12": {
+      "nameZh": "维克托·约翰松",
+      "club": "斯托克城"
+    },
+    "sweden-13": {
+      "nameZh": "肯·塞马",
+      "club": "帕福斯"
+    },
+    "sweden-14": {
+      "nameZh": "贾尔马尔·埃克达尔",
+      "club": "伯恩利"
+    },
+    "sweden-15": {
+      "nameZh": "卡尔·斯塔费尔特",
+      "club": "塞尔塔"
+    },
+    "sweden-16": {
+      "nameZh": "耶斯佩·卡尔斯特罗姆",
+      "club": "乌迪内斯"
+    },
+    "sweden-17": {
+      "nameZh": "维克托·约克雷斯",
+      "club": "阿森纳"
+    },
+    "sweden-18": {
+      "nameZh": "亚辛·阿亚里",
+      "club": "布莱顿"
+    },
+    "sweden-19": {
+      "nameZh": "马蒂亚斯·斯万贝里",
+      "club": "沃尔夫斯堡"
+    },
+    "sweden-20": {
+      "nameZh": "埃里克·史密斯",
+      "club": "圣保利"
+    },
+    "sweden-21": {
+      "nameZh": "亚历山大·伯恩哈德松",
+      "club": "荷尔斯泰因基尔"
+    },
+    "sweden-22": {
+      "nameZh": "贝斯福特·泽内利",
+      "club": "圣吉罗斯联合"
+    },
+    "sweden-23": {
+      "nameZh": "克里斯托弗·诺德费尔特",
+      "club": "AIK索尔纳"
+    },
+    "sweden-24": {
+      "nameZh": "埃利奥特·斯特劳德",
+      "club": "米亚尔比"
+    },
+    "sweden-25": {
+      "nameZh": "古斯塔夫·尼尔松",
+      "club": "布鲁日"
+    },
+    "sweden-26": {
+      "nameZh": "塔哈·阿里",
+      "club": "马尔默"
+    },
+    "tunisia-1": {
+      "nameZh": "穆希布·查马赫",
+      "club": "非洲俱乐部"
+    },
+    "tunisia-2": {
+      "nameZh": "阿里·阿卜迪",
+      "club": "尼斯"
+    },
+    "tunisia-3": {
+      "nameZh": "蒙塔萨尔·塔尔比",
+      "club": "洛里昂"
+    },
+    "tunisia-4": {
+      "nameZh": "奥马尔·雷基克",
+      "club": "马里博尔"
+    },
+    "tunisia-5": {
+      "nameZh": "阿德姆·阿鲁斯",
+      "club": "卡塞姆帕萨"
+    },
+    "tunisia-6": {
+      "nameZh": "迪伦·布龙",
+      "club": "塞尔维特"
+    },
+    "tunisia-7": {
+      "nameZh": "埃利亚斯·阿舒里",
+      "club": "哥本哈根"
+    },
+    "tunisia-8": {
+      "nameZh": "埃利亚斯·萨阿德",
+      "club": "汉诺威96（外租）"
+    },
+    "tunisia-9": {
+      "nameZh": "哈泽姆·马斯图里",
+      "club": "马哈奇卡拉迪纳摩"
+    },
+    "tunisia-10": {
+      "nameZh": "汉尼拔·梅布里",
+      "club": "伯恩利"
+    },
+    "tunisia-11": {
+      "nameZh": "伊斯梅尔·加尔比",
+      "club": "奥格斯堡（外租）"
+    },
+    "tunisia-12": {
+      "nameZh": "穆尔塔达·本·瓦内斯",
+      "club": "卡塞姆帕萨"
+    },
+    "tunisia-13": {
+      "nameZh": "拉尼·凯德拉",
+      "club": "柏林联合"
+    },
+    "tunisia-14": {
+      "nameZh": "哈利勒·阿亚里",
+      "club": "巴黎圣日耳曼（外租）"
+    },
+    "tunisia-15": {
+      "nameZh": "哈吉·马哈茂德",
+      "club": "卢加诺"
+    },
+    "tunisia-16": {
+      "nameZh": "艾门·达赫曼",
+      "club": "斯法克斯"
+    },
+    "tunisia-17": {
+      "nameZh": "埃利耶斯·斯基里",
+      "club": "法兰克福"
+    },
+    "tunisia-18": {
+      "nameZh": "拉扬·埃卢米",
+      "club": "温哥华白帽"
+    },
+    "tunisia-19": {
+      "nameZh": "菲拉斯·绍阿特",
+      "club": "非洲俱乐部"
+    },
+    "tunisia-20": {
+      "nameZh": "扬·瓦莱里",
+      "club": "伯尔尼年轻人（外租）"
+    },
+    "tunisia-21": {
+      "nameZh": "穆罕默德·阿明·本·哈米达",
+      "club": "突尼斯希望"
+    },
+    "tunisia-22": {
+      "nameZh": "萨布里·本·赫森",
+      "club": "萨赫勒之星"
+    },
+    "tunisia-23": {
+      "nameZh": "穆塔兹·内法提",
+      "club": "北雪平"
+    },
+    "tunisia-24": {
+      "nameZh": "拉伊德·奇卡维",
+      "club": "莫纳斯提尔"
+    },
+    "tunisia-25": {
+      "nameZh": "阿尼斯·本·斯利曼",
+      "club": "诺维奇"
+    },
+    "tunisia-26": {
+      "nameZh": "塞巴斯蒂安·图内克蒂",
+      "club": "凯尔特人"
+    },
+    "turkey-1": {
+      "nameZh": "梅尔特·居诺夫",
+      "club": "费内巴切"
+    },
+    "turkey-2": {
+      "nameZh": "泽基·切利克",
+      "club": "罗马"
+    },
+    "turkey-3": {
+      "nameZh": "梅里赫·德米拉尔",
+      "club": "吉达国民"
+    },
+    "turkey-4": {
+      "nameZh": "恰拉尔·瑟云居",
+      "club": "费内巴切"
+    },
+    "turkey-5": {
+      "nameZh": "萨利赫·厄兹詹",
+      "club": "多特蒙德"
+    },
+    "turkey-6": {
+      "nameZh": "奥尔昆·柯克曲",
+      "club": "贝西克塔斯（外租）"
+    },
+    "turkey-7": {
+      "nameZh": "穆罕默德·克雷姆·阿克图尔科格鲁",
+      "club": "费内巴切"
+    },
+    "turkey-8": {
+      "nameZh": "阿尔达·居勒尔",
+      "club": "皇马"
+    },
+    "turkey-9": {
+      "nameZh": "德尼兹·居尔",
+      "club": "波尔图"
+    },
+    "turkey-10": {
+      "nameZh": "哈坎·恰尔汗奥卢",
+      "club": "国际米兰"
+    },
+    "turkey-11": {
+      "nameZh": "克南·伊尔迪兹",
+      "club": "尤文图斯"
+    },
+    "turkey-12": {
+      "nameZh": "阿尔泰·巴因德尔",
+      "club": "曼联"
+    },
+    "turkey-13": {
+      "nameZh": "埃夫伦·埃伦·埃尔马利",
+      "club": "加拉塔萨雷"
+    },
+    "turkey-14": {
+      "nameZh": "阿卜杜勒凯里姆·巴尔达克奇",
+      "club": "加拉塔萨雷"
+    },
+    "turkey-15": {
+      "nameZh": "奥赞·卡巴克",
+      "club": "霍芬海姆"
+    },
+    "turkey-16": {
+      "nameZh": "伊斯梅尔·于克塞克",
+      "club": "费内巴切"
+    },
+    "turkey-17": {
+      "nameZh": "伊尔凡·詹·卡赫韦吉",
+      "club": "卡西姆帕萨（外租）"
+    },
+    "turkey-18": {
+      "nameZh": "梅尔特·穆尔杜尔",
+      "club": "费内巴切"
+    },
+    "turkey-19": {
+      "nameZh": "云努斯·阿库恩",
+      "club": "加拉塔萨雷"
+    },
+    "turkey-20": {
+      "nameZh": "费尔迪·卡迪奥卢",
+      "club": "布莱顿"
+    },
+    "turkey-21": {
+      "nameZh": "巴里什·阿尔珀·伊尔马兹",
+      "club": "加拉塔萨雷"
+    },
+    "turkey-22": {
+      "nameZh": "卡安·艾汗",
+      "club": "加拉塔萨雷"
+    },
+    "turkey-23": {
+      "nameZh": "乌尔詹·恰基尔",
+      "club": "加拉塔萨雷"
+    },
+    "turkey-24": {
+      "nameZh": "奥古兹·阿伊丁",
+      "club": "费内巴切"
+    },
+    "turkey-25": {
+      "nameZh": "萨梅特·阿卡伊丁",
+      "club": "里泽体育"
+    },
+    "turkey-26": {
+      "nameZh": "詹·乌尊",
+      "club": "法兰克福"
+    },
+    "uruguay-1": {
+      "nameZh": "塞尔希奥·罗切特",
+      "club": "巴西国际"
+    },
+    "uruguay-2": {
+      "nameZh": "何塞·希门尼斯",
+      "club": "马德里竞技"
+    },
+    "uruguay-3": {
+      "nameZh": "塞巴斯蒂安·卡塞雷斯",
+      "club": "美洲"
+    },
+    "uruguay-4": {
+      "nameZh": "罗纳德·阿劳霍",
+      "club": "巴塞罗那"
+    },
+    "uruguay-5": {
+      "nameZh": "曼努埃尔·乌加特",
+      "club": "曼联"
+    },
+    "uruguay-6": {
+      "nameZh": "罗德里戈·本坦库尔",
+      "club": "热刺"
+    },
+    "uruguay-7": {
+      "nameZh": "尼古拉斯·德拉克鲁斯",
+      "club": "弗拉门戈"
+    },
+    "uruguay-8": {
+      "nameZh": "费德里科·巴尔韦德",
+      "club": "皇马"
+    },
+    "uruguay-9": {
+      "nameZh": "达尔文·努涅斯",
+      "club": "利雅得新月"
+    },
+    "uruguay-10": {
+      "nameZh": "乔治安·德·阿拉斯卡埃塔",
+      "club": "弗拉门戈"
+    },
+    "uruguay-11": {
+      "nameZh": "法昆多·佩利斯特里",
+      "club": "帕纳辛奈科斯"
+    },
+    "uruguay-12": {
+      "nameZh": "圣地亚哥·梅莱",
+      "club": "蒙特雷"
+    },
+    "uruguay-13": {
+      "nameZh": "吉列尔莫·巴雷拉",
+      "club": "弗拉门戈"
+    },
+    "uruguay-14": {
+      "nameZh": "阿古斯丁·卡诺比奥",
+      "club": "弗鲁米嫩塞"
+    },
+    "uruguay-15": {
+      "nameZh": "埃米利亚诺·马丁内斯",
+      "club": "帕尔梅拉斯"
+    },
+    "uruguay-16": {
+      "nameZh": "马蒂亚斯·奥利韦拉",
+      "club": "那不勒斯"
+    },
+    "uruguay-17": {
+      "nameZh": "马蒂亚斯·维尼亚",
+      "club": "河床（外租）"
+    },
+    "uruguay-18": {
+      "nameZh": "布赖恩·罗德里格斯",
+      "club": "美洲"
+    },
+    "uruguay-19": {
+      "nameZh": "罗德里戈·阿吉雷",
+      "club": "老虎大学"
+    },
+    "uruguay-20": {
+      "nameZh": "马克西米利亚诺·阿劳霍",
+      "club": "葡萄牙体育"
+    },
+    "uruguay-21": {
+      "nameZh": "费德里科·维尼亚斯",
+      "club": "奥维耶多（外租）"
+    },
+    "uruguay-22": {
+      "nameZh": "华金·皮克雷斯",
+      "club": "帕尔梅拉斯"
+    },
+    "uruguay-23": {
+      "nameZh": "费尔南多·穆斯莱拉",
+      "club": "拉普拉塔大学生"
+    },
+    "uruguay-24": {
+      "nameZh": "圣地亚哥·布埃诺",
+      "club": "狼队"
+    },
+    "uruguay-25": {
+      "nameZh": "胡安·曼努埃尔·萨纳夫里亚",
+      "club": "皇家盐湖城"
+    },
+    "uruguay-26": {
+      "nameZh": "罗德里戈·萨拉扎尔",
+      "club": "布拉加"
+    },
+    "uzbekistan-1": {
+      "nameZh": "乌特基尔·尤苏波夫",
+      "club": "纳曼干纳夫巴霍尔"
+    },
+    "uzbekistan-2": {
+      "nameZh": "阿卜杜科迪尔·胡萨诺夫",
+      "club": "曼城"
+    },
+    "uzbekistan-3": {
+      "nameZh": "霍贾阿克巴尔·阿利约诺夫",
+      "club": "塔什干棉农"
+    },
+    "uzbekistan-4": {
+      "nameZh": "法鲁赫·赛菲耶夫",
+      "club": "费尔干纳石油"
+    },
+    "uzbekistan-5": {
+      "nameZh": "鲁斯兰·阿舒尔马托夫",
+      "club": "独立"
+    },
+    "uzbekistan-6": {
+      "nameZh": "阿克马尔·莫兹戈沃伊",
+      "club": "塔什干棉农"
+    },
+    "uzbekistan-7": {
+      "nameZh": "奥塔别克·舒库罗夫",
+      "club": "巴尼亚斯"
+    },
+    "uzbekistan-8": {
+      "nameZh": "贾姆希德·伊斯坎德罗夫",
+      "club": "费尔干纳石油"
+    },
+    "uzbekistan-9": {
+      "nameZh": "奥迪尔洪·哈姆罗别科夫",
+      "club": "拖拉机"
+    },
+    "uzbekistan-10": {
+      "nameZh": "贾洛利丁·马沙里波夫",
+      "club": "独立"
+    },
+    "uzbekistan-11": {
+      "nameZh": "奥斯顿·乌鲁诺夫",
+      "club": "波斯波利斯"
+    },
+    "uzbekistan-12": {
+      "nameZh": "阿卜杜沃希德·涅马托夫",
+      "club": "卡尔希纳萨夫"
+    },
+    "uzbekistan-13": {
+      "nameZh": "谢尔佐德·纳斯鲁拉耶夫",
+      "club": "卡尔希纳萨夫"
+    },
+    "uzbekistan-14": {
+      "nameZh": "埃尔多·绍穆罗多夫",
+      "club": "伊斯坦布尔巴萨克赛尔（外租）"
+    },
+    "uzbekistan-15": {
+      "nameZh": "乌马尔别克·埃什穆罗多夫",
+      "club": "卡尔希纳萨夫"
+    },
+    "uzbekistan-16": {
+      "nameZh": "博提拉·埃尔加舍夫",
+      "club": "费尔干纳石油"
+    },
+    "uzbekistan-17": {
+      "nameZh": "多斯顿别克·哈姆达莫夫",
+      "club": "塔什干棉农"
+    },
+    "uzbekistan-18": {
+      "nameZh": "阿卜杜拉·阿卜杜拉耶夫",
+      "club": "迪巴"
+    },
+    "uzbekistan-19": {
+      "nameZh": "阿齐兹洪·加尼耶夫",
+      "club": "巴塔埃赫"
+    },
+    "uzbekistan-20": {
+      "nameZh": "阿齐兹别克·阿莫诺夫",
+      "club": "布哈拉"
+    },
+    "uzbekistan-21": {
+      "nameZh": "伊戈尔·谢尔盖耶夫",
+      "club": "波斯波利斯"
+    },
+    "uzbekistan-22": {
+      "nameZh": "阿博斯别克·法伊祖拉耶夫",
+      "club": "伊斯坦布尔巴萨克赛尔"
+    },
+    "uzbekistan-23": {
+      "nameZh": "谢尔佐德·埃萨诺夫",
+      "club": "布哈拉"
+    },
+    "uzbekistan-24": {
+      "nameZh": "别赫鲁兹·卡里莫夫",
+      "club": "苏尔汉"
+    },
+    "uzbekistan-25": {
+      "nameZh": "阿瓦兹别克·乌尔马萨利耶夫",
+      "club": "OKMK"
+    },
+    "uzbekistan-26": {
+      "nameZh": "贾洪吉尔·乌罗佐夫",
+      "club": "撒马尔罕迪纳摩"
+    },
+    "algeria-1": {
+      "nameZh": "梅尔文·马斯蒂尔",
+      "club": "尼永"
+    },
+    "algeria-2": {
+      "nameZh": "艾萨·曼迪",
+      "club": "里尔"
+    },
+    "algeria-3": {
+      "nameZh": "阿什拉夫·阿巴达",
+      "club": "USM阿尔及尔"
+    },
+    "algeria-4": {
+      "nameZh": "穆罕默德·阿明·图盖",
+      "club": "突尼斯希望"
+    },
+    "algeria-5": {
+      "nameZh": "齐内丁·贝莱德",
+      "club": "卡比利亚青年"
+    },
+    "algeria-6": {
+      "nameZh": "拉米兹·泽鲁基",
+      "club": "特温特（外租）"
+    },
+    "algeria-7": {
+      "nameZh": "里亚德·马赫雷斯",
+      "club": "吉达国民"
+    },
+    "algeria-8": {
+      "nameZh": "侯赛姆·奥亚尔",
+      "club": "吉达联合"
+    },
+    "algeria-9": {
+      "nameZh": "阿明·古伊里",
+      "club": "马赛"
+    },
+    "algeria-10": {
+      "nameZh": "法雷斯·沙伊比",
+      "club": "法兰克福"
+    },
+    "algeria-11": {
+      "nameZh": "阿尼斯·哈吉·穆萨",
+      "club": "费耶诺德"
+    },
+    "algeria-12": {
+      "nameZh": "纳迪尔·本布阿里",
+      "club": "杰尔"
+    },
+    "algeria-13": {
+      "nameZh": "贾温·哈贾姆",
+      "club": "伯尔尼年轻人"
+    },
+    "algeria-14": {
+      "nameZh": "希沙姆·布达维",
+      "club": "尼斯"
+    },
+    "algeria-15": {
+      "nameZh": "拉扬·艾特-努里",
+      "club": "曼城"
+    },
+    "algeria-16": {
+      "nameZh": "乌萨马·本博特",
+      "club": "USM阿尔及尔"
+    },
+    "algeria-17": {
+      "nameZh": "拉菲克·贝尔加利",
+      "club": "维罗纳"
+    },
+    "algeria-18": {
+      "nameZh": "穆罕默德·阿穆拉",
+      "club": "沃尔夫斯堡"
+    },
+    "algeria-19": {
+      "nameZh": "纳比尔·本塔莱卜",
+      "club": "里尔"
+    },
+    "algeria-20": {
+      "nameZh": "阿迪勒·布尔比纳",
+      "club": "杜海勒"
+    },
+    "algeria-21": {
+      "nameZh": "拉米·本塞巴尼",
+      "club": "多特蒙德"
+    },
+    "algeria-22": {
+      "nameZh": "易卜拉欣·马扎",
+      "club": "勒沃库森"
+    },
+    "algeria-23": {
+      "nameZh": "卢卡·齐达内",
+      "club": "格拉纳达"
+    },
+    "algeria-24": {
+      "nameZh": "亚辛·蒂特拉维",
+      "club": "沙勒罗瓦"
+    },
+    "algeria-25": {
+      "nameZh": "法雷斯·盖杰米斯",
+      "club": "弗罗西诺内"
+    },
+    "algeria-26": {
+      "nameZh": "萨米尔·谢尔吉",
+      "club": "巴黎FC"
+    },
+    "cape-verde-1": {
+      "nameZh": "沃齐尼亚",
+      "club": "沙维什"
+    },
+    "cape-verde-2": {
+      "nameZh": "斯托皮拉",
+      "club": "托雷恩塞"
+    },
+    "cape-verde-3": {
+      "nameZh": "迪内",
+      "club": "阿尔巴塔"
+    },
+    "cape-verde-4": {
+      "nameZh": "罗伯托·洛佩斯",
+      "club": "沙姆洛克流浪者"
+    },
+    "cape-verde-5": {
+      "nameZh": "洛根·科斯塔",
+      "club": "比利亚雷亚尔"
+    },
+    "cape-verde-6": {
+      "nameZh": "凯文·皮纳",
+      "club": "克拉斯诺达尔"
+    },
+    "cape-verde-7": {
+      "nameZh": "若瓦内·卡布拉尔",
+      "club": "阿马多拉之星"
+    },
+    "cape-verde-8": {
+      "nameZh": "若昂·保罗",
+      "club": "布加勒斯特星"
+    },
+    "cape-verde-9": {
+      "nameZh": "本奇莫尔",
+      "club": "阿克罗姆托利亚蒂"
+    },
+    "cape-verde-10": {
+      "nameZh": "哈米罗·蒙特罗",
+      "club": "兹沃勒"
+    },
+    "cape-verde-11": {
+      "nameZh": "加里·罗德里格斯",
+      "club": "利马索尔阿波罗"
+    },
+    "cape-verde-12": {
+      "nameZh": "马西奥·罗萨",
+      "club": "蒙塔纳"
+    },
+    "cape-verde-13": {
+      "nameZh": "西德尼·卡布拉尔",
+      "club": "本菲卡"
+    },
+    "cape-verde-14": {
+      "nameZh": "德罗伊·杜阿尔特",
+      "club": "卢多戈雷茨"
+    },
+    "cape-verde-15": {
+      "nameZh": "拉罗斯·杜阿尔特",
+      "club": "普斯卡什学院"
+    },
+    "cape-verde-16": {
+      "nameZh": "雅尼克·塞梅多",
+      "club": "法伦斯"
+    },
+    "cape-verde-17": {
+      "nameZh": "威利·塞梅多",
+      "club": "尼科西亚奥莫尼亚"
+    },
+    "cape-verde-18": {
+      "nameZh": "特尔摩·阿坎霍",
+      "club": "吉马良斯"
+    },
+    "cape-verde-19": {
+      "nameZh": "戴伊隆·罗查·利夫拉门托",
+      "club": "卡萨皮亚（外租）"
+    },
+    "cape-verde-20": {
+      "nameZh": "瑞安·门德斯",
+      "club": "伊迪尔"
+    },
+    "cape-verde-21": {
+      "nameZh": "努诺·达科斯塔",
+      "club": "伊斯坦布尔巴萨克赛尔"
+    },
+    "cape-verde-22": {
+      "nameZh": "史蒂文·莫雷拉",
+      "club": "哥伦布机员"
+    },
+    "cape-verde-23": {
+      "nameZh": "克里斯托弗·多斯桑托斯",
+      "club": "圣迭戈FC"
+    },
+    "cape-verde-24": {
+      "nameZh": "瓦格纳·皮纳",
+      "club": "特拉布宗体育"
+    },
+    "cape-verde-25": {
+      "nameZh": "凯尔文·皮雷斯",
+      "club": "塞伊奈约基"
+    },
+    "cape-verde-26": {
+      "nameZh": "埃利奥·瓦雷拉",
+      "club": "特拉维夫马卡比"
+    },
+    "croatia-1": {
+      "nameZh": "多米尼克·利瓦科维奇",
+      "club": "萨格勒布迪纳摩（外租）"
+    },
+    "croatia-2": {
+      "nameZh": "约瑟普·斯塔尼希奇",
+      "club": "拜仁慕尼黑"
+    },
+    "croatia-3": {
+      "nameZh": "马林·庞格拉契奇",
+      "club": "佛罗伦萨"
+    },
+    "croatia-4": {
+      "nameZh": "约什科·格瓦迪奥尔",
+      "club": "曼城"
+    },
+    "croatia-5": {
+      "nameZh": "杜耶·恰莱塔-察尔",
+      "club": "皇家社会（外租）"
+    },
+    "croatia-6": {
+      "nameZh": "约瑟普·舒塔洛",
+      "club": "阿贾克斯"
+    },
+    "croatia-7": {
+      "nameZh": "尼古拉·莫罗",
+      "club": "博洛尼亚"
+    },
+    "croatia-8": {
+      "nameZh": "马特奥·科瓦契奇",
+      "club": "曼城"
+    },
+    "croatia-9": {
+      "nameZh": "安德雷·克拉马里奇",
+      "club": "霍芬海姆"
+    },
+    "croatia-10": {
+      "nameZh": "卢卡·莫德里奇",
+      "club": "AC米兰"
+    },
+    "croatia-11": {
+      "nameZh": "安特·布迪米尔",
+      "club": "奥萨苏纳"
+    },
+    "croatia-12": {
+      "nameZh": "伊沃尔·潘杜尔",
+      "club": "赫尔城"
+    },
+    "croatia-13": {
+      "nameZh": "尼古拉·弗拉希奇",
+      "club": "都灵"
+    },
+    "croatia-14": {
+      "nameZh": "伊万·佩里西奇",
+      "club": "埃因霍温"
+    },
+    "croatia-15": {
+      "nameZh": "马里奥·帕萨利奇",
+      "club": "亚特兰大"
+    },
+    "croatia-16": {
+      "nameZh": "马丁·巴图里纳",
+      "club": "科莫"
+    },
+    "croatia-17": {
+      "nameZh": "彼得·苏契奇",
+      "club": "国际米兰"
+    },
+    "croatia-18": {
+      "nameZh": "克里斯蒂扬·亚基奇",
+      "club": "奥格斯堡"
+    },
+    "croatia-19": {
+      "nameZh": "托尼·弗鲁克",
+      "club": "里耶卡"
+    },
+    "croatia-20": {
+      "nameZh": "伊戈尔·马塔诺维奇",
+      "club": "弗赖堡"
+    },
+    "croatia-21": {
+      "nameZh": "卢卡·苏契奇",
+      "club": "皇家社会"
+    },
+    "croatia-22": {
+      "nameZh": "卢卡·武斯科维奇",
+      "club": "汉堡（外租）"
+    },
+    "croatia-23": {
+      "nameZh": "多米尼克·科塔尔茨基",
+      "club": "哥本哈根"
+    },
+    "croatia-24": {
+      "nameZh": "马尔科·帕萨利奇",
+      "club": "奥兰多城"
+    },
+    "croatia-25": {
+      "nameZh": "马丁·埃尔利奇",
+      "club": "中日德兰"
+    },
+    "croatia-26": {
+      "nameZh": "佩塔尔·穆萨",
+      "club": "达拉斯FC"
+    },
+    "ghana-1": {
+      "nameZh": "劳伦斯·阿蒂-齐吉",
+      "club": "圣加仑"
+    },
+    "ghana-2": {
+      "nameZh": "阿利杜·塞伊杜",
+      "club": "雷恩"
+    },
+    "ghana-3": {
+      "nameZh": "凯勒布·耶伦基",
+      "club": "北西兰"
+    },
+    "ghana-4": {
+      "nameZh": "乔纳斯·阿德杰泰",
+      "club": "沃尔夫斯堡"
+    },
+    "ghana-5": {
+      "nameZh": "托马斯·帕尔特伊",
+      "club": "比利亚雷亚尔"
+    },
+    "ghana-6": {
+      "nameZh": "阿卜杜勒·穆明",
+      "club": "巴列卡诺"
+    },
+    "ghana-7": {
+      "nameZh": "阿卜杜勒·法塔乌",
+      "club": "莱斯特城"
+    },
+    "ghana-8": {
+      "nameZh": "夸西·西博",
+      "club": "奥维耶多"
+    },
+    "ghana-9": {
+      "nameZh": "乔丹·阿尤",
+      "club": "莱斯特城"
+    },
+    "ghana-10": {
+      "nameZh": "布兰登·托马斯-阿桑特",
+      "club": "考文垂"
+    },
+    "ghana-11": {
+      "nameZh": "安托万·塞梅尼奥",
+      "club": "曼城"
+    },
+    "ghana-12": {
+      "nameZh": "约瑟夫·阿南",
+      "club": "圣帕特里克竞技"
+    },
+    "ghana-13": {
+      "nameZh": "克里斯托弗·邦苏·巴阿",
+      "club": "卡迪西亚"
+    },
+    "ghana-14": {
+      "nameZh": "吉迪恩·门萨",
+      "club": "欧塞尔"
+    },
+    "ghana-15": {
+      "nameZh": "以利沙·奥乌苏",
+      "club": "欧塞尔"
+    },
+    "ghana-16": {
+      "nameZh": "本杰明·阿萨雷",
+      "club": "橡木之心"
+    },
+    "ghana-17": {
+      "nameZh": "巴巴·拉赫曼",
+      "club": "塞萨洛尼基PAOK"
+    },
+    "ghana-18": {
+      "nameZh": "杰罗姆·奥波库",
+      "club": "伊斯坦布尔巴萨克赛尔"
+    },
+    "ghana-19": {
+      "nameZh": "伊尼亚基·威廉姆斯",
+      "club": "毕尔巴鄂竞技"
+    },
+    "ghana-20": {
+      "nameZh": "奥古斯丁·博阿基耶",
+      "club": "圣埃蒂安"
+    },
+    "ghana-21": {
+      "nameZh": "科乔·佩普拉·奥蓬",
+      "club": "尼斯"
+    },
+    "ghana-22": {
+      "nameZh": "卡马勒丁·苏莱曼纳",
+      "club": "亚特兰大"
+    },
+    "ghana-23": {
+      "nameZh": "德里克·卢卡森",
+      "club": "帕福斯"
+    },
+    "ghana-24": {
+      "nameZh": "埃内斯特·努阿马",
+      "club": "里昂"
+    },
+    "ghana-25": {
+      "nameZh": "普林斯·夸贝纳·阿杜",
+      "club": "比尔森胜利"
+    },
+    "ghana-26": {
+      "nameZh": "马文·塞纳亚",
+      "club": "欧塞尔"
+    },
+    "japan-1": {
+      "nameZh": "铃木彩艳",
+      "club": "帕尔马"
+    },
+    "japan-2": {
+      "nameZh": "菅原由",
+      "club": "不莱梅（外租）"
+    },
+    "japan-3": {
+      "nameZh": "谷口彰悟",
+      "club": "圣特鲁登"
+    },
+    "japan-4": {
+      "nameZh": "板仓滉",
+      "club": "阿贾克斯"
+    },
+    "japan-5": {
+      "nameZh": "长友佑都",
+      "club": "FC东京"
+    },
+    "japan-7": {
+      "nameZh": "田中碧",
+      "club": "利兹联"
+    },
+    "japan-8": {
+      "nameZh": "久保建英",
+      "club": "皇家社会"
+    },
+    "japan-9": {
+      "nameZh": "后藤圭佑",
+      "club": "圣特鲁登（外租）"
+    },
+    "japan-10": {
+      "nameZh": "堂安律",
+      "club": "法兰克福"
+    },
+    "japan-11": {
+      "nameZh": "前田大然",
+      "club": "凯尔特人"
+    },
+    "japan-12": {
+      "nameZh": "大迫敬介",
+      "club": "广岛三箭"
+    },
+    "japan-13": {
+      "nameZh": "中村敬斗",
+      "club": "兰斯"
+    },
+    "japan-14": {
+      "nameZh": "伊东纯也",
+      "club": "亨克"
+    },
+    "japan-15": {
+      "nameZh": "镰田大地",
+      "club": "水晶宫"
+    },
+    "japan-16": {
+      "nameZh": "渡边刚",
+      "club": "费耶诺德"
+    },
+    "japan-17": {
+      "nameZh": "铃木惟人",
+      "club": "弗赖堡"
+    },
+    "japan-18": {
+      "nameZh": "上田绮世",
+      "club": "费耶诺德"
+    },
+    "japan-19": {
+      "nameZh": "小川航基",
+      "club": "奈梅亨"
+    },
+    "japan-20": {
+      "nameZh": "濑古步梦",
+      "club": "勒阿弗尔"
+    },
+    "japan-21": {
+      "nameZh": "伊藤洋辉",
+      "club": "拜仁慕尼黑"
+    },
+    "japan-22": {
+      "nameZh": "富安健洋",
+      "club": "阿贾克斯"
+    },
+    "japan-23": {
+      "nameZh": "早川智基",
+      "club": "鹿岛鹿角"
+    },
+    "japan-24": {
+      "nameZh": "佐野海舟",
+      "club": "美因茨"
+    },
+    "japan-25": {
+      "nameZh": "铃木隼辅",
+      "club": "哥本哈根"
+    },
+    "japan-26": {
+      "nameZh": "盐越健人",
+      "club": "沃尔夫斯堡"
+    },
+    "jordan-1": {
+      "nameZh": "亚齐德·阿布莱拉",
+      "club": "侯赛因"
+    },
+    "jordan-2": {
+      "nameZh": "穆罕默德·阿布·哈希什",
+      "club": "卡尔马"
+    },
+    "jordan-3": {
+      "nameZh": "阿卜杜拉·纳西布",
+      "club": "扎瓦拉（外租）"
+    },
+    "jordan-4": {
+      "nameZh": "胡萨姆·阿布·达哈宾",
+      "club": "费萨里"
+    },
+    "jordan-5": {
+      "nameZh": "亚赞·阿拉伯",
+      "club": "首尔FC"
+    },
+    "jordan-6": {
+      "nameZh": "阿米尔·贾穆斯",
+      "club": "扎瓦拉（外租）"
+    },
+    "jordan-7": {
+      "nameZh": "穆罕默德·阿布·兹雷克",
+      "club": "拉贾卡萨布兰卡"
+    },
+    "jordan-8": {
+      "nameZh": "努尔·拉瓦巴德",
+      "club": "雪兰莪"
+    },
+    "jordan-9": {
+      "nameZh": "阿里·奥尔万",
+      "club": "赛利亚"
+    },
+    "jordan-10": {
+      "nameZh": "穆萨·塔阿马里",
+      "club": "雷恩"
+    },
+    "jordan-11": {
+      "nameZh": "奥德·法胡里",
+      "club": "金字塔"
+    },
+    "jordan-12": {
+      "nameZh": "努尔·巴尼·阿蒂亚",
+      "club": "费萨里"
+    },
+    "jordan-13": {
+      "nameZh": "马哈茂德·马尔迪",
+      "club": "侯赛因"
+    },
+    "jordan-14": {
+      "nameZh": "拉贾伊·阿耶德",
+      "club": "侯赛因"
+    },
+    "jordan-15": {
+      "nameZh": "易卜拉欣·萨德",
+      "club": "卡尔马"
+    },
+    "jordan-16": {
+      "nameZh": "穆·阿布阿尔纳迪",
+      "club": "雪兰莪"
+    },
+    "jordan-17": {
+      "nameZh": "萨利姆·奥贝德",
+      "club": "侯赛因"
+    },
+    "jordan-18": {
+      "nameZh": "易卜拉欣·萨布拉",
+      "club": "萨格勒布火车头（外租）"
+    },
+    "jordan-19": {
+      "nameZh": "萨德·罗桑",
+      "club": "侯赛因"
+    },
+    "jordan-20": {
+      "nameZh": "穆罕默德·阿布·塔哈",
+      "club": "空军体育"
+    },
+    "jordan-21": {
+      "nameZh": "尼扎尔·拉什丹",
+      "club": "卡塔尔SC"
+    },
+    "jordan-22": {
+      "nameZh": "阿卜杜拉·法胡里",
+      "club": "瓦赫达特"
+    },
+    "jordan-23": {
+      "nameZh": "伊赫斯·哈达德",
+      "club": "侯赛因"
+    },
+    "jordan-24": {
+      "nameZh": "阿里·阿泽茨",
+      "club": "沙巴布（外租）"
+    },
+    "jordan-25": {
+      "nameZh": "穆罕默德·达伍德",
+      "club": "瓦赫达特"
+    },
+    "jordan-26": {
+      "nameZh": "阿纳斯·巴达维",
+      "club": "费萨里"
+    },
+    "panama-1": {
+      "nameZh": "路易斯·梅希亚",
+      "club": "乌拉圭民族"
+    },
+    "panama-2": {
+      "nameZh": "塞萨尔·布莱克曼",
+      "club": "布拉迪斯拉发斯洛万"
+    },
+    "panama-3": {
+      "nameZh": "何塞·科尔多瓦",
+      "club": "诺维奇"
+    },
+    "panama-4": {
+      "nameZh": "菲德尔·埃斯科瓦尔",
+      "club": "萨普里萨"
+    },
+    "panama-5": {
+      "nameZh": "埃德加多·法里尼亚",
+      "club": "下诺夫哥罗德"
+    },
+    "panama-6": {
+      "nameZh": "克里斯蒂安·马丁内斯",
+      "club": "基里亚特什莫纳"
+    },
+    "panama-7": {
+      "nameZh": "何塞·路易斯·罗德里格斯",
+      "club": "华雷斯"
+    },
+    "panama-8": {
+      "nameZh": "阿达尔贝托·卡拉斯基利亚",
+      "club": "美洲狮"
+    },
+    "panama-9": {
+      "nameZh": "托马斯·罗德里格斯",
+      "club": "萨普里萨（外租）"
+    },
+    "panama-10": {
+      "nameZh": "伊斯梅尔·迪亚斯",
+      "club": "莱昂"
+    },
+    "panama-11": {
+      "nameZh": "约埃尔·巴尔塞纳斯",
+      "club": "马萨特兰"
+    },
+    "panama-12": {
+      "nameZh": "塞萨尔·萨穆迪奥",
+      "club": "马拉松"
+    },
+    "panama-13": {
+      "nameZh": "乔瓦尼·拉莫斯",
+      "club": "卡贝略港学院"
+    },
+    "panama-14": {
+      "nameZh": "卡洛斯·哈维",
+      "club": "明尼苏达联"
+    },
+    "panama-15": {
+      "nameZh": "埃里克·戴维斯",
+      "club": "普拉扎阿马多尔"
+    },
+    "panama-16": {
+      "nameZh": "安德烈斯·安德拉德",
+      "club": "林茨"
+    },
+    "panama-17": {
+      "nameZh": "何塞·法哈多",
+      "club": "基多天主大学"
+    },
+    "panama-18": {
+      "nameZh": "塞西利奥·沃特曼",
+      "club": "康塞普西翁大学"
+    },
+    "panama-19": {
+      "nameZh": "阿尔贝托·金特罗",
+      "club": "普拉扎阿马多尔"
+    },
+    "panama-20": {
+      "nameZh": "阿尼瓦尔·戈多伊",
+      "club": "圣迭戈FC"
+    },
+    "panama-21": {
+      "nameZh": "塞萨尔·亚尼斯",
+      "club": "科布雷萨尔"
+    },
+    "panama-22": {
+      "nameZh": "奥兰多·莫斯克拉",
+      "club": "费哈"
+    },
+    "panama-23": {
+      "nameZh": "迈克尔·阿米尔·穆里略",
+      "club": "贝西克塔斯"
+    },
+    "panama-24": {
+      "nameZh": "阿扎里亚斯·隆多尼奥",
+      "club": "基多天主大学"
+    },
+    "panama-25": {
+      "nameZh": "罗德里克·米勒",
+      "club": "图兰托武兹"
+    },
+    "panama-26": {
+      "nameZh": "豪尔赫·古铁雷斯",
+      "club": "拉瓜伊拉"
+    },
+    "portugal-1": {
+      "nameZh": "迪奥戈·科斯塔",
+      "club": "波尔图"
+    },
+    "portugal-2": {
+      "nameZh": "内尔松·塞梅多",
+      "club": "费内巴切"
+    },
+    "portugal-3": {
+      "nameZh": "鲁本·迪亚斯",
+      "club": "曼城"
+    },
+    "portugal-4": {
+      "nameZh": "托马斯·阿劳若",
+      "club": "本菲卡"
+    },
+    "portugal-5": {
+      "nameZh": "迪奥戈·达洛特",
+      "club": "曼联"
+    },
+    "portugal-6": {
+      "nameZh": "马特乌斯·努内斯",
+      "club": "曼城"
+    },
+    "portugal-7": {
+      "nameZh": "克里斯蒂亚诺·罗纳尔多",
+      "club": "利雅得胜利"
+    },
+    "portugal-8": {
+      "nameZh": "布鲁诺·费尔南德斯",
+      "club": "曼联"
+    },
+    "portugal-9": {
+      "nameZh": "贡萨洛·拉莫斯",
+      "club": "巴黎圣日耳曼"
+    },
+    "portugal-10": {
+      "nameZh": "贝尔纳多·席尔瓦",
+      "club": "曼城"
+    },
+    "portugal-11": {
+      "nameZh": "若昂·菲利克斯",
+      "club": "利雅得胜利"
+    },
+    "portugal-12": {
+      "nameZh": "若泽·萨",
+      "club": "狼队"
+    },
+    "portugal-13": {
+      "nameZh": "雷纳托·韦加",
+      "club": "比利亚雷亚尔"
+    },
+    "portugal-14": {
+      "nameZh": "贡萨洛·伊纳西奥",
+      "club": "葡萄牙体育"
+    },
+    "portugal-15": {
+      "nameZh": "若昂·内维斯",
+      "club": "巴黎圣日耳曼"
+    },
+    "portugal-16": {
+      "nameZh": "特林康",
+      "club": "葡萄牙体育"
+    },
+    "portugal-17": {
+      "nameZh": "拉斐尔·莱奥",
+      "club": "AC米兰"
+    },
+    "portugal-18": {
+      "nameZh": "佩德罗·内托",
+      "club": "切尔西"
+    },
+    "portugal-19": {
+      "nameZh": "贡萨洛·格德斯",
+      "club": "皇家社会"
+    },
+    "portugal-20": {
+      "nameZh": "若昂·坎塞洛",
+      "club": "巴塞罗那（外租）"
+    },
+    "portugal-21": {
+      "nameZh": "鲁本·内维斯",
+      "club": "利雅得新月"
+    },
+    "portugal-22": {
+      "nameZh": "鲁伊·席尔瓦",
+      "club": "葡萄牙体育"
+    },
+    "portugal-23": {
+      "nameZh": "维蒂尼亚",
+      "club": "巴黎圣日耳曼"
+    },
+    "portugal-24": {
+      "nameZh": "萨穆·科斯塔",
+      "club": "马略卡"
+    },
+    "portugal-25": {
+      "nameZh": "努诺·门德斯",
+      "club": "巴黎圣日耳曼"
+    },
+    "portugal-26": {
+      "nameZh": "弗朗西斯科·孔塞桑",
+      "club": "尤文图斯"
+    },
+    "saudi-arabia-1": {
+      "nameZh": "纳阿夫·阿基迪",
+      "club": "利雅得胜利"
+    },
+    "saudi-arabia-2": {
+      "nameZh": "阿里·马杰拉希",
+      "club": "吉达国民"
+    },
+    "saudi-arabia-3": {
+      "nameZh": "阿里·拉贾米",
+      "club": "吉达国民"
+    },
+    "saudi-arabia-4": {
+      "nameZh": "阿卜杜勒拉·阿姆里",
+      "club": "利雅得胜利"
+    },
+    "saudi-arabia-5": {
+      "nameZh": "哈桑·坦巴基蒂",
+      "club": "利雅得新月"
+    },
+    "saudi-arabia-6": {
+      "nameZh": "纳赛尔·达乌萨里",
+      "club": "利雅得新月"
+    },
+    "saudi-arabia-7": {
+      "nameZh": "穆萨布·朱外尔",
+      "club": "卡迪西亚"
+    },
+    "saudi-arabia-8": {
+      "nameZh": "艾曼·叶海亚",
+      "club": "利雅得胜利"
+    },
+    "saudi-arabia-9": {
+      "nameZh": "费拉斯·布里坎",
+      "club": "吉达国民"
+    },
+    "saudi-arabia-10": {
+      "nameZh": "萨勒姆·达乌萨里",
+      "club": "利雅得新月"
+    },
+    "saudi-arabia-11": {
+      "nameZh": "萨勒赫·谢赫里",
+      "club": "吉达联合"
+    },
+    "saudi-arabia-12": {
+      "nameZh": "萨乌德·阿卜杜勒哈米德",
+      "club": "朗斯（外租）"
+    },
+    "saudi-arabia-13": {
+      "nameZh": "纳阿夫·布瓦什尔",
+      "club": "利雅得胜利"
+    },
+    "saudi-arabia-14": {
+      "nameZh": "哈桑·卡迪什",
+      "club": "吉达联合"
+    },
+    "saudi-arabia-15": {
+      "nameZh": "阿卜杜拉·海巴里",
+      "club": "利雅得胜利"
+    },
+    "saudi-arabia-16": {
+      "nameZh": "齐亚德·朱哈尼",
+      "club": "吉达国民"
+    },
+    "saudi-arabia-17": {
+      "nameZh": "哈立德·甘纳姆",
+      "club": "达曼协作"
+    },
+    "saudi-arabia-18": {
+      "nameZh": "阿拉·哈吉",
+      "club": "新未来城"
+    },
+    "saudi-arabia-19": {
+      "nameZh": "阿卜杜拉·哈姆丹",
+      "club": "利雅得胜利"
+    },
+    "saudi-arabia-20": {
+      "nameZh": "苏丹·曼达什",
+      "club": "利雅得新月"
+    },
+    "saudi-arabia-21": {
+      "nameZh": "穆罕默德·奥韦斯",
+      "club": "欧拉"
+    },
+    "saudi-arabia-22": {
+      "nameZh": "艾哈迈德·卡萨尔",
+      "club": "卡迪西亚"
+    },
+    "saudi-arabia-23": {
+      "nameZh": "穆罕默德·卡诺",
+      "club": "利雅得新月"
+    },
+    "saudi-arabia-24": {
+      "nameZh": "穆特布·哈尔比",
+      "club": "利雅得新月"
+    },
+    "saudi-arabia-25": {
+      "nameZh": "杰哈德·提克里",
+      "club": "卡迪西亚"
+    },
+    "saudi-arabia-26": {
+      "nameZh": "穆罕默德·阿布·沙马特",
+      "club": "卡迪西亚"
+    },
+    "spain-1": {
+      "nameZh": "大卫·拉亚",
+      "club": "阿森纳"
+    },
+    "spain-2": {
+      "nameZh": "马克·普比尔",
+      "club": "马德里竞技"
+    },
+    "spain-3": {
+      "nameZh": "亚历克斯·格里马尔多",
+      "club": "勒沃库森"
+    },
+    "spain-4": {
+      "nameZh": "埃里克·加西亚",
+      "club": "巴塞罗那"
+    },
+    "spain-5": {
+      "nameZh": "马科斯·略伦特",
+      "club": "马德里竞技"
+    },
+    "spain-6": {
+      "nameZh": "米克尔·梅里诺",
+      "club": "阿森纳"
+    },
+    "spain-7": {
+      "nameZh": "费兰·托雷斯",
+      "club": "巴塞罗那"
+    },
+    "spain-8": {
+      "nameZh": "法比安·鲁伊斯",
+      "club": "巴黎圣日耳曼"
+    },
+    "spain-9": {
+      "nameZh": "加维",
+      "club": "巴塞罗那"
+    },
+    "spain-10": {
+      "nameZh": "达尼·奥尔莫",
+      "club": "巴塞罗那"
+    },
+    "spain-11": {
+      "nameZh": "耶雷米·皮诺",
+      "club": "水晶宫"
+    },
+    "spain-12": {
+      "nameZh": "佩德罗·波罗",
+      "club": "热刺"
+    },
+    "spain-13": {
+      "nameZh": "霍安·加西亚",
+      "club": "巴塞罗那"
+    },
+    "spain-14": {
+      "nameZh": "艾默里克·拉波特",
+      "club": "毕尔巴鄂竞技"
+    },
+    "spain-15": {
+      "nameZh": "亚历克斯·巴埃纳",
+      "club": "马德里竞技"
+    },
+    "spain-16": {
+      "nameZh": "罗德里",
+      "club": "曼城"
+    },
+    "spain-17": {
+      "nameZh": "尼科·威廉姆斯",
+      "club": "毕尔巴鄂竞技"
+    },
+    "spain-18": {
+      "nameZh": "马丁·苏维门迪",
+      "club": "阿森纳"
+    },
+    "spain-19": {
+      "nameZh": "拉明·亚马尔",
+      "club": "巴塞罗那"
+    },
+    "spain-20": {
+      "nameZh": "佩德里",
+      "club": "巴塞罗那"
+    },
+    "spain-21": {
+      "nameZh": "米克尔·奥亚萨瓦尔",
+      "club": "皇家社会"
+    },
+    "spain-22": {
+      "nameZh": "保罗·库巴西",
+      "club": "巴塞罗那"
+    },
+    "spain-23": {
+      "nameZh": "乌奈·西蒙",
+      "club": "毕尔巴鄂竞技"
+    },
+    "spain-24": {
+      "nameZh": "马克·库库雷利亚",
+      "club": "切尔西"
+    },
+    "spain-25": {
+      "nameZh": "维克托·穆尼奥斯",
+      "club": "奥萨苏纳"
+    },
+    "spain-26": {
+      "nameZh": "博尔哈·伊格莱西亚斯",
+      "club": "塞尔塔"
+    }
+  }
+}
