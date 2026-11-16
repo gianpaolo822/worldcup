@@ -1,4 +1,4 @@
-import { Link, useNavigate, useParams } from 'react-router-dom';
+import { Link, useLocation, useNavigate, useParams } from 'react-router-dom';
 import DetailTopNav from '@/components/DetailTopNav';
 import MatchCard from '@/components/MatchCard';
 import GroupStandingsTable from '@/components/GroupStandingsTable';
@@ -12,6 +12,8 @@ import {
 } from '@/lib/data';
 import { getLineupTeams, getMatchLineup } from '@/lib/lineup';
 import { matchStatusLabel, resolveMatchDisplay } from '@/lib/matchDisplay';
+import MatchScoreDisplay, { MatchTeamName } from '@/components/MatchScoreDisplay';
+import { readReturnTo } from '@/lib/navigation';
 import { useNow } from '@/hooks/useNow';
 import { MapPin, Users } from 'lucide-react';
 
@@ -31,13 +33,24 @@ function TeamLink({ teamId, name, flag }: { teamId: string; name: string; flag: 
 export default function MatchDetailPage() {
   const { matchId } = useParams<{ matchId: string }>();
   const navigate = useNavigate();
+  const location = useLocation();
+  const returnTo = readReturnTo(location.state);
   const now = useNow();
   const match = matchId ? getMatchById(matchId) : undefined;
+
+  const handleBack = () => {
+    if (returnTo) navigate(returnTo, { replace: true });
+    else navigate(-1);
+  };
+
+  const goToMatch = (id: string) => {
+    navigate(`/match/${id}`, { state: returnTo ? { returnTo } : undefined });
+  };
 
   if (!match) {
     return (
       <>
-        <DetailTopNav title="赛事详情" onBack={() => navigate(-1)} />
+        <DetailTopNav title="赛事详情" onBack={handleBack} />
         <div className="px-4 pt-[calc(3.5rem+env(safe-area-inset-top))] pb-24">
           <div className="sb-card p-8 text-center mt-4">
             <p className="text-sm text-[var(--text-muted)]">未找到该场比赛</p>
@@ -60,7 +73,7 @@ export default function MatchDetailPage() {
 
   return (
     <>
-      <DetailTopNav title="赛事详情" subtitle={subtitle} onBack={() => navigate(-1)} />
+      <DetailTopNav title="赛事详情" subtitle={subtitle} onBack={handleBack} />
 
       <div className="px-4 pt-[calc(3.5rem+env(safe-area-inset-top))] pb-8">
         <section className="sb-card-elevated p-5 mt-4 mb-4">
@@ -80,26 +93,18 @@ export default function MatchDetailPage() {
           <div className="flex items-center justify-between py-2">
             <div className="flex flex-col items-center gap-2 flex-1 min-w-0">
               <span className="text-4xl">{match.homeTeam.flag}</span>
-              <span className="text-sm font-semibold text-[var(--text)] text-center truncate w-full">
-                {match.homeTeam.name}
-              </span>
+              <MatchTeamName match={match} team={match.homeTeam} side="home" />
             </div>
             <div className="flex flex-col items-center px-4 flex-shrink-0">
               {showScore ? (
-                <div className="flex items-center gap-2 tabular-nums">
-                  <span className="text-3xl font-bold text-[var(--text)]">{display.homeScore}</span>
-                  <span className="text-sm text-[var(--text-faint)]">:</span>
-                  <span className="text-3xl font-bold text-[var(--text)]">{display.awayScore}</span>
-                </div>
+                <MatchScoreDisplay match={match} display={display} size="lg" showWinnerHint />
               ) : (
                 <span className="text-lg font-semibold text-[var(--text-faint)]">VS</span>
               )}
             </div>
             <div className="flex flex-col items-center gap-2 flex-1 min-w-0">
               <span className="text-4xl">{match.awayTeam.flag}</span>
-              <span className="text-sm font-semibold text-[var(--text)] text-center truncate w-full">
-                {match.awayTeam.name}
-              </span>
+              <MatchTeamName match={match} team={match.awayTeam} side="away" />
             </div>
           </div>
         </section>
@@ -169,7 +174,7 @@ export default function MatchDetailPage() {
             </div>
             <div className="space-y-2">
               {groupMatches.map((m) => (
-                <MatchCard key={m.id} match={m} onClick={() => navigate(`/match/${m.id}`)} />
+                <MatchCard key={m.id} match={m} onClick={() => goToMatch(m.id)} />
               ))}
             </div>
           </section>

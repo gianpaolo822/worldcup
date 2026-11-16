@@ -533,8 +533,8 @@
       "cityZh": "洛杉矶",
       "localDate": "6月25日",
       "localTime": "19:00",
-      "beijingTime": "2026-06-25 12:00",
-      "kickoffAt": "2026-06-25T04:00:00Z"
+      "beijingTime": "2026-06-26 10:00",
+      "kickoffAt": "2026-06-26T02:00:00Z"
     },
     {
       "seq": 60,
@@ -657,28 +657,28 @@
       "seq": 73,
       "fifaCity": "Los Angeles",
       "cityZh": "洛杉矶",
-      "localDate": "6月28日",
-      "localTime": "12:00",
-      "beijingTime": "2026-06-29 03:00",
-      "kickoffAt": "2026-06-28T19:00:00Z"
+      "localDate": "7月2日",
+      "localTime": "20:00",
+      "beijingTime": "2026-07-03 11:00",
+      "kickoffAt": "2026-07-03T03:00:00Z"
     },
     {
       "seq": 74,
       "fifaCity": "Boston",
       "cityZh": "福克斯堡",
-      "localDate": "6月29日",
-      "localTime": "16:30",
-      "beijingTime": "2026-06-30 04:30",
-      "kickoffAt": "2026-06-29T20:30:00Z"
+      "localDate": "6月30日",
+      "localTime": "19:00",
+      "beijingTime": "2026-07-01 09:00",
+      "kickoffAt": "2026-07-01T01:00:00Z"
     },
     {
       "seq": 75,
       "fifaCity": "Monterrey",
       "cityZh": "蒙特雷",
-      "localDate": "6月29日",
-      "localTime": "19:00",
-      "beijingTime": "2026-06-30 09:00",
-      "kickoffAt": "2026-06-30T01:00:00Z"
+      "localDate": "7月1日",
+      "localTime": "17:00",
+      "beijingTime": "2026-07-02 08:00",
+      "kickoffAt": "2026-07-02T00:00:00Z"
     },
     {
       "seq": 76,
@@ -695,17 +695,17 @@
       "cityZh": "纽约/新泽西",
       "localDate": "6月30日",
       "localTime": "17:00",
-      "beijingTime": "2026-07-01 05:00",
-      "kickoffAt": "2026-06-30T21:00:00Z"
+      "beijingTime": "2026-06-30 09:00",
+      "kickoffAt": "2026-06-30T01:00:00Z"
     },
     {
       "seq": 78,
       "fifaCity": "Dallas",
       "cityZh": "阿灵顿",
-      "localDate": "6月30日",
-      "localTime": "12:00",
-      "beijingTime": "2026-07-01 01:00",
-      "kickoffAt": "2026-06-30T17:00:00Z"
+      "localDate": "6月29日",
+      "localTime": "16:30",
+      "beijingTime": "2026-06-30 04:30",
+      "kickoffAt": "2026-06-29T20:30:00Z"
     },
     {
       "seq": 79,
@@ -713,8 +713,8 @@
       "cityZh": "墨西哥城",
       "localDate": "6月30日",
       "localTime": "19:00",
-      "beijingTime": "2026-07-01 09:00",
-      "kickoffAt": "2026-07-01T01:00:00Z"
+      "beijingTime": "2026-07-03 03:00",
+      "kickoffAt": "2026-07-02T19:00:00Z"
     },
     {
       "seq": 80,
@@ -722,8 +722,8 @@
       "cityZh": "亚特兰大",
       "localDate": "7月1日",
       "localTime": "12:00",
-      "beijingTime": "2026-07-02 00:00",
-      "kickoffAt": "2026-07-01T16:00:00Z"
+      "beijingTime": "2026-07-02 04:00",
+      "kickoffAt": "2026-07-01T20:00:00Z"
     },
     {
       "seq": 81,
@@ -731,8 +731,8 @@
       "cityZh": "圣克拉拉",
       "localDate": "7月1日",
       "localTime": "17:00",
-      "beijingTime": "2026-07-02 08:00",
-      "kickoffAt": "2026-07-02T00:00:00Z"
+      "beijingTime": "2026-07-01 05:00",
+      "kickoffAt": "2026-06-30T21:00:00Z"
     },
     {
       "seq": 82,
@@ -740,8 +740,8 @@
       "cityZh": "西雅图",
       "localDate": "7月1日",
       "localTime": "13:00",
-      "beijingTime": "2026-07-02 04:00",
-      "kickoffAt": "2026-07-01T20:00:00Z"
+      "beijingTime": "2026-07-04 06:00",
+      "kickoffAt": "2026-07-03T22:00:00Z"
     },
     {
       "seq": 83,
@@ -749,8 +749,8 @@
       "cityZh": "多伦多",
       "localDate": "7月2日",
       "localTime": "19:00",
-      "beijingTime": "2026-07-03 07:00",
-      "kickoffAt": "2026-07-02T23:00:00Z"
+      "beijingTime": "2026-07-02 00:00",
+      "kickoffAt": "2026-07-01T16:00:00Z"
     },
     {
       "seq": 84,
@@ -758,17 +758,17 @@
       "cityZh": "洛杉矶",
       "localDate": "7月2日",
       "localTime": "12:00",
-      "beijingTime": "2026-07-03 03:00",
-      "kickoffAt": "2026-07-02T19:00:00Z"
+      "beijingTime": "2026-07-04 09:30",
+      "kickoffAt": "2026-07-04T01:30:00Z"
     },
     {
       "seq": 85,
       "fifaCity": "Vancouver",
       "cityZh": "温哥华",
-      "localDate": "7月2日",
-      "localTime": "20:00",
-      "beijingTime": "2026-07-03 11:00",
-      "kickoffAt": "2026-07-03T03:00:00Z"
+      "localDate": "6月28日",
+      "localTime": "12:00",
+      "beijingTime": "2026-06-29 03:00",
+      "kickoffAt": "2026-06-28T19:00:00Z"
     },
     {
       "seq": 86,
@@ -776,8 +776,8 @@
       "cityZh": "迈阿密",
       "localDate": "7月3日",
       "localTime": "18:00",
-      "beijingTime": "2026-07-04 06:00",
-      "kickoffAt": "2026-07-03T22:00:00Z"
+      "beijingTime": "2026-07-01 01:00",
+      "kickoffAt": "2026-06-30T17:00:00Z"
     },
     {
       "seq": 87,
@@ -785,8 +785,8 @@
       "cityZh": "堪萨斯城",
       "localDate": "7月3日",
       "localTime": "20:30",
-      "beijingTime": "2026-07-04 09:30",
-      "kickoffAt": "2026-07-04T01:30:00Z"
+      "beijingTime": "2026-07-03 07:00",
+      "kickoffAt": "2026-07-02T23:00:00Z"
     },
     {
       "seq": 88,

@@ -9,5 +9,5 @@
     "resolveJsonModule": true,
     "esModuleInterop": true
   },
-  "include": ["scripts/**/*.ts", "data/**/*.json"]
+  "include": ["scripts/**/*.ts", "shared/**/*.ts", "data/**/*.json"]
 }

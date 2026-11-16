@@ -30,7 +30,9 @@ function normalizeBasePlayer(raw: Record<string, unknown>): Player {
   if (raw.birthPlace != null) player.birthPlace = String(raw.birthPlace);
   if (clubEn) player.clubEn = clubEn;
   if (raw.group != null) player.group = String(raw.group);
-  if (raw.status === 'injured' || raw.status === 'active') player.status = raw.status;
+  if (raw.status === 'injured' || raw.status === 'active' || raw.status === 'deceased') {
+    player.status = raw.status;
+  }
   if (raw.injuryNote != null) player.injuryNote = String(raw.injuryNote);
 
   return player;
@@ -52,7 +54,11 @@ function applyInjuryOverride(player: Player, override?: PlayerInjuryOverride): P
 
   const next: Player = { ...player };
 
-  if (override.status === 'injured' || override.status === 'active') {
+  if (
+    override.status === 'injured' ||
+    override.status === 'active' ||
+    override.status === 'deceased'
+  ) {
     next.status = override.status;
   }
 
@@ -106,10 +112,11 @@ function main(): void {
   const withZh = merged.filter((p) => p.nameZh).length;
   const withClub = merged.filter((p) => p.club).length;
   const injured = merged.filter((p) => p.status === 'injured').length;
+  const deceased = merged.filter((p) => p.status === 'deceased').length;
 
   fs.writeFileSync(PATHS.players, `${JSON.stringify(merged, null, 2)}\n`, 'utf8');
   console.log(
-    `[data:locale] players=${merged.length} locale=${Object.keys(localeMap).length} injuryOverrides=${Object.keys(injuryMap).length} nameZh=${withZh} clubZh=${withClub} injured=${injured}`,
+    `[data:locale] players=${merged.length} locale=${Object.keys(localeMap).length} injuryOverrides=${Object.keys(injuryMap).length} nameZh=${withZh} clubZh=${withClub} injured=${injured} deceased=${deceased}`,
   );
 }
 

@@ -21,4 +21,7 @@ export const PATHS = {
   playerLocale: path.join(DATA_DIR, 'player-locale.json'),
   playerInjuryOverrides: path.join(DATA_DIR, 'player-injury-overrides.json'),
   playerPhotos: path.join(DATA_DIR, 'player-photos.json'),
+  qualification: path.join(DATA_DIR, 'qualification.json'),
+  knockoutTeams: path.join(DATA_DIR, 'knockout-teams.json'),
+  officialKickoffTimes: path.join(DATA_DIR, 'official-kickoff-times.json'),
 } as const;

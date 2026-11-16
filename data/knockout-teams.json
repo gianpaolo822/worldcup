@@ -1,0 +1,68 @@
+{
+  "roundOf32": {
+    "wc2026-m073": {
+      "homeTeamId": "switzerland",
+      "awayTeamId": "algeria"
+    },
+    "wc2026-m074": {
+      "homeTeamId": "mexico",
+      "awayTeamId": "ecuador"
+    },
+    "wc2026-m075": {
+      "homeTeamId": "united-states",
+      "awayTeamId": "bosnia-and-herzegovina"
+    },
+    "wc2026-m076": {
+      "homeTeamId": "brazil",
+      "awayTeamId": "japan"
+    },
+    "wc2026-m077": {
+      "homeTeamId": "netherlands",
+      "awayTeamId": "morocco"
+    },
+    "wc2026-m078": {
+      "homeTeamId": "germany",
+      "awayTeamId": "paraguay"
+    },
+    "wc2026-m079": {
+      "homeTeamId": "spain",
+      "awayTeamId": "austria"
+    },
+    "wc2026-m080": {
+      "homeTeamId": "belgium",
+      "awayTeamId": "senegal"
+    },
+    "wc2026-m081": {
+      "homeTeamId": "france",
+      "awayTeamId": "sweden"
+    },
+    "wc2026-m082": {
+      "homeTeamId": "argentina",
+      "awayTeamId": "cape-verde"
+    },
+    "wc2026-m083": {
+      "homeTeamId": "england",
+      "awayTeamId": "dr-congo"
+    },
+    "wc2026-m084": {
+      "homeTeamId": "colombia",
+      "awayTeamId": "ghana"
+    },
+    "wc2026-m085": {
+      "homeTeamId": "south-africa",
+      "awayTeamId": "canada"
+    },
+    "wc2026-m086": {
+      "homeTeamId": "ivory-coast",
+      "awayTeamId": "norway"
+    },
+    "wc2026-m087": {
+      "homeTeamId": "portugal",
+      "awayTeamId": "croatia"
+    },
+    "wc2026-m088": {
+      "homeTeamId": "australia",
+      "awayTeamId": "egypt"
+    }
+  }
+}

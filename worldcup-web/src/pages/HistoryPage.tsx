@@ -1,7 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
-import { useState } from 'react';
-import { topScorers, worldCupHistory } from '@/lib/data';
-import { historicalPlayerId } from '@/lib/playerUtils';
+import { useMemo, useState } from 'react';
+import { worldCupHistory } from '@/lib/data';
+import { allTimeScorersMatchCount, computeAllTimeScorers } from '@/lib/allTimeScorers';
 import { buildReturnTo } from '@/lib/navigation';
 import { Trophy, Medal, Goal, ChevronDown, ChevronUp } from 'lucide-react';
 
@@ -14,6 +14,9 @@ export default function HistoryPage() {
   const [expandedYear, setExpandedYear] = useState<number | null>(
     worldCupHistory[0]?.year ?? null,
   );
+
+  const allTimeScorers = useMemo(() => computeAllTimeScorers(), []);
+  const scorersMatchCount = allTimeScorersMatchCount();
 
   const tabs = [
     { id: 'champions' as TabType, label: '历届冠军', icon: Trophy },
@@ -123,6 +126,9 @@ export default function HistoryPage() {
 
       {activeTab === 'scorers' && (
         <section className="px-4">
+          <p className="text-[11px] text-[var(--text-muted)] mb-3 px-0.5">
+            历届基线 + 2026 已录入 {scorersMatchCount} 场赛况，进球后自动重排
+          </p>
           <div className="sb-card overflow-hidden">
             <div
               className="grid items-center py-2.5 px-2 border-b bg-[var(--surface-elevated)]"
@@ -139,10 +145,10 @@ export default function HistoryPage() {
               </span>
             </div>
 
-            {topScorers.map((scorer, index) => (
+            {allTimeScorers.map((scorer, index) => (
               <Link
-                key={scorer.rank}
-                to={`/player/${historicalPlayerId(scorer)}`}
+                key={scorer.historicalId}
+                to={`/player/${scorer.playerId ?? scorer.historicalId}`}
                 state={{ returnTo }}
                 className={`grid items-center py-3 px-2 border-b last:border-b-0 active:bg-white/[0.03] transition-colors ${
                   index % 2 === 1 ? 'bg-white/[0.02]' : ''
@@ -177,7 +183,12 @@ export default function HistoryPage() {
 
                 <div className="min-w-0">
                   <p className="text-sm font-medium text-[var(--text)] truncate">{scorer.name}</p>
-                  <p className="text-[10px] text-[var(--text-muted)]">{scorer.tournaments}</p>
+                  <p className="text-[10px] text-[var(--text-muted)] truncate">
+                    {scorer.tournaments}
+                    {scorer.goals2026 > 0 && (
+                      <span className="text-[var(--accent)]"> · 本届 +{scorer.goals2026}</span>
+                    )}
+                  </p>
                 </div>
 
                 <span className="text-xs text-[var(--text-muted)] text-center">{scorer.country}</span>
@@ -202,7 +213,7 @@ export default function HistoryPage() {
               <div>
                 <p className="text-sm font-semibold text-[var(--text)] mb-1">你知道吗？</p>
                 <p className="text-xs text-[var(--text-muted)] leading-relaxed">
-                  方丹在 1958 年瑞典世界杯打入 13 球，创造了单届世界杯进球纪录，至今无人能破。
+                  方丹在 1958 年瑞典世界杯打入 13 球，创造了单届世界杯进球纪录，至今无人能破。本届参赛球员的历史总进球会随赛况录入实时更新。
                 </p>
               </div>
             </div>

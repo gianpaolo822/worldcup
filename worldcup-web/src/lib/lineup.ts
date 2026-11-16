@@ -1,19 +1,18 @@
 import lineupsJson from '@data/match-lineups.json';
 import type { Player, Team } from '@/types';
 import { getPlayerById, getTeamById } from '@/lib/data';
+import type { LineupSlot } from '@/lib/lineup/slots';
 
-export type LineupSlot =
-  | 'GK'
-  | 'RB'
-  | 'RCB'
-  | 'LCB'
-  | 'LB'
-  | 'RDM'
-  | 'LDM'
-  | 'CAM'
-  | 'RW'
-  | 'LW'
-  | 'ST';
+export type { LineupSlot } from '@/lib/lineup/slots';
+
+export {
+  ALL_LINEUP_SLOTS,
+  normalizeFormation,
+  validateFormationSlots,
+  isSupportedFormation,
+  SUPPORTED_FORMATIONS,
+  FORMATION_REQUIRED_SLOTS,
+} from '@/lib/lineup/slots';
 
 export interface LineupStarterEntry {
   playerId: string;
@@ -23,11 +22,23 @@ export interface LineupStarterEntry {
 export interface TeamLineupRaw {
   teamId: string;
   formation: string;
-  starters: Partial<Record<LineupSlot, LineupStarterEntry>>;
+  starters: Partial<Record<string, LineupStarterEntry>>;
   bench?: { playerId: string; note?: string }[];
 }
 
-export type MatchEventType = 'goal' | 'assist' | 'yellow' | 'red' | 'sub_out' | 'sub_in';
+export type MatchEventPhase = 'regular' | 'extra_time' | 'penalties';
+
+export type MatchEventType =
+  | 'goal'
+  | 'assist'
+  | 'yellow'
+  | 'red'
+  | 'sub_out'
+  | 'sub_in'
+  | 'pen_scored'
+  | 'pen_missed'
+  | 'pen_saved'
+  | 'phase';
 
 export interface MatchEvent {
   minute: number;
@@ -35,6 +46,8 @@ export interface MatchEvent {
   playerId: string;
   relatedPlayerId?: string;
   note?: string;
+  phase?: MatchEventPhase;
+  penOrder?: number;
 }
 
 export interface MatchTeamStats {
@@ -85,20 +98,6 @@ export interface ResolvedMatchLineup {
   stats?: MatchStats;
 }
 
-const SLOT_ORDER: LineupSlot[] = [
-  'GK',
-  'RB',
-  'RCB',
-  'LCB',
-  'LB',
-  'RDM',
-  'LDM',
-  'CAM',
-  'RW',
-  'LW',
-  'ST',
-];
-
 const lineupsFile = lineupsJson as {
   lineups: Record<string, MatchLineupRaw>;
 };
@@ -106,12 +105,12 @@ const lineupsFile = lineupsJson as {
 function resolveTeamLineup(raw: TeamLineupRaw): ResolvedTeamLineup | null {
   const starters: Partial<Record<LineupSlot, ResolvedStarter>> = {};
 
-  for (const slot of SLOT_ORDER) {
-    const entry = raw.starters[slot];
+  for (const [slotKey, entry] of Object.entries(raw.starters)) {
     if (!entry?.playerId) continue;
+    const slot = slotKey as LineupSlot;
     const player = getPlayerById(entry.playerId);
     if (!player) {
-      console.warn(`[lineup] 未知球员 ${entry.playerId}（${slot}）`);
+      console.warn(`[lineup] 未知球员 ${entry.playerId}（${slotKey}）`);
       continue;
     }
     if (player.teamId !== raw.teamId) {

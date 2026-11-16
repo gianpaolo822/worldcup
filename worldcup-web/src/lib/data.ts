@@ -6,7 +6,18 @@ import coachesJson from '@data/coaches.json';
 import venuesJson from '@data/venues.json';
 import worldCupHistoryJson from '@data/world-cup-history.json';
 import topScorersJson from '@data/top-scorers.json';
-import type { Coach, Match, Player, StandingsByGroup, Team, TopScorer, Venue, WorldCupEdition } from '@/types';
+import playerWcCareerBaselineJson from '@data/player-wc-career-baseline.json';
+import type {
+  Coach,
+  Match,
+  Player,
+  PlayerWcCareerBaseline,
+  StandingsByGroup,
+  Team,
+  TopScorer,
+  Venue,
+  WorldCupEdition,
+} from '@/types';
 import { historicalPlayerId } from '@/lib/playerUtils';
 import { getMatchKickoffMs, resolveMatchDisplay } from '@/lib/matchDisplay';
 
@@ -18,6 +29,7 @@ export const coaches = coachesJson as Coach[];
 export const venues = venuesJson as Venue[];
 export const worldCupHistory = worldCupHistoryJson as WorldCupEdition[];
 export const topScorers = topScorersJson as TopScorer[];
+export const playerWcCareerBaselines = (playerWcCareerBaselineJson as PlayerWcCareerBaseline).players;
 
 export const groups = [...new Set(teams.map((t) => t.group))].sort();
 

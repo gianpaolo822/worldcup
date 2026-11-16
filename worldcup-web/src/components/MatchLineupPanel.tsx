@@ -2,13 +2,19 @@ import { useMemo, useState } from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowDown, ArrowDownLeft, Footprints } from 'lucide-react';
 import type { MatchEvent, ResolvedMatchLineup, ResolvedStarter, ResolvedTeamLineup } from '@/lib/lineup';
-import { getSlotPositions } from '@/lib/lineupPositions';
+import { resolveSlotPosition } from '@/lib/lineupPositions';
 import type { LineupSlot } from '@/lib/lineup';
 import type { Team, Player } from '@/types';
 import { getPlayerById } from '@/lib/data';
 import { playerNameWithNumber, playerNameZh } from '@/lib/playerUtils';
 import PlayerAvatar from '@/components/PlayerAvatar';
 import MatchStatsPanel from '@/components/MatchStatsPanel';
+import {
+  formatEventMinute,
+  isOwnGoal,
+  isPenaltyShootoutEvent,
+  sortMatchEvents,
+} from '@/lib/matchEvents';
 
 type PanelTab = 'lineup' | 'events' | 'stats';
 
@@ -18,20 +24,6 @@ interface MatchLineupPanelProps {
   lineup: ResolvedMatchLineup;
 }
 
-const SLOT_ORDER: LineupSlot[] = [
-  'GK',
-  'LB',
-  'LCB',
-  'RCB',
-  'RB',
-  'LDM',
-  'RDM',
-  'LW',
-  'CAM',
-  'RW',
-  'ST',
-];
-
 const EVENT_LABELS: Record<MatchEvent['type'], string> = {
   goal: '进球',
   assist: '助攻',
@@ -39,31 +31,30 @@ const EVENT_LABELS: Record<MatchEvent['type'], string> = {
   red: '红牌',
   sub_out: '换下',
   sub_in: '换上',
+  pen_scored: '点球命中',
+  pen_missed: '点球未进',
+  pen_saved: '点球被扑',
+  phase: '',
 };
-
-function formatEventMinute(minute: number): string {
-  if (minute > 90) return `90+${minute - 90}'`;
-  return `${minute}'`;
-}
 
 function eventTeamId(playerId: string, homeTeam: Team, awayTeam: Team): Team {
   if (playerId.startsWith(`${homeTeam.id}-`) || playerId === homeTeam.id) return homeTeam;
   return awayTeam;
 }
 
-function isOwnGoal(ev: MatchEvent): boolean {
-  return ev.type === 'goal' && !!ev.note?.includes('乌龙');
-}
-
 function eventAccent(ev: MatchEvent): string {
-  if (ev.type === 'goal') return isOwnGoal(ev) ? 'var(--own-goal)' : 'var(--accent)';
+  if (ev.type === 'goal' || ev.type === 'pen_scored') {
+    return isOwnGoal(ev) ? 'var(--own-goal)' : 'var(--accent)';
+  }
+  if (ev.type === 'pen_missed' || ev.type === 'pen_saved') return 'var(--text-muted)';
+  if (ev.type === 'phase') return 'var(--accent)';
   if (ev.type === 'red') return 'var(--danger)';
   if (ev.type === 'yellow') return '#eab308';
   return 'var(--text-muted)';
 }
 
 function EventTimelineIcon({ ev }: { ev: MatchEvent }) {
-  if (ev.type === 'goal') {
+  if (ev.type === 'goal' || ev.type === 'pen_scored') {
     return (
       <span
         className="text-sm leading-none"
@@ -72,6 +63,12 @@ function EventTimelineIcon({ ev }: { ev: MatchEvent }) {
         ⚽
       </span>
     );
+  }
+  if (ev.type === 'pen_missed' || ev.type === 'pen_saved') {
+    return <span className="text-xs leading-none text-[var(--text-muted)]">✕</span>;
+  }
+  if (ev.type === 'phase') {
+    return <span className="text-[10px] leading-none text-[var(--accent)]">⏱</span>;
   }
   if (ev.type === 'red') {
     return <span className="w-2.5 h-3.5 rounded-[2px] bg-red-500 border border-red-700 block" />;
@@ -91,6 +88,9 @@ function describeEvent(ev: MatchEvent): string {
   const related = ev.relatedPlayerId ? getPlayerById(ev.relatedPlayerId) : undefined;
   const name = formatEventPlayer(player, ev.playerId);
 
+  if (ev.type === 'phase') {
+    return ev.note ?? '比赛阶段';
+  }
   if (ev.type === 'goal') {
     if (isOwnGoal(ev)) {
       return `${name} 乌龙球`;
@@ -98,7 +98,21 @@ function describeEvent(ev: MatchEvent): string {
     const assist = related
       ? `（助攻：${formatEventPlayer(related, ev.relatedPlayerId!)}）`
       : '';
+    if (ev.note?.includes('点球')) {
+      return `${name} 点球破门${assist}`;
+    }
     return `${name} 进球${assist}`;
+  }
+  if (ev.type === 'pen_scored') {
+    return ev.phase === 'penalties' ? `${name} 点球命中` : `${name} 点球破门`;
+  }
+  if (ev.type === 'pen_missed') {
+    const keeper = related ? `（${formatEventPlayer(related, ev.relatedPlayerId!)} 扑出）` : '';
+    return `${name} 点球未进${keeper}`;
+  }
+  if (ev.type === 'pen_saved') {
+    const taker = related ? formatEventPlayer(related, ev.relatedPlayerId!) : '对方';
+    return `${name} 扑出 ${taker} 的点球`;
   }
   if (ev.type === 'red' || ev.type === 'yellow') {
     return `${name} ${EVENT_LABELS[ev.type]}`;
@@ -110,22 +124,7 @@ function describeEvent(ev: MatchEvent): string {
 }
 
 function EventsList({ events, homeTeam, awayTeam }: { events: MatchEvent[]; homeTeam: Team; awayTeam: Team }) {
-  const sorted = useMemo(
-    () =>
-      [...events].sort((a, b) => {
-        if (a.minute !== b.minute) return a.minute - b.minute;
-        const order: Record<MatchEvent['type'], number> = {
-          goal: 0,
-          assist: 1,
-          yellow: 2,
-          red: 3,
-          sub_out: 4,
-          sub_in: 5,
-        };
-        return order[a.type] - order[b.type];
-      }),
-    [events],
-  );
+  const sorted = useMemo(() => sortMatchEvents(events), [events]);
 
   if (sorted.length === 0) {
     return (
@@ -141,6 +140,19 @@ function EventsList({ events, homeTeam, awayTeam }: { events: MatchEvent[]; home
       />
       <ul className="space-y-0">
         {sorted.map((ev, i) => {
+          if (ev.type === 'phase') {
+            return (
+              <li key={`phase-${ev.minute}-${i}`} className={`relative pl-10 ${i === sorted.length - 1 ? '' : 'pb-5'}`}>
+                <div
+                  className="rounded-lg px-3 py-2 border text-center"
+                  style={{ borderColor: 'var(--border)', backgroundColor: 'var(--surface-elevated)' }}
+                >
+                  <p className="text-xs font-semibold text-[var(--accent)]">{describeEvent(ev)}</p>
+                </div>
+              </li>
+            );
+          }
+
           const team = eventTeamId(ev.playerId, homeTeam, awayTeam);
           const accent = eventAccent(ev);
           const isLast = i === sorted.length - 1;
@@ -162,10 +174,14 @@ function EventsList({ events, homeTeam, awayTeam }: { events: MatchEvent[]; home
               >
                 <div className="flex items-center gap-2 mb-1">
                   <span className="text-xs font-bold tabular-nums" style={{ color: accent }}>
-                    {formatEventMinute(ev.minute)}
+                    {formatEventMinute(ev)}
                   </span>
-                  <span className="text-sm">{team.flag}</span>
-                  <span className="text-[10px] text-[var(--text-muted)]">{team.name}</span>
+                  {!isPenaltyShootoutEvent(ev) ? (
+                    <>
+                      <span className="text-sm">{team.flag}</span>
+                      <span className="text-[10px] text-[var(--text-muted)]">{team.name}</span>
+                    </>
+                  ) : null}
                 </div>
                 <p className="text-sm text-[var(--text)] leading-snug">{describeEvent(ev)}</p>
                 {ev.note ? (
@@ -184,19 +200,24 @@ function getPlayerMatchEvents(playerId: string, events: MatchEvent[]): MatchEven
   return events.filter(
     (ev) =>
       ev.playerId === playerId ||
-      (ev.type === 'sub_out' && ev.relatedPlayerId === playerId),
+      (ev.type === 'sub_out' && ev.relatedPlayerId === playerId) ||
+      (ev.type === 'goal' && ev.relatedPlayerId === playerId),
   );
 }
 
-function PlayerEvents({ events }: { events: MatchEvent[] }) {
+function PlayerEvents({ events, playerId }: { events: MatchEvent[]; playerId: string }) {
   if (events.length === 0) return null;
 
-  const goals = events.filter((e) => e.type === 'goal' && !isOwnGoal(e)).length;
-  const ownGoals = events.filter((e) => isOwnGoal(e)).length;
-  const assists = events.filter((e) => e.type === 'assist').length;
-  const subOut = events.find((e) => e.type === 'sub_out');
-  const hasYellow = events.some((e) => e.type === 'yellow');
-  const hasRed = events.some((e) => e.type === 'red');
+  const goals = events.filter((e) => e.type === 'goal' && e.playerId === playerId && !isOwnGoal(e)).length;
+  const ownGoals = events.filter((e) => isOwnGoal(e) && e.playerId === playerId).length;
+  const assists =
+    events.filter((e) => e.type === 'assist' && e.playerId === playerId).length +
+    events.filter(
+      (e) => e.type === 'goal' && e.relatedPlayerId === playerId && !isOwnGoal(e),
+    ).length;
+  const subOut = events.find((e) => e.type === 'sub_out' && e.playerId === playerId);
+  const hasYellow = events.some((e) => e.type === 'yellow' && e.playerId === playerId);
+  const hasRed = events.some((e) => e.type === 'red' && e.playerId === playerId);
 
   return (
     <div className="absolute -top-1 -right-1 flex flex-col items-end gap-0.5 pointer-events-none z-[3]">
@@ -243,7 +264,7 @@ function PlayerEvents({ events }: { events: MatchEvent[] }) {
       {subOut && (
         <span className="flex items-center gap-0.5 text-[8px] text-red-400 font-semibold bg-black/70 rounded px-0.5">
           <ArrowDown size={10} />
-          {formatEventMinute(subOut.minute)}
+          {formatEventMinute(subOut)}
         </span>
       )}
     </div>
@@ -258,42 +279,54 @@ function BenchEventBadges({ events, playerId }: { events: MatchEvent[]; playerId
   return (
     <span className="inline-flex items-center gap-1 flex-shrink-0 ml-1">
       {sorted.map((ev, i) => {
-        if (ev.type === 'goal') {
+        if (ev.type === 'goal' && ev.playerId === playerId) {
           const ownGoal = isOwnGoal(ev);
           return (
             <span
               key={i}
               className="inline-flex items-center gap-0.5 text-[9px]"
               style={{ color: ownGoal ? 'var(--own-goal)' : 'var(--accent)' }}
-              title={`${formatEventMinute(ev.minute)} ${ownGoal ? '乌龙球' : '进球'}`}
+              title={`${formatEventMinute(ev)} ${ownGoal ? '乌龙球' : '进球'}`}
             >
               ⚽
-              <span className="tabular-nums text-[var(--text-muted)]">{formatEventMinute(ev.minute)}</span>
+              <span className="tabular-nums text-[var(--text-muted)]">{formatEventMinute(ev)}</span>
             </span>
           );
         }
-        if (ev.type === 'yellow') {
+        if (ev.type === 'goal' && ev.relatedPlayerId === playerId && !isOwnGoal(ev)) {
+          return (
+            <span
+              key={i}
+              className="inline-flex items-center gap-0.5 text-[9px] text-white"
+              title={`${formatEventMinute(ev)} 助攻`}
+            >
+              <Footprints size={9} />
+              <span className="tabular-nums text-[var(--text-muted)]">{formatEventMinute(ev)}</span>
+            </span>
+          );
+        }
+        if (ev.type === 'yellow' && ev.playerId === playerId) {
           return (
             <span
               key={i}
               className="w-2 h-2.5 rounded-[1px] bg-yellow-400 border border-yellow-600"
-              title={`${formatEventMinute(ev.minute)} 黄牌`}
+              title={`${formatEventMinute(ev)} 黄牌`}
             />
           );
         }
-        if (ev.type === 'red') {
+        if (ev.type === 'red' && ev.playerId === playerId) {
           return (
             <span
               key={i}
               className="w-2 h-2.5 rounded-[1px] bg-red-500 border border-red-700"
-              title={`${formatEventMinute(ev.minute)} 红牌`}
+              title={`${formatEventMinute(ev)} 红牌`}
             />
           );
         }
         if (ev.type === 'sub_out' && ev.relatedPlayerId === playerId) {
           return (
-            <span key={i} className="text-[9px] text-emerald-400 tabular-nums" title={`${formatEventMinute(ev.minute)} 换上`}>
-              ↑{formatEventMinute(ev.minute)}
+            <span key={i} className="text-[9px] text-emerald-400 tabular-nums" title={`${formatEventMinute(ev)} 换上`}>
+              ↑{formatEventMinute(ev)}
             </span>
           );
         }
@@ -376,7 +409,11 @@ function PitchPlayer({
   side: 'home' | 'away';
 }) {
   const { player, captain } = entry;
-  const playerEvents = events.filter((e) => e.playerId === player.id);
+  const playerEvents = events.filter(
+    (e) =>
+      e.playerId === player.id ||
+      (e.type === 'goal' && e.relatedPlayerId === player.id),
+  );
   const numberColor = side === 'home' ? '#2563eb' : '#dc2626';
 
   return (
@@ -386,7 +423,7 @@ function PitchPlayer({
       style={{ left: `${x}%`, top: `${y}%` }}
     >
       <div className="relative">
-        <PlayerEvents events={playerEvents} />
+        <PlayerEvents events={playerEvents} playerId={player.id} />
         <PlayerAvatar
           playerId={player.id}
           number={player.number}
@@ -411,15 +448,16 @@ function TeamHalf({
   side: 'home' | 'away';
   events: MatchEvent[];
 }) {
-  const positions = getSlotPositions(teamLineup.formation, side);
-  if (!positions) return null;
+  const entries = Object.entries(teamLineup.starters) as [LineupSlot, ResolvedStarter][];
+  if (entries.length === 0) return null;
+
+  const starterSlots = entries.map(([slot]) => slot);
 
   return (
     <>
-      {SLOT_ORDER.map((slot) => {
-        const entry = teamLineup.starters[slot];
-        if (!entry) return null;
-        const pos = positions[slot];
+      {entries.map(([slot, entry]) => {
+        const pos = resolveSlotPosition(teamLineup.formation, side, slot, { starterSlots });
+        if (!pos) return null;
         return (
           <PitchPlayer key={`${side}-${slot}`} entry={entry} x={pos.x} y={pos.y} events={events} side={side} />
         );

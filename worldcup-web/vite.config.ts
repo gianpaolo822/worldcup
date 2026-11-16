@@ -20,6 +20,7 @@ export default defineConfig({
     alias: {
       '@': path.resolve(__dirname, './src'),
       '@data': path.resolve(repoRoot, 'data'),
+      '@shared': path.resolve(repoRoot, 'shared'),
     },
   },
 });

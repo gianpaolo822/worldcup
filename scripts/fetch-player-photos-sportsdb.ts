@@ -39,6 +39,16 @@ const NATIONALITY_HINT: Record<string, string[]> = {
   switzerland: ['Switzerland', 'Swiss'],
   qatar: ['Qatar', 'Qatari'],
   'bosnia-and-herzegovina': ['Bosnia', 'Bosnian', 'Herzegovina'],
+  england: ['England', 'English', 'British'],
+  norway: ['Norway', 'Norwegian'],
+  spain: ['Spain', 'Spanish'],
+  portugal: ['Portugal', 'Portuguese'],
+  'united-states': ['United States', 'American', 'USA'],
+  belgium: ['Belgium', 'Belgian'],
+  argentina: ['Argentina', 'Argentine', 'Argentinian'],
+  'cape-verde': ['Cape Verde', 'Cape Verdean', 'Cabo Verde'],
+  egypt: ['Egypt', 'Egyptian'],
+  colombia: ['Colombia', 'Colombian'],
 };
 
 const NAT_CODE: Record<string, string> = {
@@ -49,6 +59,16 @@ const NAT_CODE: Record<string, string> = {
   SUI: 'Switzerland',
   QAT: 'Qatar',
   BIH: 'Bosnia',
+  ENG: 'England',
+  NOR: 'Norway',
+  ESP: 'Spain',
+  POR: 'Portugal',
+  USA: 'United States',
+  BEL: 'Belgium',
+  ARG: 'Argentina',
+  CPV: 'Cape Verde',
+  EGY: 'Egypt',
+  COL: 'Colombia',
 };
 
 function parseArgs() {

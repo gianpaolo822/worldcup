@@ -43,4 +43,6 @@ if (hasXlsxImport) {
 }
 runTsx('merge-overrides.ts');
 runTsx('compute-standings.ts');
+runTsx('resolve-knockout.ts');
+runTsx('merge-overrides.ts');
 console.log('[data:refresh] done');

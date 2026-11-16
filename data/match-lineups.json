@@ -31199,6 +31199,349 @@
           "dangerousAttacks": 52
         }
       }
+    },
+    "wc2026-m104": {
+      "formation": "4-2-3-1 / 4-4-2",
+      "home": {
+        "teamId": "spain",
+        "formation": "4-2-3-1",
+        "starters": {
+          "GK": {
+            "playerId": "spain-23"
+          },
+          "RB": {
+            "playerId": "spain-12"
+          },
+          "RCB": {
+            "playerId": "spain-22"
+          },
+          "LCB": {
+            "playerId": "spain-14"
+          },
+          "LB": {
+            "playerId": "spain-24"
+          },
+          "RDM": {
+            "playerId": "spain-16",
+            "captain": true
+          },
+          "LDM": {
+            "playerId": "spain-8"
+          },
+          "RW": {
+            "playerId": "spain-19"
+          },
+          "CAM": {
+            "playerId": "spain-10"
+          },
+          "LW": {
+            "playerId": "spain-15"
+          },
+          "ST": {
+            "playerId": "spain-21"
+          }
+        },
+        "bench": [
+          {
+            "playerId": "spain-1"
+          },
+          {
+            "playerId": "spain-2"
+          },
+          {
+            "playerId": "spain-3"
+          },
+          {
+            "playerId": "spain-4"
+          },
+          {
+            "playerId": "spain-5"
+          },
+          {
+            "playerId": "spain-6"
+          },
+          {
+            "playerId": "spain-7"
+          },
+          {
+            "playerId": "spain-9"
+          },
+          {
+            "playerId": "spain-11"
+          },
+          {
+            "playerId": "spain-13"
+          },
+          {
+            "playerId": "spain-17"
+          },
+          {
+            "playerId": "spain-18"
+          },
+          {
+            "playerId": "spain-20"
+          },
+          {
+            "playerId": "spain-25"
+          },
+          {
+            "playerId": "spain-26"
+          }
+        ]
+      },
+      "away": {
+        "teamId": "argentina",
+        "formation": "4-4-2",
+        "starters": {
+          "GK": {
+            "playerId": "argentina-23"
+          },
+          "LB": {
+            "playerId": "argentina-3"
+          },
+          "LCB": {
+            "playerId": "argentina-6"
+          },
+          "RCB": {
+            "playerId": "argentina-13"
+          },
+          "RB": {
+            "playerId": "argentina-4"
+          },
+          "LW": {
+            "playerId": "argentina-15"
+          },
+          "LDM": {
+            "playerId": "argentina-7"
+          },
+          "RDM": {
+            "playerId": "argentina-24"
+          },
+          "RW": {
+            "playerId": "argentina-20"
+          },
+          "CAM": {
+            "playerId": "argentina-10",
+            "captain": true
+          },
+          "ST": {
+            "playerId": "argentina-9"
+          }
+        },
+        "bench": [
+          {
+            "playerId": "argentina-1"
+          },
+          {
+            "playerId": "argentina-2",
+            "note": "马科斯·塞内西（决赛 2 号）"
+          },
+          {
+            "playerId": "argentina-5"
+          },
+          {
+            "playerId": "argentina-8"
+          },
+          {
+            "playerId": "argentina-11"
+          },
+          {
+            "playerId": "argentina-12"
+          },
+          {
+            "playerId": "argentina-14"
+          },
+          {
+            "playerId": "argentina-16"
+          },
+          {
+            "playerId": "argentina-17"
+          },
+          {
+            "playerId": "argentina-18"
+          },
+          {
+            "playerId": "argentina-19"
+          },
+          {
+            "playerId": "argentina-21"
+          },
+          {
+            "playerId": "argentina-22"
+          },
+          {
+            "playerId": "argentina-25"
+          },
+          {
+            "playerId": "argentina-26"
+          }
+        ]
+      },
+      "events": [
+        {
+          "minute": 0,
+          "type": "phase",
+          "playerId": "spain-23",
+          "note": "赛况概要：2026 世界杯决赛，纽约/新泽西大都会人寿体育场，观众 80,663，主裁 Slavko Vinčić（斯洛文尼亚），VAR Bastian Dankert（德国）。西班牙 1-0 阿根廷（加时），卡布西当选全场最佳。德比拉·富恩特延续半决赛同一套首发，斯卡洛尼派尼科·冈萨雷斯首发出场。上半场双方仅 3 次射门（均为西班牙），阿根廷史上最冷清的决赛半场；41' 利桑德罗·马丁内斯伤退。常规时间 90 分钟阿根廷零射门，马丁内斯 11 次扑救创决赛纪录。82' 恩佐抗议判罚染黄，90+3' 对卡布西粗野铲抢二黄变一红，阿根廷 10 人作战。加时 99' 西班牙连换三人换上扎比门迪、加西亚；102' 塞内西换阿尔瓦雷斯加强防线。106' 替补费兰·托雷斯接尼科·威廉姆斯传球左脚破门，西班牙时隔 16 年再夺世界杯，本届 8 战仅失 1 球。梅西 39 岁第三次参加决赛，117' 远射完成阿根廷全场首次射门。FIFA 数据：控球 65%-35%，射门 20-2（射正 12-0），角球 9-4，阿根廷 7 黄 1 红（恩佐两黄变红）。"
+        },
+        {
+          "minute": 41,
+          "type": "phase",
+          "playerId": "argentina-6",
+          "note": "利桑德罗·马丁内斯伤退，防线基调生变"
+        },
+        {
+          "minute": 44,
+          "type": "sub_out",
+          "playerId": "argentina-6",
+          "relatedPlayerId": "argentina-19"
+        },
+        {
+          "minute": 46,
+          "type": "sub_out",
+          "playerId": "argentina-15",
+          "relatedPlayerId": "argentina-5",
+          "note": "中场休息调整，帕雷德斯强化后腰"
+        },
+        {
+          "minute": 52,
+          "type": "yellow",
+          "playerId": "argentina-5",
+          "note": "战术犯规"
+        },
+        {
+          "minute": 58,
+          "type": "sub_out",
+          "playerId": "argentina-4",
+          "relatedPlayerId": "argentina-26"
+        },
+        {
+          "minute": 62,
+          "type": "sub_out",
+          "playerId": "spain-21",
+          "relatedPlayerId": "spain-7"
+        },
+        {
+          "minute": 62,
+          "type": "sub_out",
+          "playerId": "spain-8",
+          "relatedPlayerId": "spain-20"
+        },
+        {
+          "minute": 70,
+          "type": "sub_out",
+          "playerId": "spain-10",
+          "relatedPlayerId": "spain-6"
+        },
+        {
+          "minute": 70,
+          "type": "sub_out",
+          "playerId": "spain-15",
+          "relatedPlayerId": "spain-17"
+        },
+        {
+          "minute": 70,
+          "type": "sub_out",
+          "playerId": "argentina-13",
+          "relatedPlayerId": "argentina-25"
+        },
+        {
+          "minute": 70,
+          "type": "sub_out",
+          "playerId": "argentina-7",
+          "relatedPlayerId": "argentina-17"
+        },
+        {
+          "minute": 82,
+          "type": "yellow",
+          "playerId": "argentina-24",
+          "note": "向主裁抗议未判犯规"
+        },
+        {
+          "minute": 92,
+          "type": "yellow",
+          "playerId": "argentina-25",
+          "note": "补时阶段犯规"
+        },
+        {
+          "minute": 93,
+          "type": "red",
+          "playerId": "argentina-24",
+          "note": "对卡布西鲁莽铲抢，二黄变一红"
+        },
+        {
+          "minute": 99,
+          "type": "sub_out",
+          "playerId": "spain-16",
+          "relatedPlayerId": "spain-18",
+          "note": "加时开场连换，罗德里被换下队长袖标转至西蒙"
+        },
+        {
+          "minute": 99,
+          "type": "sub_out",
+          "playerId": "spain-14",
+          "relatedPlayerId": "spain-4"
+        },
+        {
+          "minute": 102,
+          "type": "sub_out",
+          "playerId": "argentina-9",
+          "relatedPlayerId": "argentina-2",
+          "note": "马科斯·塞内西加强防线"
+        },
+        {
+          "minute": 106,
+          "type": "goal",
+          "playerId": "spain-7",
+          "relatedPlayerId": "spain-17",
+          "note": "威廉姆斯传球，费兰·托雷斯禁区左侧左脚抽射破门",
+          "phase": "extra_time"
+        },
+        {
+          "minute": 111,
+          "type": "yellow",
+          "playerId": "argentina-20",
+          "note": "加时下半场犯规",
+          "phase": "extra_time"
+        },
+        {
+          "minute": 117,
+          "type": "phase",
+          "playerId": "argentina-10",
+          "note": "梅西远射偏出，阿根廷全场首次射门",
+          "phase": "extra_time"
+        }
+      ],
+      "stats": {
+        "home": {
+          "possession": 65,
+          "passAccuracy": 90,
+          "shots": 20,
+          "shotsOnTarget": 12,
+          "shotsOffTarget": 5,
+          "corners": 9,
+          "fouls": 21,
+          "offsides": 4,
+          "yellowCards": 0,
+          "redCards": 0,
+          "attacks": 118,
+          "dangerousAttacks": 62
+        },
+        "away": {
+          "possession": 35,
+          "passAccuracy": 79,
+          "shots": 2,
+          "shotsOnTarget": 0,
+          "shotsOffTarget": 1,
+          "corners": 4,
+          "fouls": 25,
+          "offsides": 1,
+          "yellowCards": 7,
+          "redCards": 1,
+          "attacks": 68,
+          "dangerousAttacks": 18
+        }
+      }
     }
   }
 }

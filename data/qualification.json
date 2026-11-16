@@ -1,0 +1,1298 @@
+{
+  "groupStageComplete": true,
+  "thirdPlaceQualifiedGroups": [
+    "K",
+    "F",
+    "E",
+    "L",
+    "B",
+    "J",
+    "D",
+    "I"
+  ],
+  "thirdPlaceEliminatedGroups": [
+    "G",
+    "A",
+    "C",
+    "H"
+  ],
+  "matrixKey": "B,D,E,F,I,J,K,L",
+  "thirdPlaceRanking": [
+    {
+      "rankAmongThirds": 1,
+      "group": "K",
+      "teamId": "dr-congo",
+      "teamName": "民主刚果",
+      "points": 4,
+      "gd": 1,
+      "gf": 4,
+      "qualified": true
+    },
+    {
+      "rankAmongThirds": 2,
+      "group": "F",
+      "teamId": "sweden",
+      "teamName": "瑞典",
+      "points": 4,
+      "gd": 0,
+      "gf": 7,
+      "qualified": true
+    },
+    {
+      "rankAmongThirds": 3,
+      "group": "E",
+      "teamId": "ecuador",
+      "teamName": "厄瓜多尔",
+      "points": 4,
+      "gd": 0,
+      "gf": 2,
+      "qualified": true
+    },
+    {
+      "rankAmongThirds": 4,
+      "group": "L",
+      "teamId": "ghana",
+      "teamName": "加纳",
+      "points": 4,
+      "gd": 0,
+      "gf": 2,
+      "qualified": true
+    },
+    {
+      "rankAmongThirds": 5,
+      "group": "B",
+      "teamId": "bosnia-and-herzegovina",
+      "teamName": "波黑",
+      "points": 4,
+      "gd": -1,
+      "gf": 5,
+      "qualified": true
+    },
+    {
+      "rankAmongThirds": 6,
+      "group": "J",
+      "teamId": "algeria",
+      "teamName": "阿尔及利亚",
+      "points": 4,
+      "gd": -2,
+      "gf": 5,
+      "qualified": true
+    },
+    {
+      "rankAmongThirds": 7,
+      "group": "D",
+      "teamId": "paraguay",
+      "teamName": "巴拉圭",
+      "points": 4,
+      "gd": -2,
+      "gf": 2,
+      "qualified": true
+    },
+    {
+      "rankAmongThirds": 8,
+      "group": "I",
+      "teamId": "senegal",
+      "teamName": "塞内加尔",
+      "points": 3,
+      "gd": 2,
+      "gf": 8,
+      "qualified": true
+    },
+    {
+      "rankAmongThirds": 9,
+      "group": "G",
+      "teamId": "iran",
+      "teamName": "伊朗",
+      "points": 3,
+      "gd": 0,
+      "gf": 3,
+      "qualified": false
+    },
+    {
+      "rankAmongThirds": 10,
+      "group": "A",
+      "teamId": "south-korea",
+      "teamName": "韩国",
+      "points": 3,
+      "gd": -1,
+      "gf": 2,
+      "qualified": false
+    },
+    {
+      "rankAmongThirds": 11,
+      "group": "C",
+      "teamId": "scotland",
+      "teamName": "苏格兰",
+      "points": 3,
+      "gd": -3,
+      "gf": 1,
+      "qualified": false
+    },
+    {
+      "rankAmongThirds": 12,
+      "group": "H",
+      "teamId": "uruguay",
+      "teamName": "乌拉圭",
+      "points": 2,
+      "gd": -1,
+      "gf": 3,
+      "qualified": false
+    }
+  ],
+  "qualifiedTeams": [
+    {
+      "teamId": "mexico",
+      "group": "A",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "south-africa",
+      "group": "A",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "switzerland",
+      "group": "B",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "canada",
+      "group": "B",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "brazil",
+      "group": "C",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "morocco",
+      "group": "C",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "united-states",
+      "group": "D",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "australia",
+      "group": "D",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "germany",
+      "group": "E",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "ivory-coast",
+      "group": "E",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "netherlands",
+      "group": "F",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "japan",
+      "group": "F",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "belgium",
+      "group": "G",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "egypt",
+      "group": "G",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "spain",
+      "group": "H",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "cape-verde",
+      "group": "H",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "france",
+      "group": "I",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "norway",
+      "group": "I",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "argentina",
+      "group": "J",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "austria",
+      "group": "J",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "colombia",
+      "group": "K",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "portugal",
+      "group": "K",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "england",
+      "group": "L",
+      "path": "group_winner"
+    },
+    {
+      "teamId": "croatia",
+      "group": "L",
+      "path": "group_runner_up"
+    },
+    {
+      "teamId": "dr-congo",
+      "group": "K",
+      "path": "best_third",
+      "rankAmongThirds": 1
+    },
+    {
+      "teamId": "sweden",
+      "group": "F",
+      "path": "best_third",
+      "rankAmongThirds": 2
+    },
+    {
+      "teamId": "ecuador",
+      "group": "E",
+      "path": "best_third",
+      "rankAmongThirds": 3
+    },
+    {
+      "teamId": "ghana",
+      "group": "L",
+      "path": "best_third",
+      "rankAmongThirds": 4
+    },
+    {
+      "teamId": "bosnia-and-herzegovina",
+      "group": "B",
+      "path": "best_third",
+      "rankAmongThirds": 5
+    },
+    {
+      "teamId": "algeria",
+      "group": "J",
+      "path": "best_third",
+      "rankAmongThirds": 6
+    },
+    {
+      "teamId": "paraguay",
+      "group": "D",
+      "path": "best_third",
+      "rankAmongThirds": 7
+    },
+    {
+      "teamId": "senegal",
+      "group": "I",
+      "path": "best_third",
+      "rankAmongThirds": 8
+    }
+  ],
+  "standingsByGroup": {
+    "A": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "mexico",
+          "name": "墨西哥",
+          "nameEn": "Mexico",
+          "code": "MEX",
+          "group": "A",
+          "flag": "🇲🇽",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 3,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 6,
+        "ga": 0,
+        "gd": 6,
+        "points": 9
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "south-africa",
+          "name": "南非",
+          "nameEn": "South Africa",
+          "code": "RSA",
+          "group": "A",
+          "flag": "🇿🇦",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 3,
+        "gd": -1,
+        "points": 4
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "south-korea",
+          "name": "韩国",
+          "nameEn": "Korea Republic",
+          "code": "KOR",
+          "group": "A",
+          "flag": "🇰🇷",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 0,
+        "lost": 2,
+        "gf": 2,
+        "ga": 3,
+        "gd": -1,
+        "points": 3
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "czechia",
+          "name": "捷克",
+          "nameEn": "Czech Republic",
+          "code": "CZE",
+          "group": "A",
+          "flag": "🇨🇿",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 1,
+        "lost": 2,
+        "gf": 2,
+        "ga": 6,
+        "gd": -4,
+        "points": 1
+      }
+    ],
+    "B": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "switzerland",
+          "name": "瑞士",
+          "nameEn": "Switzerland",
+          "code": "SUI",
+          "group": "B",
+          "flag": "🇨🇭",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "points": 7
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "canada",
+          "name": "加拿大",
+          "nameEn": "Canada",
+          "code": "CAN",
+          "group": "B",
+          "flag": "🇨🇦",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 8,
+        "ga": 3,
+        "gd": 5,
+        "points": 4
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "bosnia-and-herzegovina",
+          "name": "波黑",
+          "nameEn": "Bosnia and Herzegovina",
+          "code": "BIH",
+          "group": "B",
+          "flag": "🇧🇦",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 5,
+        "ga": 6,
+        "gd": -1,
+        "points": 4
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "qatar",
+          "name": "卡塔尔",
+          "nameEn": "Qatar",
+          "code": "QAT",
+          "group": "B",
+          "flag": "🇶🇦",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 1,
+        "lost": 2,
+        "gf": 2,
+        "ga": 10,
+        "gd": -8,
+        "points": 1
+      }
+    ],
+    "C": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "brazil",
+          "name": "巴西",
+          "nameEn": "Brazil",
+          "code": "BRA",
+          "group": "C",
+          "flag": "🇧🇷",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 7,
+        "ga": 1,
+        "gd": 6,
+        "points": 7
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "morocco",
+          "name": "摩洛哥",
+          "nameEn": "Morocco",
+          "code": "MAR",
+          "group": "C",
+          "flag": "🇲🇦",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 6,
+        "ga": 3,
+        "gd": 3,
+        "points": 7
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "scotland",
+          "name": "苏格兰",
+          "nameEn": "Scotland",
+          "code": "SCO",
+          "group": "C",
+          "flag": "🏴󠁧󠁢󠁳󠁣󠁴󠁿",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 0,
+        "lost": 2,
+        "gf": 1,
+        "ga": 4,
+        "gd": -3,
+        "points": 3
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "haiti",
+          "name": "海地",
+          "nameEn": "Haiti",
+          "code": "HAI",
+          "group": "C",
+          "flag": "🇭🇹",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 0,
+        "lost": 3,
+        "gf": 2,
+        "ga": 8,
+        "gd": -6,
+        "points": 0
+      }
+    ],
+    "D": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "united-states",
+          "name": "美国",
+          "nameEn": "United States",
+          "code": "USA",
+          "group": "D",
+          "flag": "🇺🇸",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 8,
+        "ga": 4,
+        "gd": 4,
+        "points": 6
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "australia",
+          "name": "澳大利亚",
+          "nameEn": "Australia",
+          "code": "AUS",
+          "group": "D",
+          "flag": "🇦🇺",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 4
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "paraguay",
+          "name": "巴拉圭",
+          "nameEn": "Paraguay",
+          "code": "PAR",
+          "group": "D",
+          "flag": "🇵🇾",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 4,
+        "gd": -2,
+        "points": 4
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "turkey",
+          "name": "土耳其",
+          "nameEn": "Turkey",
+          "code": "TUR",
+          "group": "D",
+          "flag": "🇹🇷",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 0,
+        "lost": 2,
+        "gf": 3,
+        "ga": 5,
+        "gd": -2,
+        "points": 3
+      }
+    ],
+    "E": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "germany",
+          "name": "德国",
+          "nameEn": "Germany",
+          "code": "GER",
+          "group": "E",
+          "flag": "🇩🇪",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 10,
+        "ga": 4,
+        "gd": 6,
+        "points": 6
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "ivory-coast",
+          "name": "科特迪瓦",
+          "nameEn": "Côte d'Ivoire",
+          "code": "CIV",
+          "group": "E",
+          "flag": "🇨🇮",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 4,
+        "ga": 2,
+        "gd": 2,
+        "points": 6
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "ecuador",
+          "name": "厄瓜多尔",
+          "nameEn": "Ecuador",
+          "code": "ECU",
+          "group": "E",
+          "flag": "🇪🇨",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 4
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "curacao",
+          "name": "库拉索",
+          "nameEn": "Curaçao",
+          "code": "CUW",
+          "group": "E",
+          "flag": "🇨🇼",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 1,
+        "lost": 2,
+        "gf": 1,
+        "ga": 9,
+        "gd": -8,
+        "points": 1
+      }
+    ],
+    "F": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "netherlands",
+          "name": "荷兰",
+          "nameEn": "Netherlands",
+          "code": "NED",
+          "group": "F",
+          "flag": "🇳🇱",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 10,
+        "ga": 4,
+        "gd": 6,
+        "points": 7
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "japan",
+          "name": "日本",
+          "nameEn": "Japan",
+          "code": "JPN",
+          "group": "F",
+          "flag": "🇯🇵",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 2,
+        "lost": 0,
+        "gf": 7,
+        "ga": 3,
+        "gd": 4,
+        "points": 5
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "sweden",
+          "name": "瑞典",
+          "nameEn": "Sweden",
+          "code": "SWE",
+          "group": "F",
+          "flag": "🇸🇪",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 7,
+        "ga": 7,
+        "gd": 0,
+        "points": 4
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "tunisia",
+          "name": "突尼斯",
+          "nameEn": "Tunisia",
+          "code": "TUN",
+          "group": "F",
+          "flag": "🇹🇳",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 0,
+        "lost": 3,
+        "gf": 2,
+        "ga": 12,
+        "gd": -10,
+        "points": 0
+      }
+    ],
+    "G": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "belgium",
+          "name": "比利时",
+          "nameEn": "Belgium",
+          "code": "BEL",
+          "group": "G",
+          "flag": "🇧🇪",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 2,
+        "lost": 0,
+        "gf": 6,
+        "ga": 2,
+        "gd": 4,
+        "points": 5
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "egypt",
+          "name": "埃及",
+          "nameEn": "Egypt",
+          "code": "EGY",
+          "group": "G",
+          "flag": "🇪🇬",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 2,
+        "lost": 0,
+        "gf": 5,
+        "ga": 3,
+        "gd": 2,
+        "points": 5
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "iran",
+          "name": "伊朗",
+          "nameEn": "Iran",
+          "code": "IRN",
+          "group": "G",
+          "flag": "🇮🇷",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 3,
+        "lost": 0,
+        "gf": 3,
+        "ga": 3,
+        "gd": 0,
+        "points": 3
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "new-zealand",
+          "name": "新西兰",
+          "nameEn": "New Zealand",
+          "code": "NZL",
+          "group": "G",
+          "flag": "🇳🇿",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 1,
+        "lost": 2,
+        "gf": 4,
+        "ga": 10,
+        "gd": -6,
+        "points": 1
+      }
+    ],
+    "H": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "spain",
+          "name": "西班牙",
+          "nameEn": "Spain",
+          "code": "ESP",
+          "group": "H",
+          "flag": "🇪🇸",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 5,
+        "ga": 0,
+        "gd": 5,
+        "points": 7
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "cape-verde",
+          "name": "佛得角",
+          "nameEn": "Cape Verde",
+          "code": "CPV",
+          "group": "H",
+          "flag": "🇨🇻",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 3,
+        "lost": 0,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 3
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "uruguay",
+          "name": "乌拉圭",
+          "nameEn": "Uruguay",
+          "code": "URU",
+          "group": "H",
+          "flag": "🇺🇾",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 2,
+        "lost": 1,
+        "gf": 3,
+        "ga": 4,
+        "gd": -1,
+        "points": 2
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "saudi-arabia",
+          "name": "沙特阿拉伯",
+          "nameEn": "Saudi Arabia",
+          "code": "KSA",
+          "group": "H",
+          "flag": "🇸🇦",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 2,
+        "lost": 1,
+        "gf": 1,
+        "ga": 5,
+        "gd": -4,
+        "points": 2
+      }
+    ],
+    "I": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "france",
+          "name": "法国",
+          "nameEn": "France",
+          "code": "FRA",
+          "group": "I",
+          "flag": "🇫🇷",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 3,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 10,
+        "ga": 2,
+        "gd": 8,
+        "points": 9
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "norway",
+          "name": "挪威",
+          "nameEn": "Norway",
+          "code": "NOR",
+          "group": "I",
+          "flag": "🇳🇴",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 8,
+        "ga": 7,
+        "gd": 1,
+        "points": 6
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "senegal",
+          "name": "塞内加尔",
+          "nameEn": "Senegal",
+          "code": "SEN",
+          "group": "I",
+          "flag": "🇸🇳",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 0,
+        "lost": 2,
+        "gf": 8,
+        "ga": 6,
+        "gd": 2,
+        "points": 3
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "iraq",
+          "name": "伊拉克",
+          "nameEn": "Iraq",
+          "code": "IRQ",
+          "group": "I",
+          "flag": "🇮🇶",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 0,
+        "lost": 3,
+        "gf": 1,
+        "ga": 12,
+        "gd": -11,
+        "points": 0
+      }
+    ],
+    "J": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "argentina",
+          "name": "阿根廷",
+          "nameEn": "Argentina",
+          "code": "ARG",
+          "group": "J",
+          "flag": "🇦🇷",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 3,
+        "drawn": 0,
+        "lost": 0,
+        "gf": 8,
+        "ga": 1,
+        "gd": 7,
+        "points": 9
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "austria",
+          "name": "奥地利",
+          "nameEn": "Austria",
+          "code": "AUT",
+          "group": "J",
+          "flag": "🇦🇹",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 6,
+        "ga": 6,
+        "gd": 0,
+        "points": 4
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "algeria",
+          "name": "阿尔及利亚",
+          "nameEn": "Algeria",
+          "code": "ALG",
+          "group": "J",
+          "flag": "🇩🇿",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 5,
+        "ga": 7,
+        "gd": -2,
+        "points": 4
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "jordan",
+          "name": "约旦",
+          "nameEn": "Jordan",
+          "code": "JOR",
+          "group": "J",
+          "flag": "🇯🇴",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 0,
+        "lost": 3,
+        "gf": 3,
+        "ga": 8,
+        "gd": -5,
+        "points": 0
+      }
+    ],
+    "K": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "colombia",
+          "name": "哥伦比亚",
+          "nameEn": "Colombia",
+          "code": "COL",
+          "group": "K",
+          "flag": "🇨🇴",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 4,
+        "ga": 1,
+        "gd": 3,
+        "points": 7
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "portugal",
+          "name": "葡萄牙",
+          "nameEn": "Portugal",
+          "code": "POR",
+          "group": "K",
+          "flag": "🇵🇹",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 2,
+        "lost": 0,
+        "gf": 6,
+        "ga": 1,
+        "gd": 5,
+        "points": 5
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "dr-congo",
+          "name": "民主刚果",
+          "nameEn": "Congo DR",
+          "code": "COD",
+          "group": "K",
+          "flag": "🇨🇩",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 4,
+        "ga": 3,
+        "gd": 1,
+        "points": 4
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "uzbekistan",
+          "name": "乌兹别克斯坦",
+          "nameEn": "Uzbekistan",
+          "code": "UZB",
+          "group": "K",
+          "flag": "🇺🇿",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 0,
+        "lost": 3,
+        "gf": 2,
+        "ga": 11,
+        "gd": -9,
+        "points": 0
+      }
+    ],
+    "L": [
+      {
+        "rank": 1,
+        "team": {
+          "id": "england",
+          "name": "英格兰",
+          "nameEn": "England",
+          "code": "ENG",
+          "group": "L",
+          "flag": "🏴󠁧󠁢󠁥󠁮󠁧󠁿",
+          "color": "from-sky-400 to-sky-600"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 1,
+        "lost": 0,
+        "gf": 6,
+        "ga": 2,
+        "gd": 4,
+        "points": 7
+      },
+      {
+        "rank": 2,
+        "team": {
+          "id": "croatia",
+          "name": "克罗地亚",
+          "nameEn": "Croatia",
+          "code": "CRO",
+          "group": "L",
+          "flag": "🇭🇷",
+          "color": "from-blue-700 to-blue-900"
+        },
+        "played": 3,
+        "won": 2,
+        "drawn": 0,
+        "lost": 1,
+        "gf": 5,
+        "ga": 5,
+        "gd": 0,
+        "points": 6
+      },
+      {
+        "rank": 3,
+        "team": {
+          "id": "ghana",
+          "name": "加纳",
+          "nameEn": "Ghana",
+          "code": "GHA",
+          "group": "L",
+          "flag": "🇬🇭",
+          "color": "from-red-600 to-blue-700"
+        },
+        "played": 3,
+        "won": 1,
+        "drawn": 1,
+        "lost": 1,
+        "gf": 2,
+        "ga": 2,
+        "gd": 0,
+        "points": 4
+      },
+      {
+        "rank": 4,
+        "team": {
+          "id": "panama",
+          "name": "巴拿马",
+          "nameEn": "Panama",
+          "code": "PAN",
+          "group": "L",
+          "flag": "🇵🇦",
+          "color": "from-green-500 to-red-500"
+        },
+        "played": 3,
+        "won": 0,
+        "drawn": 0,
+        "lost": 3,
+        "gf": 0,
+        "ga": 4,
+        "gd": -4,
+        "points": 0
+      }
+    ]
+  }
+}

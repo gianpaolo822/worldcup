@@ -562,6 +562,13 @@
       "awayScore": 6,
       "winnerTeamId": "england",
       "status": "finished"
+    },
+    "wc2026-m104": {
+      "homeScore": 1,
+      "awayScore": 0,
+      "wentToExtraTime": true,
+      "winnerTeamId": "spain",
+      "status": "finished"
     }
   }
 }

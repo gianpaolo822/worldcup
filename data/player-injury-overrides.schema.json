@@ -13,7 +13,7 @@
         "type": "object",
         "properties": {
           "_note": { "type": "string" },
-          "status": { "enum": ["active", "injured"] },
+          "status": { "enum": ["active", "injured", "deceased"] },
           "injuryNote": { "type": ["string", "null"] }
         },
         "additionalProperties": false

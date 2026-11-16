@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react';
-import { useNavigate } from 'react-router-dom';
+import { useMemo } from 'react';
+import { useLocation, useNavigate, useSearchParams } from 'react-router-dom';
 import {
   formatMatchKickoffBeijing,
   formatScheduleDate,
@@ -10,12 +10,17 @@ import {
   sortMatchesByKickoff,
 } from '@/lib/data';
 import { matchStatusLabel, resolveMatchDisplay } from '@/lib/matchDisplay';
+import { buildReturnTo } from '@/lib/navigation';
+import {
+  buildScheduleFilterParams,
+  parseScheduleFilters,
+} from '@/lib/scheduleFilterParams';
 import { useNow } from '@/hooks/useNow';
 import MatchCard from '@/components/MatchCard';
+import MatchScoreDisplay, { MatchTeamName } from '@/components/MatchScoreDisplay';
 import OpeningCountdown from '@/components/OpeningCountdown';
 import ScheduleFilterBar, { ALL_TEAMS } from '@/components/ScheduleFilterBar';
 import {
-  getDefaultScheduleDateRange,
   isDateKeyInRange,
   type ScheduleDateRange,
 } from '@/lib/scheduleDate';
@@ -31,9 +36,28 @@ const stats = [
 
 export default function HomePage() {
   const navigate = useNavigate();
+  const location = useLocation();
+  const [, setSearchParams] = useSearchParams();
   const now = useNow();
-  const [dateRange, setDateRange] = useState<ScheduleDateRange>(() => getDefaultScheduleDateRange());
-  const [activeTeamId, setActiveTeamId] = useState(ALL_TEAMS);
+
+  const { dateRange, teamId: activeTeamId } = useMemo(
+    () => parseScheduleFilters(location.search),
+    [location.search],
+  );
+
+  const scheduleReturnTo = buildReturnTo(location.pathname, location.search);
+
+  const goToMatch = (matchId: string) => {
+    navigate(`/match/${matchId}`, { state: { returnTo: scheduleReturnTo } });
+  };
+
+  const setDateRange = (range: ScheduleDateRange) => {
+    setSearchParams(buildScheduleFilterParams(range, activeTeamId), { replace: true });
+  };
+
+  const setActiveTeamId = (teamId: string) => {
+    setSearchParams(buildScheduleFilterParams(dateRange, teamId), { replace: true });
+  };
 
   const heroMatch = pickHeroMatch(now);
   const heroDisplay = heroMatch ? resolveMatchDisplay(heroMatch, now) : null;
@@ -84,7 +108,7 @@ export default function HomePage() {
       <OpeningCountdown />
 
       <section className="px-4 pt-2 pb-2">
-        <div className="sb-card-elevated p-5 shadow-sb-glow relative overflow-hidden cursor-pointer active:scale-[0.995] transition-transform" onClick={() => navigate(`/match/${heroMatch.id}`)}>
+        <div className="sb-card-elevated p-5 shadow-sb-glow relative overflow-hidden cursor-pointer active:scale-[0.995] transition-transform" onClick={() => goToMatch(heroMatch.id)}>
           <div
             className="absolute top-0 right-0 w-32 h-32 rounded-full blur-3xl opacity-30 pointer-events-none"
             style={{ background: 'var(--accent-glow)' }}
@@ -106,18 +130,12 @@ export default function HomePage() {
             <div className="flex items-center justify-between py-2">
               <div className="flex flex-col items-center gap-2 flex-1 min-w-0">
                 <span className="text-4xl">{heroMatch.homeTeam.flag}</span>
-                <span className="text-sm font-semibold text-[var(--text)] text-center truncate w-full">
-                  {heroMatch.homeTeam.name}
-                </span>
+                <MatchTeamName match={heroMatch} team={heroMatch.homeTeam} side="home" />
               </div>
 
               <div className="flex flex-col items-center px-4 flex-shrink-0">
                 {showHeroScore && heroDisplay ? (
-                  <div className="flex items-center gap-2 tabular-nums">
-                    <span className="text-3xl font-bold text-[var(--text)]">{heroDisplay.homeScore}</span>
-                    <span className="text-sm text-[var(--text-faint)]">:</span>
-                    <span className="text-3xl font-bold text-[var(--text)]">{heroDisplay.awayScore}</span>
-                  </div>
+                  <MatchScoreDisplay match={heroMatch} display={heroDisplay} size="lg" showWinnerHint />
                 ) : (
                   <span className="text-lg font-semibold text-[var(--text-faint)]">VS</span>
                 )}
@@ -128,9 +146,7 @@ export default function HomePage() {
 
               <div className="flex flex-col items-center gap-2 flex-1 min-w-0">
                 <span className="text-4xl">{heroMatch.awayTeam.flag}</span>
-                <span className="text-sm font-semibold text-[var(--text)] text-center truncate w-full">
-                  {heroMatch.awayTeam.name}
-                </span>
+                <MatchTeamName match={heroMatch} team={heroMatch.awayTeam} side="away" />
               </div>
             </div>
           </div>
@@ -158,12 +174,12 @@ export default function HomePage() {
                   {formatScheduleDate(dateKey)}
                 </h3>
                 {dayMatches.map((match) => (
-                  <MatchCard key={match.id} match={match} onClick={() => navigate(`/match/${match.id}`)} />
+                  <MatchCard key={match.id} match={match} onClick={() => goToMatch(match.id)} />
                 ))}
               </div>
             ))
           : filteredMatches.map((match) => (
-              <MatchCard key={match.id} match={match} onClick={() => navigate(`/match/${match.id}`)} />
+              <MatchCard key={match.id} match={match} onClick={() => goToMatch(match.id)} />
             ))}
       </section>
 

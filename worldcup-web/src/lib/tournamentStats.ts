@@ -1,7 +1,7 @@
 import lineupsJson from '@data/match-lineups.json';
 import { matches, getPlayerById, getTeamById } from '@/lib/data';
 import { playerNameZh } from '@/lib/playerUtils';
-import type { MatchEvent } from '@/lib/lineup';
+import type { MatchEvent, MatchLineupRaw } from '@/lib/lineup';
 
 export type StatCategory = 'goals' | 'assists' | 'yellow' | 'red';
 
@@ -34,7 +34,11 @@ function isOwnGoal(ev: MatchEvent): boolean {
 }
 
 function isPenaltyGoal(ev: MatchEvent): boolean {
-  return ev.type === 'goal' && !!ev.note?.includes('点球');
+  return isRegularPenaltyGoal(ev);
+}
+
+function isRegularPenaltyGoal(ev: MatchEvent): boolean {
+  return ev.type === 'goal' && !!ev.note?.includes('点球') && ev.phase !== 'penalties';
 }
 
 /** 进球榜展示：含点球时显示为「总进球（点球）」 */
@@ -47,6 +51,87 @@ export function formatStatValue(row: TournamentStatRow, category: StatCategory):
 
 function emptyCounts(): Record<StatCategory, number> {
   return { goals: 0, assists: 0, yellow: 0, red: 0 };
+}
+
+export interface PlayerTournamentStats {
+  appearances: number;
+  minutes: number;
+  goals: number;
+  assists: number;
+  yellow: number;
+  red: number;
+  penaltyGoals: number;
+}
+
+function matchDurationMinutes(wentToExtraTime?: boolean): number {
+  return wentToExtraTime ? 120 : 90;
+}
+
+function isStarterInLineup(lineup: Pick<MatchLineupRaw, 'home' | 'away'>, playerId: string): boolean {
+  for (const side of [lineup.home, lineup.away]) {
+    for (const entry of Object.values(side.starters)) {
+      if (entry?.playerId === playerId) return true;
+    }
+  }
+  return false;
+}
+
+function computeMinutesInMatch(
+  playerId: string,
+  lineup: Pick<MatchLineupRaw, 'home' | 'away'>,
+  events: MatchEvent[],
+  wentToExtraTime?: boolean,
+): number | null {
+  const started = isStarterInLineup(lineup, playerId);
+
+  const subOnMinute = events.find((e) => e.type === 'sub_out' && e.relatedPlayerId === playerId)?.minute;
+  if (!started && subOnMinute == null) return null;
+
+  const subOffMinute = events.find((e) => e.type === 'sub_out' && e.playerId === playerId)?.minute;
+  const redMinute = events.find((e) => e.type === 'red' && e.playerId === playerId)?.minute;
+
+  const start = started ? 0 : subOnMinute!;
+  let end = matchDurationMinutes(wentToExtraTime);
+  if (subOffMinute != null) end = Math.min(end, subOffMinute);
+  if (redMinute != null) end = Math.min(end, redMinute);
+
+  return Math.max(0, end - start);
+}
+
+export function formatPlayerMinutes(minutes: number): string {
+  return `${minutes} 分钟`;
+}
+
+/** 某球员本届世界杯个人数据（仅统计已结束且有阵容/事件录入的比赛） */
+export function computePlayerTournamentStats(playerId: string): PlayerTournamentStats {
+  const { counts, penaltyGoals } = computeStatsCounts();
+  const eventStats = counts.get(playerId) ?? emptyCounts();
+  const finishedIds = new Set(matches.filter((m) => m.status === 'finished').map((m) => m.id));
+  const lineups = (lineupsJson as { lineups: Record<string, MatchLineupRaw> }).lineups;
+
+  let appearances = 0;
+  let minutes = 0;
+
+  for (const match of matches) {
+    if (!finishedIds.has(match.id)) continue;
+    const raw = lineups[match.id];
+    if (!raw) continue;
+
+    const played = computeMinutesInMatch(playerId, raw, raw.events ?? [], match.wentToExtraTime);
+    if (played == null) continue;
+    appearances += 1;
+    minutes += played;
+  }
+
+  return {
+    appearances,
+    minutes,
+    goals: eventStats.goals,
+    assists: eventStats.assists,
+    yellow: eventStats.yellow,
+    red: eventStats.red,
+    penaltyGoals: penaltyGoals.get(playerId) ?? 0,
+  };
 }
 
 function buildStatRows(

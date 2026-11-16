@@ -1270,9 +1270,10 @@
     "birthPlace": "Cape Town",
     "clubEn": "Mamelodi Sundowns",
     "group": "A",
-    "status": "active",
+    "status": "deceased",
     "nameZh": "杰登·亚当斯",
-    "club": "马梅洛迪日落"
+    "club": "马梅洛迪日落",
+    "injuryNote": "2026 年 7 月 11 日离世，年仅 25 岁。南非球员工会（SAFPU）、斯泰伦博斯俱乐部及体育部长 Gayton McKenzie 等已确认。主流媒体称死因尚未官方公布。"
   },
   {
     "id": "south-africa-24",
@@ -1696,7 +1697,7 @@
     "clubEn": "Crvena Zvezda",
     "group": "A",
     "status": "active",
-    "nameZh": "薛英祐",
+    "nameZh": "薛英佑",
     "club": "贝尔格莱德红星"
   },
   {

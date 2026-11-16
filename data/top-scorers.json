@@ -6,7 +6,17 @@
   { "rank": 5, "name": "梅西", "nameEn": "Lionel Messi", "country": "ARG", "goals": 13, "tournaments": "2006-2022" },
   { "rank": 6, "name": "姆巴佩", "nameEn": "Kylian Mbappe", "country": "FRA", "goals": 12, "tournaments": "2018-2022" },
   { "rank": 7, "name": "贝利", "nameEn": "Pele", "country": "BRA", "goals": 12, "tournaments": "1958-1970" },
-  { "rank": 8, "name": "柯奇士", "nameEn": "Sandor Kocsis", "country": "HUN", "goals": 11, "tournaments": "1954" },
+  { "rank": 8, "name": "柯奇仕", "nameEn": "Sandor Kocsis", "country": "HUN", "goals": 11, "tournaments": "1954" },
   { "rank": 9, "name": "克林斯曼", "nameEn": "Jurgen Klinsmann", "country": "GER", "goals": 11, "tournaments": "1990-1998" },
-  { "rank": 10, "name": "巴蒂斯图塔", "nameEn": "Gabriel Batistuta", "country": "ARG", "goals": 10, "tournaments": "1994-2002" }
+  { "rank": 10, "name": "巴蒂斯图塔", "nameEn": "Gabriel Batistuta", "country": "ARG", "goals": 10, "tournaments": "1994-2002" },
+  { "rank": 11, "name": "库维利亚斯", "nameEn": "Teofilo Cubillas", "country": "PER", "goals": 10, "tournaments": "1970-1982" },
+  { "rank": 12, "name": "莱因克尔", "nameEn": "Gary Lineker", "country": "ENG", "goals": 10, "tournaments": "1986-1990" },
+  { "rank": 13, "name": "托马斯·穆勒", "nameEn": "Thomas Muller", "country": "GER", "goals": 10, "tournaments": "2010-2022" },
+  { "rank": 14, "name": "拉托", "nameEn": "Grzegorz Lato", "country": "POL", "goals": 10, "tournaments": "1974-1982" },
+  { "rank": 15, "name": "拉恩", "nameEn": "Helmut Rahn", "country": "GER", "goals": 10, "tournaments": "1954-1958" },
+  { "rank": 16, "name": "乌韦·泽勒", "nameEn": "Uwe Seeler", "country": "GER", "goals": 9, "tournaments": "1958-1970" },
+  { "rank": 17, "name": "尤西比奥", "nameEn": "Eusebio", "country": "POR", "goals": 9, "tournaments": "1966" },
+  { "rank": 18, "name": "维埃里", "nameEn": "Christian Vieri", "country": "ITA", "goals": 9, "tournaments": "1998-2002" },
+  { "rank": 19, "name": "罗西", "nameEn": "Paolo Rossi", "country": "ITA", "goals": 9, "tournaments": "1978-1982" },
+  { "rank": 20, "name": "阿德米尔", "nameEn": "Ademir", "country": "BRA", "goals": 9, "tournaments": "1950" }
 ]

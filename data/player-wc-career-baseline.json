@@ -1,0 +1,50 @@
+{
+  "$schema": "./player-wc-career-baseline.schema.json",
+  "players": {
+    "england-9": {
+      "goalsBefore2026": 8,
+      "tournaments": "2018-2022",
+      "note": "2018 金靴 6 球 + 2022 年 2 球；赛况文案 wc2026-m067 印证生涯第 11 球时本届已进 2 球"
+    },
+    "england-10": {
+      "goalsBefore2026": 1,
+      "tournaments": "2022",
+      "note": "2022 对伊朗 1 球"
+    },
+    "england-11": {
+      "goalsBefore2026": 1,
+      "tournaments": "2022",
+      "note": "2022 对威尔士 1 球"
+    },
+    "argentina-9": {
+      "goalsBefore2026": 4,
+      "tournaments": "2022",
+      "note": "2022 卡塔尔 4 球（对波兰、澳大利亚、克罗地亚半决赛 2 球）"
+    },
+    "portugal-7": {
+      "goalsBefore2026": 10,
+      "tournaments": "2010-2022",
+      "note": "2010 1 + 2014 4 + 2018 4 + 2022 1"
+    },
+    "brazil-10": {
+      "goalsBefore2026": 6,
+      "tournaments": "2014-2018",
+      "note": "2014 4 + 2018 2"
+    },
+    "netherlands-11": {
+      "goalsBefore2026": 3,
+      "tournaments": "2022",
+      "note": "2022 世界杯 3 球"
+    },
+    "belgium-9": {
+      "goalsBefore2026": 5,
+      "tournaments": "2014-2018",
+      "note": "2014 1 + 2018 4"
+    },
+    "croatia-14": {
+      "goalsBefore2026": 6,
+      "tournaments": "2014-2022",
+      "note": "2014 3 + 2018 2 + 2022 1"
+    }
+  }
+}

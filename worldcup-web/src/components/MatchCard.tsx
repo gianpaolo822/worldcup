@@ -1,6 +1,7 @@
 import type { Match } from '@/types';
 import { formatMatchKickoffBeijing, formatMatchVenue } from '@/lib/data';
 import { matchStatusLabelShort, resolveMatchDisplay } from '@/lib/matchDisplay';
+import MatchScoreDisplay, { MatchTeamName } from '@/components/MatchScoreDisplay';
 import { useNow } from '@/hooks/useNow';
 
 interface MatchCardProps {
@@ -32,18 +33,12 @@ export default function MatchCard({ match, onClick }: MatchCardProps) {
       <div className="flex items-center justify-between">
         <div className="flex items-center gap-2.5 flex-1 min-w-0">
           <span className="text-2xl flex-shrink-0">{match.homeTeam.flag}</span>
-          <span className="text-sm font-medium text-[var(--text)] truncate">
-            {match.homeTeam.name}
-          </span>
+          <MatchTeamName match={match} team={match.homeTeam} side="home" />
         </div>
 
         <div className="flex flex-col items-center px-3 flex-shrink-0">
           {showScore ? (
-            <div className="flex items-center gap-1.5 tabular-nums">
-              <span className="text-xl font-semibold text-[var(--text)]">{display.homeScore}</span>
-              <span className="text-xs text-[var(--text-faint)]">:</span>
-              <span className="text-xl font-semibold text-[var(--text)]">{display.awayScore}</span>
-            </div>
+            <MatchScoreDisplay match={match} display={display} size="md" showWinnerHint />
           ) : (
             <span className="text-sm font-medium text-[var(--text-faint)]">VS</span>
           )}
@@ -57,9 +52,7 @@ export default function MatchCard({ match, onClick }: MatchCardProps) {
         </div>
 
         <div className="flex items-center gap-2.5 flex-1 justify-end min-w-0">
-          <span className="text-sm font-medium text-[var(--text)] truncate text-right">
-            {match.awayTeam.name}
-          </span>
+          <MatchTeamName match={match} team={match.awayTeam} side="away" />
           <span className="text-2xl flex-shrink-0">{match.awayTeam.flag}</span>
         </div>
       </div>

@@ -3331,15 +3331,17 @@
       "flag": "🇦🇷",
       "color": "from-sky-400 to-sky-600"
     },
-    "homeScore": null,
-    "awayScore": null,
-    "status": "upcoming",
+    "homeScore": 1,
+    "awayScore": 0,
+    "status": "finished",
     "time": "2026-07-20 03:00",
     "kickoffAt": "2026-07-19T19:00:00Z",
     "venue": "大都会人寿体育场",
     "venueShort": "NY",
     "venueCity": "纽约/新泽西",
     "matchday": 1,
-    "stage": "决赛"
+    "stage": "决赛",
+    "wentToExtraTime": true,
+    "winnerTeamId": "spain"
   }
 ]

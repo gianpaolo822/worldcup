@@ -7,7 +7,9 @@ import {
   getTeamById,
 } from '@/lib/data';
 import { readReturnTo, teamPath } from '@/lib/navigation';
-import { calcAge, playerClubZh, playerNameEn, playerNameZh, positionLabel } from '@/lib/playerUtils';
+import { calcAge, historicalPlayerId, playerClubZh, playerNameEn, playerNameZh, positionLabel } from '@/lib/playerUtils';
+import { findAllTimeScorerByHistoricalId, findAllTimeScorerByPlayerId } from '@/lib/allTimeScorers';
+import { computePlayerTournamentStats, formatPlayerMinutes } from '@/lib/tournamentStats';
 import PlayerAvatar from '@/components/PlayerAvatar';
 import type { Player, TopScorer } from '@/types';
 import { Goal, Trophy } from 'lucide-react';
@@ -27,9 +29,29 @@ function InfoRow({ label, value }: { label: string; value: string | number | nul
   );
 }
 
+function StatCell({ label, value, accent }: { label: string; value: string | number; accent?: string }) {
+  return (
+    <div
+      className="rounded-lg px-3 py-2.5 text-center"
+      style={{ backgroundColor: 'var(--surface-elevated)' }}
+    >
+      <p className="text-[10px] text-[var(--text-muted)] mb-1">{label}</p>
+      <p
+        className="text-lg font-bold tabular-nums text-[var(--text)]"
+        style={accent ? { color: accent } : undefined}
+      >
+        {value}
+      </p>
+    </div>
+  );
+}
+
 function SquadPlayerDetail({ player }: { player: Player }) {
   const team = getTeamById(player.teamId);
   const age = calcAge(player.birthDate);
+  const wcStats = computePlayerTournamentStats(player.id);
+  const hasPlayed = wcStats.appearances > 0;
+  const allTimeScorer = findAllTimeScorerByPlayerId(player.id);
 
   return (
     <>
@@ -52,6 +74,11 @@ function SquadPlayerDetail({ player }: { player: Player }) {
             因伤退出
           </span>
         )}
+        {player.status === 'deceased' && (
+          <span className="inline-block mt-3 sb-badge text-[var(--danger)] border-[var(--danger)]">
+            已故
+          </span>
+        )}
       </section>
 
       <section className="sb-card p-4 mb-4">
@@ -66,7 +93,13 @@ function SquadPlayerDetail({ player }: { player: Player }) {
 
       {player.injuryNote && (
         <section className="sb-card p-4 mb-4 border-[var(--danger)]/30">
-          <p className="sb-label mb-2">{player.status === 'injured' ? '退赛说明' : '伤病说明'}</p>
+          <p className="sb-label mb-2">
+            {player.status === 'deceased'
+              ? '离世说明'
+              : player.status === 'injured'
+                ? '退赛说明'
+                : '伤病说明'}
+          </p>
           <p className="text-sm text-[var(--text-muted)] leading-relaxed">{player.injuryNote}</p>
         </section>
       )}
@@ -83,20 +116,53 @@ function SquadPlayerDetail({ player }: { player: Player }) {
         </section>
       )}
 
-      <section className="sb-card p-4 mb-4">
-        <p className="sb-label mb-2">2026 世界杯</p>
-        {player.status === 'injured' ? (
-          <>
-            <p className="text-sm text-[var(--danger)] font-medium">已确认因伤退出本届世界杯</p>
-            <p className="text-xs text-[var(--text-muted)] mt-2 leading-relaxed">
-              该球员仍在 {team?.name ?? '球队'} 大名单登记中，但已无法参加后续比赛。
+      {allTimeScorer && (
+        <section className="sb-card p-4 mb-4">
+          <p className="sb-label mb-2">世界杯历史射手榜</p>
+          <div className="flex items-center justify-between py-2">
+            <span className="text-xs text-[var(--text-muted)]">历史总进球</span>
+            <span className="text-lg font-bold text-[var(--accent)] tabular-nums">{allTimeScorer.goals} 球</span>
+          </div>
+          <div className="flex items-center justify-between py-2 border-t" style={{ borderColor: 'var(--border)' }}>
+            <span className="text-xs text-[var(--text-muted)]">当前排名</span>
+            <span className="text-sm font-medium text-[var(--text)]">第 {allTimeScorer.rank} 名</span>
+          </div>
+          {allTimeScorer.goals2026 > 0 && (
+            <p className="text-[10px] text-[var(--text-muted)] mt-2 text-center">
+              历届 {allTimeScorer.goalsBefore2026} 球 + 本届 {allTimeScorer.goals2026} 球
             </p>
-          </>
+          )}
+        </section>
+      )}
+
+      <section className="sb-card p-4 mb-4">
+        <p className="sb-label mb-3">2026 世界杯数据</p>
+        {player.status === 'injured' && !hasPlayed && (
+          <p className="text-xs text-[var(--danger)] mb-3">已确认因伤退出，未参加本届赛事</p>
+        )}
+        {!hasPlayed && player.status !== 'injured' ? (
+          <p className="text-sm text-[var(--text-muted)]">暂无出场记录</p>
         ) : (
           <>
-            <p className="text-sm text-[var(--text-muted)]">已入选 {team?.name ?? '球队'} 正式名单</p>
-            <p className="text-xs text-[var(--text-faint)] mt-2">本届进球、助攻等数据将在赛事开始后更新</p>
+            <div className="grid grid-cols-3 gap-2 mb-2">
+              <StatCell label="出场" value={wcStats.appearances} />
+              <StatCell label="出场时间" value={formatPlayerMinutes(wcStats.minutes)} />
+              <StatCell label="进球" value={wcStats.goals} accent="var(--accent)" />
+            </div>
+            <div className="grid grid-cols-3 gap-2">
+              <StatCell label="助攻" value={wcStats.assists} accent="var(--accent)" />
+              <StatCell label="黄牌" value={wcStats.yellow} accent="#eab308" />
+              <StatCell label="红牌" value={wcStats.red} accent="var(--danger)" />
+            </div>
+            {wcStats.penaltyGoals > 0 && (
+              <p className="text-[10px] text-[var(--text-muted)] mt-3 text-center">
+                其中点球进球 {wcStats.penaltyGoals} 个
+              </p>
+            )}
           </>
+        )}
+        {player.status === 'injured' && hasPlayed && (
+          <p className="text-xs text-[var(--text-muted)] mt-3 leading-relaxed">{player.injuryNote}</p>
         )}
       </section>
     </>
@@ -105,6 +171,11 @@ function SquadPlayerDetail({ player }: { player: Player }) {
 
 function HistoricalScorerDetail({ scorer }: { scorer: TopScorer }) {
   const age = calcAge(scorer.birthDate);
+  const dynamic = findAllTimeScorerByHistoricalId(historicalPlayerId(scorer));
+  const totalGoals = dynamic?.goals ?? scorer.goals;
+  const rank = dynamic?.rank ?? scorer.rank;
+  const goals2026 = dynamic?.goals2026 ?? 0;
+  const goalsBefore2026 = dynamic?.goalsBefore2026 ?? scorer.goals;
 
   return (
     <>
@@ -120,8 +191,13 @@ function HistoricalScorerDetail({ scorer }: { scorer: TopScorer }) {
         </div>
         <h2 className="text-lg font-bold text-[var(--text)]">{scorer.name}</h2>
         <p className="text-xs text-[var(--text-muted)] mt-1">{scorer.nameEn}</p>
-        <p className="text-2xl font-bold text-[var(--accent)] mt-3 tabular-nums">{scorer.goals} 球</p>
-        <p className="text-xs text-[var(--text-muted)]">世界杯历史总射手榜 第 {scorer.rank} 名</p>
+        <p className="text-2xl font-bold text-[var(--accent)] mt-3 tabular-nums">{totalGoals} 球</p>
+        <p className="text-xs text-[var(--text-muted)]">世界杯历史总射手榜 第 {rank} 名</p>
+        {goals2026 > 0 && (
+          <p className="text-[10px] text-[var(--text-muted)] mt-2">
+            历届 {goalsBefore2026} 球 + 本届 {goals2026} 球
+          </p>
+        )}
       </section>
 
       <section className="sb-card p-4 mb-4">

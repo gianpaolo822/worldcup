@@ -18,6 +18,13 @@ export interface Match {
   awayTeam: Team;
   homeScore: number | null;
   awayScore: number | null;
+  /** 点球大战比分（仅淘汰赛点球决胜时） */
+  homePenScore?: number | null;
+  awayPenScore?: number | null;
+  /** 是否进入加时赛 */
+  wentToExtraTime?: boolean;
+  /** 淘汰赛晋级球队 id */
+  winnerTeamId?: string | null;
   status: MatchStatus;
   time: string;
   kickoffAt: string | null;
@@ -89,7 +96,7 @@ export interface Player {
   club?: string;
   clubEn?: string;
   group?: string;
-  status?: 'active' | 'injured';
+  status?: 'active' | 'injured' | 'deceased';
   injuryNote?: string;
 }
 
@@ -105,7 +112,7 @@ export interface PlayerLocaleFile {
 
 export interface PlayerInjuryOverride {
   _note?: string;
-  status?: 'active' | 'injured';
+  status?: 'active' | 'injured' | 'deceased';
   injuryNote?: string | null;
 }
 
@@ -141,7 +148,17 @@ export interface MatchOverride {
   _note?: string;
   homeScore?: number | null;
   awayScore?: number | null;
+  homePenScore?: number | null;
+  awayPenScore?: number | null;
+  wentToExtraTime?: boolean;
+  winnerTeamId?: string | null;
   status?: MatchStatus;
+  homeTeamId?: string;
+  awayTeamId?: string;
+}
+
+export interface KnockoutTeamsFile {
+  roundOf32: Record<string, { homeTeamId: string; awayTeamId: string }>;
 }
 
 export interface OverridesFile {

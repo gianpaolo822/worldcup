@@ -1,0 +1,21 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "PlayerWorldCupCareerBaseline",
+  "type": "object",
+  "required": ["players"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "players": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "required": ["goalsBefore2026", "tournaments"],
+        "properties": {
+          "goalsBefore2026": { "type": "number", "minimum": 0 },
+          "tournaments": { "type": "string" },
+          "note": { "type": "string" }
+        }
+      }
+    }
+  }
+}

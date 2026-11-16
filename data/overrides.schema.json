@@ -14,7 +14,13 @@
           "_note": { "type": "string", "description": "可选备注，不参与合并" },
           "homeScore": { "type": ["integer", "null"] },
           "awayScore": { "type": ["integer", "null"] },
-          "status": { "enum": ["upcoming", "live", "finished"] }
+          "homePenScore": { "type": ["integer", "null"] },
+          "awayPenScore": { "type": ["integer", "null"] },
+          "wentToExtraTime": { "type": "boolean" },
+          "winnerTeamId": { "type": ["string", "null"] },
+          "status": { "enum": ["upcoming", "live", "finished"] },
+          "homeTeamId": { "type": "string" },
+          "awayTeamId": { "type": "string" }
         },
         "additionalProperties": false
       }

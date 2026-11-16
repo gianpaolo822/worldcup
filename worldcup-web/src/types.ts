@@ -16,6 +16,10 @@ export interface Match {
   awayTeam: Team;
   homeScore: number | null;
   awayScore: number | null;
+  homePenScore?: number | null;
+  awayPenScore?: number | null;
+  wentToExtraTime?: boolean;
+  winnerTeamId?: string | null;
   status: MatchStatus;
   time: string;
   kickoffAt: string | null;
@@ -69,6 +73,16 @@ export interface TopScorer {
   bio?: string;
 }
 
+export interface PlayerWcCareerBaselineEntry {
+  goalsBefore2026: number;
+  tournaments: string;
+  note?: string;
+}
+
+export interface PlayerWcCareerBaseline {
+  players: Record<string, PlayerWcCareerBaselineEntry>;
+}
+
 export type PlayerPosition = 'G' | 'D' | 'M' | 'F';
 
 export interface Player {
@@ -86,7 +100,7 @@ export interface Player {
   club?: string;
   clubEn?: string;
   group?: string;
-  status?: 'active' | 'injured';
+  status?: 'active' | 'injured' | 'deceased';
   injuryNote?: string;
 }
 

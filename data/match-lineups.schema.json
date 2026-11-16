@@ -83,11 +83,28 @@
     },
     "matchEvent": {
       "type": "object",
+      "required": ["minute", "type", "playerId"],
       "properties": {
         "minute": { "type": "number" },
-        "type": { "enum": ["goal", "yellow", "red", "sub"] },
+        "type": {
+          "enum": [
+            "goal",
+            "assist",
+            "yellow",
+            "red",
+            "sub_out",
+            "sub_in",
+            "pen_scored",
+            "pen_missed",
+            "pen_saved",
+            "phase"
+          ]
+        },
         "playerId": { "type": "string" },
-        "note": { "type": "string" }
+        "relatedPlayerId": { "type": "string" },
+        "note": { "type": "string" },
+        "phase": { "enum": ["regular", "extra_time", "penalties"] },
+        "penOrder": { "type": "number" }
       }
     }
   }

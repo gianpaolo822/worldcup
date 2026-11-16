@@ -1,7 +1,11 @@
 {
   "$schema": "./player-injury-overrides.schema.json",
-  "updatedAt": "2026-06-24",
+  "updatedAt": "2026-07-11",
   "players": {
+    "south-africa-23": {
+      "status": "deceased",
+      "injuryNote": "2026 年 7 月 11 日离世，年仅 25 岁。南非球员工会（SAFPU）、斯泰伦博斯俱乐部及体育部长 Gayton McKenzie 等已确认。主流媒体称死因尚未官方公布。"
+    },
     "germany-15": {
       "status": "injured",
       "injuryNote": "对科特迪瓦一战中左踝关节内侧副韧带撕裂，已确认缺席本届世界杯剩余赛事（仍随队），预计康复数月。赛事开始后无法增补替补。"

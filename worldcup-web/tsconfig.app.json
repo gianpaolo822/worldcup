@@ -10,7 +10,8 @@
     "baseUrl": ".",
     "paths": {
       "@/*": ["./src/*"],
-      "@data/*": ["../data/*"]
+      "@data/*": ["../data/*"],
+      "@shared/*": ["../shared/*"]
     },
     "moduleResolution": "bundler",
     "allowImportingTsExtensions": true,

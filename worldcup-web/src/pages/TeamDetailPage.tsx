@@ -60,6 +60,7 @@ export default function TeamDetailPage() {
   const grouped = groupPlayersByPosition(squad);
   const groupOpponents = teams.filter((t) => t.group === team.group && t.id !== team.id);
   const injured = squad.filter((p) => p.status === 'injured');
+  const deceased = squad.filter((p) => p.status === 'deceased');
 
   return (
     <>
@@ -149,6 +150,9 @@ export default function TeamDetailPage() {
                       {player.status === 'injured' && (
                         <span className="text-[10px] text-[var(--danger)] flex-shrink-0">伤退</span>
                       )}
+                      {player.status === 'deceased' && (
+                        <span className="text-[10px] text-[var(--danger)] flex-shrink-0">已故</span>
+                      )}
                     </Link>
                   ))}
                 </div>
@@ -202,6 +206,28 @@ export default function TeamDetailPage() {
                 <p className="sb-label mb-2">因伤退出本届世界杯</p>
                 <div className="space-y-2">
                   {injured.map((player) => (
+                    <Link
+                      key={player.id}
+                      to={`/player/${player.id}`}
+                      state={{ returnTo }}
+                      className="block text-sm text-[var(--text-muted)]"
+                    >
+                      <span className="text-[var(--text)] font-medium">{playerNameZh(player)}</span>
+                      <span className="text-[10px] text-[var(--text-muted)] block">{playerNameEn(player)}</span>
+                      {player.injuryNote && (
+                        <span className="block text-[10px] mt-0.5">{player.injuryNote}</span>
+                      )}
+                    </Link>
+                  ))}
+                </div>
+              </div>
+            )}
+
+            {deceased.length > 0 && (
+              <div className="sb-card p-4 border-[var(--danger)]/30">
+                <p className="sb-label mb-2">悼念</p>
+                <div className="space-y-2">
+                  {deceased.map((player) => (
                     <Link
                       key={player.id}
                       to={`/player/${player.id}`}
