@@ -260,6 +260,308 @@
       "homeScore": 4,
       "awayScore": 2,
       "status": "finished"
+    },
+    "wc2026-m053": {
+      "homeScore": 0,
+      "awayScore": 3,
+      "status": "finished"
+    },
+    "wc2026-m054": {
+      "homeScore": 1,
+      "awayScore": 0,
+      "status": "finished"
+    },
+    "wc2026-m055": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "finished"
+    },
+    "wc2026-m056": {
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "finished"
+    },
+    "wc2026-m057": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "finished"
+    },
+    "wc2026-m058": {
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "finished"
+    },
+    "wc2026-m059": {
+      "homeScore": 3,
+      "awayScore": 2,
+      "status": "finished"
+    },
+    "wc2026-m060": {
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "finished"
+    },
+    "wc2026-m061": {
+      "homeScore": 1,
+      "awayScore": 4,
+      "status": "finished"
+    },
+    "wc2026-m062": {
+      "homeScore": 5,
+      "awayScore": 0,
+      "status": "finished"
+    },
+    "wc2026-m063": {
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "finished"
+    },
+    "wc2026-m064": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "status": "finished"
+    },
+    "wc2026-m065": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "status": "finished"
+    },
+    "wc2026-m066": {
+      "homeScore": 1,
+      "awayScore": 5,
+      "status": "finished"
+    },
+    "wc2026-m068": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "status": "finished"
+    },
+    "wc2026-m067": {
+      "homeScore": 0,
+      "awayScore": 2,
+      "status": "finished"
+    },
+    "wc2026-m069": {
+      "homeScore": 0,
+      "awayScore": 0,
+      "status": "finished"
+    },
+    "wc2026-m071": {
+      "homeScore": 3,
+      "awayScore": 3,
+      "status": "finished"
+    },
+    "wc2026-m070": {
+      "homeScore": 3,
+      "awayScore": 1,
+      "status": "finished"
+    },
+    "wc2026-m072": {
+      "homeScore": 1,
+      "awayScore": 3,
+      "status": "finished"
+    },
+    "wc2026-m076": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "winnerTeamId": "brazil",
+      "status": "finished"
+    },
+    "wc2026-m077": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePenScore": 2,
+      "awayPenScore": 3,
+      "wentToExtraTime": true,
+      "winnerTeamId": "morocco",
+      "status": "finished"
+    },
+    "wc2026-m078": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePenScore": 3,
+      "awayPenScore": 4,
+      "wentToExtraTime": true,
+      "winnerTeamId": "paraguay",
+      "status": "finished"
+    },
+    "wc2026-m085": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "winnerTeamId": "canada",
+      "status": "finished"
+    },
+    "wc2026-m086": {
+      "homeScore": 1,
+      "awayScore": 2,
+      "winnerTeamId": "norway",
+      "status": "finished"
+    },
+    "wc2026-m074": {
+      "homeScore": 2,
+      "awayScore": 0,
+      "winnerTeamId": "mexico",
+      "status": "finished"
+    },
+    "wc2026-m083": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "winnerTeamId": "england",
+      "status": "finished"
+    },
+    "wc2026-m080": {
+      "homeScore": 3,
+      "awayScore": 2,
+      "wentToExtraTime": true,
+      "winnerTeamId": "belgium",
+      "status": "finished"
+    },
+    "wc2026-m081": {
+      "homeScore": 3,
+      "awayScore": 0,
+      "winnerTeamId": "france",
+      "status": "finished"
+    },
+    "wc2026-m082": {
+      "homeScore": 3,
+      "awayScore": 2,
+      "wentToExtraTime": true,
+      "winnerTeamId": "argentina",
+      "status": "finished"
+    },
+    "wc2026-m075": {
+      "homeScore": 2,
+      "awayScore": 0,
+      "winnerTeamId": "united-states",
+      "status": "finished"
+    },
+    "wc2026-m073": {
+      "homeScore": 2,
+      "awayScore": 0,
+      "winnerTeamId": "switzerland",
+      "status": "finished"
+    },
+    "wc2026-m079": {
+      "homeScore": 3,
+      "awayScore": 0,
+      "winnerTeamId": "spain",
+      "status": "finished"
+    },
+    "wc2026-m087": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "winnerTeamId": "portugal",
+      "status": "finished"
+    },
+    "wc2026-m088": {
+      "homeScore": 1,
+      "awayScore": 1,
+      "homePenScore": 2,
+      "awayPenScore": 4,
+      "wentToExtraTime": true,
+      "winnerTeamId": "egypt",
+      "status": "finished"
+    },
+    "wc2026-m089": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "winnerTeamId": "france",
+      "status": "finished"
+    },
+    "wc2026-m084": {
+      "homeScore": 1,
+      "awayScore": 0,
+      "winnerTeamId": "colombia",
+      "status": "finished"
+    },
+    "wc2026-m090": {
+      "homeScore": 0,
+      "awayScore": 3,
+      "winnerTeamId": "morocco",
+      "status": "finished"
+    },
+    "wc2026-m091": {
+      "homeScore": 1,
+      "awayScore": 2,
+      "winnerTeamId": "norway",
+      "status": "finished"
+    },
+    "wc2026-m092": {
+      "homeScore": 2,
+      "awayScore": 3,
+      "winnerTeamId": "england",
+      "status": "finished"
+    },
+    "wc2026-m095": {
+      "homeScore": 3,
+      "awayScore": 2,
+      "winnerTeamId": "argentina",
+      "status": "finished"
+    },
+    "wc2026-m093": {
+      "homeScore": 0,
+      "awayScore": 1,
+      "winnerTeamId": "spain",
+      "status": "finished"
+    },
+    "wc2026-m094": {
+      "homeScore": 1,
+      "awayScore": 4,
+      "winnerTeamId": "belgium",
+      "status": "finished"
+    },
+    "wc2026-m096": {
+      "homeScore": 0,
+      "awayScore": 0,
+      "homePenScore": 4,
+      "awayPenScore": 3,
+      "wentToExtraTime": true,
+      "winnerTeamId": "switzerland",
+      "status": "finished"
+    },
+    "wc2026-m097": {
+      "homeScore": 2,
+      "awayScore": 0,
+      "winnerTeamId": "france",
+      "status": "finished"
+    },
+    "wc2026-m098": {
+      "homeScore": 2,
+      "awayScore": 1,
+      "winnerTeamId": "spain",
+      "status": "finished"
+    },
+    "wc2026-m099": {
+      "homeScore": 1,
+      "awayScore": 2,
+      "wentToExtraTime": true,
+      "winnerTeamId": "england",
+      "status": "finished"
+    },
+    "wc2026-m100": {
+      "homeScore": 3,
+      "awayScore": 1,
+      "wentToExtraTime": true,
+      "winnerTeamId": "argentina",
+      "status": "finished"
+    },
+    "wc2026-m101": {
+      "homeScore": 0,
+      "awayScore": 2,
+      "winnerTeamId": "spain",
+      "status": "finished"
+    },
+    "wc2026-m102": {
+      "homeScore": 1,
+      "awayScore": 2,
+      "winnerTeamId": "argentina",
+      "status": "finished"
+    },
+    "wc2026-m103": {
+      "homeScore": 4,
+      "awayScore": 6,
+      "winnerTeamId": "england",
+      "status": "finished"
     }
   }
 }
